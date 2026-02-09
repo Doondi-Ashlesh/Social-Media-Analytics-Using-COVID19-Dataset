@@ -2,9 +2,19 @@
 
 ## Overview
 
-This repository implements a **social media analytics pipeline** that processes and analyzes a COVID-19–related dataset to extract meaningful insights. The project focuses on data ingestion, preprocessing, analytics, and output generation, with an emphasis on reproducibility and automation.
+This project presents a big data-driven framework for the large-scale analysis of over one million COVID-19-related tweets (pp. 1, 13). It utilizes advanced natural language processing (NLP) to transform semi-structured social media data into actionable insights for public health monitoring and policy formulation (pp. 1, 3).
+🛠️ Core Analytical Pipeline
+The framework integrates four major unsupervised and zero-shot analytical axes (p. 11):
+Granular Topic Modeling: Uses HDBSCAN clustering on high-dimensional transformer embeddings (via all-MiniLM-L6-v2) and the BERTopic framework to identify nuanced subtopics (pp. 11, 16).
+Dual-Layer Affective Estimation: Employs pre-trained transformer models to automate sentiment polarity (Positive, Negative, Neutral) and granular emotion classification (e.g., joy, anger, fear) without manual labeling (pp. 12, 16).
+Unsupervised Anomaly Detection: Implements the Isolation Forest algorithm to detect statistically deviant content, flagging potential misinformation, spam, or rare high-impact events (pp. 12, 18).
+Bot Identification: Leverages the Botometer model to assign "Bot Scores" to accounts, enabling the filtration of synthetic amplification to ensure findings reflect genuine human discourse (pp. 12, 20).
+📊 Dataset Overview
+The analysis is conducted on a global corpus of English-language tweets collected across three critical pandemic phases between April 2020 and June 2021 (pp. 12-13):
+Phase 1 (Early Response): ~235k tweets (April–June 2020) (p. 13).
+Phase 2 (Peak Fatality): ~320k tweets (August–October 2020) (p. 13).
+Phase 3 (Vaccine Deployment): ~489k tweets (April–June 2021) (p. 13).
 
-The pipeline is suitable for academic, research, and learning purposes related to data analytics, cloud computing, and big data workflows.
 
 ---
 
