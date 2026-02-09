@@ -35,19 +35,6 @@ To download and set up the dataset, run:
 bash dataset.sh
 
 ```
-
-
----
-
-## Dataset
-
-The project uses a COVID-19 related social media dataset. The dataset must be downloaded and prepared before running the analytics pipeline.
-
-To download and set up the dataset, run:
-
-```bash
-bash dataset.sh
-```
 ---
 ## Environment Setup
 
