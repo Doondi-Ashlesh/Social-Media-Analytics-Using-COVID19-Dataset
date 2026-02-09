@@ -1,0 +1,467 @@
+2025-11-12 20:14:02,012 - INFO - Using device: cuda
+2025-11-12 20:14:02,017 - INFO - ================================================================================
+2025-11-12 20:14:02,017 - INFO - COVID-19 SOCIAL MEDIA DISCOURSE ANALYSIS PIPELINE
+2025-11-12 20:14:02,017 - INFO - ================================================================================
+2025-11-12 20:14:02,017 - ERROR - Pipeline failed: name 'a' is not defined
+2025-11-14 17:02:13,042 - INFO - Using device: cuda
+2025-11-14 17:02:13,044 - INFO - ================================================================================
+2025-11-14 17:02:13,044 - INFO - COVID-19 SOCIAL MEDIA DISCOURSE ANALYSIS PIPELINE
+2025-11-14 17:02:13,044 - INFO - ================================================================================
+2025-11-14 17:02:13,044 - ERROR - Pipeline failed: name 'a' is not defined
+2025-11-14 17:04:41,915 - INFO - Using device: cuda
+2025-11-14 17:04:41,917 - INFO - ================================================================================
+2025-11-14 17:04:41,917 - INFO - COVID-19 SOCIAL MEDIA DISCOURSE ANALYSIS PIPELINE
+2025-11-14 17:04:41,917 - INFO - ================================================================================
+2025-11-14 17:04:41,917 - INFO - ================================================================================
+2025-11-14 17:04:41,917 - INFO - PHASE 1: DATA PREPROCESSING AND PREPARATION
+2025-11-14 17:04:41,917 - INFO - ================================================================================
+2025-11-14 17:04:41,917 - ERROR - Failed to load Covid-19 Twitter Dataset (Apr-Jun 2020).csv: [Errno 2] No such file or directory: 'Covid-19 Twitter Dataset (Apr-Jun 2020).csv'
+2025-11-14 17:04:41,918 - ERROR - Pipeline failed: No datasets were successfully loaded
+2025-11-14 17:06:50,114 - INFO - Using device: cuda
+2025-11-14 17:06:50,116 - INFO - ================================================================================
+2025-11-14 17:06:50,116 - INFO - COVID-19 SOCIAL MEDIA DISCOURSE ANALYSIS PIPELINE
+2025-11-14 17:06:50,116 - INFO - ================================================================================
+2025-11-14 17:06:50,116 - INFO - ================================================================================
+2025-11-14 17:06:50,116 - INFO - PHASE 1: DATA PREPROCESSING AND PREPARATION
+2025-11-14 17:06:50,116 - INFO - ================================================================================
+2025-11-14 17:06:50,708 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-11-14 17:06:50,708 - INFO - Total tweets loaded: 143,903
+2025-11-14 17:06:50,708 - INFO - Removing duplicates...
+2025-11-14 17:06:50,885 - WARNING - datasketch not available, using basic deduplication
+2025-11-14 17:06:50,885 - INFO - Removed 0 duplicates
+2025-11-14 17:06:50,885 - INFO - Normalizing text...
+2025-11-14 17:06:52,206 - INFO - Filtering for English tweets...
+2025-11-14 17:06:52,277 - INFO - Retained 143,902 English tweets
+2025-11-14 17:06:52,278 - INFO - Extracting metadata...
+2025-11-14 17:06:55,754 - INFO - Preprocessing complete. Final dataset size: 143,902
+2025-11-14 17:06:56,363 - INFO - Checkpoint saved at phase 1
+2025-11-14 17:06:56,363 - INFO - ================================================================================
+2025-11-14 17:06:56,363 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-11-14 17:06:56,364 - INFO - ================================================================================
+2025-11-14 17:06:56,364 - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 17:06:56,366 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 17:07:01,029 - INFO - Processing chunk 1/15
+2025-11-14 17:07:02,975 - INFO - Processing chunk 2/15
+2025-11-14 17:07:04,410 - INFO - Processing chunk 3/15
+2025-11-14 17:07:05,812 - INFO - Processing chunk 4/15
+2025-11-14 17:07:07,281 - INFO - Processing chunk 5/15
+2025-11-14 17:07:08,727 - INFO - Processing chunk 6/15
+2025-11-14 17:07:10,204 - INFO - Processing chunk 7/15
+2025-11-14 17:07:11,618 - INFO - Processing chunk 8/15
+2025-11-14 17:07:13,038 - INFO - Processing chunk 9/15
+2025-11-14 17:07:14,486 - INFO - Processing chunk 10/15
+2025-11-14 17:07:15,909 - INFO - Processing chunk 11/15
+2025-11-14 17:07:17,393 - INFO - Processing chunk 12/15
+2025-11-14 17:07:18,824 - INFO - Processing chunk 13/15
+2025-11-14 17:07:20,297 - INFO - Processing chunk 14/15
+2025-11-14 17:07:21,725 - INFO - Processing chunk 15/15
+2025-11-14 17:07:22,644 - INFO - Generated embeddings with shape: (143902, 384)
+2025-11-14 17:07:23,152 - INFO - Checkpoint saved at phase 2
+2025-11-14 17:07:23,152 - INFO - ================================================================================
+2025-11-14 17:07:23,152 - INFO - PHASE 3: UNSUPERVISED TOPIC DISCOVERY AND MODELING
+2025-11-14 17:07:23,152 - INFO - ================================================================================
+2025-11-14 17:07:23,154 - INFO - Fitting BERTopic model...
+2025-11-14 17:21:57,901 - INFO - Characterizing topics...
+2025-11-14 17:21:58,357 - INFO - Discovered 240 topics
+2025-11-14 17:22:02,294 - INFO - Checkpoint saved at phase 3
+2025-11-14 17:22:02,294 - INFO - ================================================================================
+2025-11-14 17:22:02,294 - INFO - PHASE 4: AUTOMATED AFFECTIVE ANALYSIS
+2025-11-14 17:22:02,294 - INFO - ================================================================================
+2025-11-14 17:22:02,294 - INFO - Performing sentiment analysis...
+2025-11-14 17:22:02,294 - WARNING - Failed to load sentiment model: 'CovidTwitterAnalysisPipeline' object is not callable. Using fallback.
+2025-11-14 17:22:15,869 - INFO - Performing emotion analysis...
+2025-11-14 17:22:15,869 - WARNING - Failed to load emotion model: 'CovidTwitterAnalysisPipeline' object is not callable
+2025-11-14 17:22:18,985 - INFO - Checkpoint saved at phase 4
+2025-11-14 17:22:18,986 - INFO - ================================================================================
+2025-11-14 17:22:18,986 - INFO - PHASE 5: ANOMALY DETECTION AND CHARACTERIZATION
+2025-11-14 17:22:18,986 - INFO - ================================================================================
+2025-11-14 17:22:18,986 - INFO - Optimizing Isolation Forest parameters...
+2025-11-14 17:22:20,985 - INFO - Optimal n_estimators: 200
+2025-11-14 17:22:20,985 - INFO - Detecting anomalies...
+2025-11-14 17:22:25,824 - ERROR - Pipeline failed: Length of values (143902) does not match length of index (143903)
+2025-11-14 22:08:37,251 - INFO - Using device: cuda
+2025-11-14 22:08:37,252 - INFO - ================================================================================
+2025-11-14 22:08:37,252 - INFO - COVID-19 SOCIAL MEDIA DISCOURSE ANALYSIS PIPELINE
+2025-11-14 22:08:37,252 - INFO - ================================================================================
+2025-11-14 22:08:37,252 - INFO - Loading from checkpoint...
+2025-11-14 22:08:43,312 - INFO - Resuming from phase 4
+2025-11-14 22:08:43,764 - INFO - ================================================================================
+2025-11-14 22:08:43,764 - INFO - PHASE 5: ANOMALY DETECTION AND CHARACTERIZATION
+2025-11-14 22:08:43,764 - INFO - ================================================================================
+2025-11-14 22:08:43,764 - INFO - Optimizing Isolation Forest parameters...
+2025-11-14 22:08:45,658 - INFO - Optimal n_estimators: 200
+2025-11-14 22:08:45,658 - INFO - Detecting anomalies...
+2025-11-14 22:08:51,080 - ERROR - Pipeline failed: Length of values (143902) does not match length of index (143903)
+2025-11-14 22:28:43,083 - INFO - Using device: cuda
+2025-11-14 22:28:43,084 - INFO - ================================================================================
+2025-11-14 22:28:43,084 - INFO - COVID-19 SOCIAL MEDIA DISCOURSE ANALYSIS PIPELINE
+2025-11-14 22:28:43,084 - INFO - ================================================================================
+2025-11-14 22:28:43,084 - INFO - Loading from checkpoint...
+2025-11-14 22:28:45,815 - INFO - [DEBUG] df rows: 143903
+2025-11-14 22:28:45,815 - INFO - Resuming from phase 4
+2025-11-14 22:28:45,874 - INFO - [DEBUG] df rows: 143903
+2025-11-14 22:28:45,874 - INFO - ================================================================================
+2025-11-14 22:28:45,874 - INFO - PHASE 5: ANOMALY DETECTION AND CHARACTERIZATION
+2025-11-14 22:28:45,874 - INFO - ================================================================================
+2025-11-14 22:28:45,874 - INFO - Optimizing Isolation Forest parameters...
+2025-11-14 22:28:47,669 - INFO - Optimal n_estimators: 200
+2025-11-14 22:28:47,669 - INFO - Detecting anomalies...
+2025-11-14 22:28:52,293 - ERROR - Pipeline failed: Length of values (143902) does not match length of index (143903)
+2025-11-14 22:31:34,779 - INFO - Using device: cuda
+2025-11-14 22:31:34,782 - INFO - ================================================================================
+2025-11-14 22:31:34,782 - INFO - COVID-19 SOCIAL MEDIA DISCOURSE ANALYSIS PIPELINE
+2025-11-14 22:31:34,783 - INFO - ================================================================================
+2025-11-14 22:31:34,783 - INFO - ================================================================================
+2025-11-14 22:31:34,783 - INFO - PHASE 1: DATA PREPROCESSING AND PREPARATION
+2025-11-14 22:31:34,783 - INFO - ================================================================================
+2025-11-14 22:31:35,261 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-11-14 22:31:35,261 - INFO - Total tweets loaded: 143,903
+2025-11-14 22:31:35,261 - INFO - Removing duplicates...
+2025-11-14 22:31:35,432 - WARNING - datasketch not available, using basic deduplication
+2025-11-14 22:31:35,432 - INFO - Removed 0 duplicates
+2025-11-14 22:31:35,432 - INFO - Normalizing text...
+2025-11-14 22:31:36,744 - INFO - Filtering for English tweets...
+2025-11-14 22:31:36,812 - INFO - Retained 143,902 English tweets
+2025-11-14 22:31:36,812 - INFO - Extracting metadata...
+2025-11-14 22:31:40,195 - INFO - Preprocessing complete. Final dataset size: 143,902
+2025-11-14 22:31:40,219 - INFO - [DEBUG] df rows: 143902
+2025-11-14 22:31:40,681 - INFO - Checkpoint saved at phase 1
+2025-11-14 22:31:40,682 - INFO - ================================================================================
+2025-11-14 22:31:40,682 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-11-14 22:31:40,682 - INFO - ================================================================================
+2025-11-14 22:31:40,682 - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 22:31:40,684 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 22:31:42,076 - INFO - Processing chunk 1/15
+2025-11-14 22:31:43,710 - INFO - Processing chunk 2/15
+2025-11-14 22:31:45,182 - INFO - Processing chunk 3/15
+2025-11-14 22:31:46,606 - INFO - Processing chunk 4/15
+2025-11-14 22:31:48,049 - INFO - Processing chunk 5/15
+2025-11-14 22:31:49,512 - INFO - Processing chunk 6/15
+2025-11-14 22:31:50,926 - INFO - Processing chunk 7/15
+2025-11-14 22:31:52,402 - INFO - Processing chunk 8/15
+2025-11-14 22:31:53,797 - INFO - Processing chunk 9/15
+2025-11-14 22:31:55,190 - INFO - Processing chunk 10/15
+2025-11-14 22:31:56,573 - INFO - Processing chunk 11/15
+2025-11-14 22:31:58,005 - INFO - Processing chunk 12/15
+2025-11-14 22:31:59,456 - INFO - Processing chunk 13/15
+2025-11-14 22:32:00,875 - INFO - Processing chunk 14/15
+2025-11-14 22:32:02,269 - INFO - Processing chunk 15/15
+2025-11-14 22:32:03,199 - INFO - Generated embeddings with shape: (143902, 384)
+2025-11-14 22:32:03,208 - INFO - [DEBUG] df rows: 143902
+2025-11-14 22:32:03,700 - INFO - Checkpoint saved at phase 2
+2025-11-14 22:32:03,701 - INFO - ================================================================================
+2025-11-14 22:32:03,701 - INFO - PHASE 3: UNSUPERVISED TOPIC DISCOVERY AND MODELING
+2025-11-14 22:32:03,701 - INFO - ================================================================================
+2025-11-14 22:32:03,702 - INFO - Fitting BERTopic model...
+2025-11-14 22:46:33,346 - INFO - Characterizing topics...
+2025-11-14 22:46:33,813 - INFO - Discovered 240 topics
+2025-11-14 22:46:33,814 - INFO - [DEBUG] df rows: 143902
+2025-11-14 22:46:36,904 - INFO - Checkpoint saved at phase 3
+2025-11-14 22:46:36,904 - INFO - ================================================================================
+2025-11-14 22:46:36,904 - INFO - PHASE 4: AUTOMATED AFFECTIVE ANALYSIS
+2025-11-14 22:46:36,904 - INFO - ================================================================================
+2025-11-14 22:46:36,904 - INFO - Performing sentiment analysis...
+2025-11-14 22:46:36,904 - WARNING - Failed to load sentiment model: 'CovidTwitterAnalysisPipeline' object is not callable. Using fallback.
+2025-11-14 22:46:50,345 - INFO - Performing emotion analysis...
+2025-11-14 22:46:50,345 - WARNING - Failed to load emotion model: 'CovidTwitterAnalysisPipeline' object is not callable
+2025-11-14 22:46:50,670 - INFO - [DEBUG] df rows: 143903
+2025-11-14 22:46:53,377 - INFO - Checkpoint saved at phase 4
+2025-11-14 22:46:53,378 - INFO - ================================================================================
+2025-11-14 22:46:53,378 - INFO - PHASE 5: ANOMALY DETECTION AND CHARACTERIZATION
+2025-11-14 22:46:53,378 - INFO - ================================================================================
+2025-11-14 22:46:53,378 - INFO - Optimizing Isolation Forest parameters...
+2025-11-14 22:46:55,337 - INFO - Optimal n_estimators: 200
+2025-11-14 22:46:55,337 - INFO - Detecting anomalies...
+2025-11-14 22:47:00,012 - ERROR - Pipeline failed: Length of values (143902) does not match length of index (143903)
+2025-11-14 22:53:04,154 - INFO - Using device: cuda
+2025-11-14 22:53:04,157 - INFO - ================================================================================
+2025-11-14 22:53:04,157 - INFO - COVID-19 SOCIAL MEDIA DISCOURSE ANALYSIS PIPELINE
+2025-11-14 22:53:04,157 - INFO - ================================================================================
+2025-11-14 22:53:04,157 - INFO - ================================================================================
+2025-11-14 22:53:04,157 - INFO - PHASE 1: DATA PREPROCESSING AND PREPARATION
+2025-11-14 22:53:04,157 - INFO - ================================================================================
+2025-11-14 22:53:04,631 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-11-14 22:53:04,631 - INFO - Total tweets loaded: 143,903
+2025-11-14 22:53:04,631 - INFO - Removing duplicates...
+2025-11-14 22:53:04,802 - WARNING - datasketch not available, using basic deduplication
+2025-11-14 22:53:04,802 - INFO - Removed 0 duplicates
+2025-11-14 22:53:04,802 - INFO - Normalizing text...
+2025-11-14 22:53:06,118 - INFO - Filtering for English tweets...
+2025-11-14 22:53:06,188 - INFO - Retained 143,902 English tweets
+2025-11-14 22:53:06,188 - INFO - Extracting metadata...
+2025-11-14 22:53:09,545 - INFO - Preprocessing complete. Final dataset size: 143,902
+2025-11-14 22:53:09,569 - INFO - [DEBUG] df rows: 143902
+2025-11-14 22:53:10,081 - INFO - Checkpoint saved at phase 1
+2025-11-14 22:53:10,081 - INFO - ================================================================================
+2025-11-14 22:53:10,081 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-11-14 22:53:10,081 - INFO - ================================================================================
+2025-11-14 22:53:10,082 - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 22:53:10,084 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 22:53:11,376 - INFO - Processing chunk 1/15
+2025-11-14 22:53:12,981 - INFO - Processing chunk 2/15
+2025-11-14 22:53:14,417 - INFO - Processing chunk 3/15
+2025-11-14 22:53:15,815 - INFO - Processing chunk 4/15
+2025-11-14 22:53:17,274 - INFO - Processing chunk 5/15
+2025-11-14 22:53:18,679 - INFO - Processing chunk 6/15
+2025-11-14 22:53:20,072 - INFO - Processing chunk 7/15
+2025-11-14 22:53:21,491 - INFO - Processing chunk 8/15
+2025-11-14 22:53:22,895 - INFO - Processing chunk 9/15
+2025-11-14 22:53:24,360 - INFO - Processing chunk 10/15
+2025-11-14 22:53:25,791 - INFO - Processing chunk 11/15
+2025-11-14 22:53:27,308 - INFO - Processing chunk 12/15
+2025-11-14 22:53:28,764 - INFO - Processing chunk 13/15
+2025-11-14 22:53:30,262 - INFO - Processing chunk 14/15
+2025-11-14 22:53:31,695 - INFO - Processing chunk 15/15
+2025-11-14 22:53:32,781 - INFO - Generated embeddings with shape: (143902, 384)
+2025-11-14 22:53:32,789 - INFO - [DEBUG] df rows: 143902
+2025-11-14 22:53:33,359 - INFO - Checkpoint saved at phase 2
+2025-11-14 22:53:33,359 - INFO - ================================================================================
+2025-11-14 22:53:33,359 - INFO - PHASE 3: UNSUPERVISED TOPIC DISCOVERY AND MODELING
+2025-11-14 22:53:33,359 - INFO - ================================================================================
+2025-11-14 22:53:33,360 - INFO - Fitting BERTopic model...
+2025-11-14 23:08:03,212 - INFO - Characterizing topics...
+2025-11-14 23:08:03,660 - INFO - Discovered 240 topics
+2025-11-14 23:08:03,660 - INFO - [DEBUG] df rows: 143902
+2025-11-14 23:08:06,469 - INFO - Checkpoint saved at phase 3
+2025-11-14 23:08:06,470 - INFO - ================================================================================
+2025-11-14 23:08:06,470 - INFO - PHASE 4: AUTOMATED AFFECTIVE ANALYSIS
+2025-11-14 23:08:06,470 - INFO - ================================================================================
+2025-11-14 23:08:06,470 - INFO - Performing sentiment analysis...
+2025-11-14 23:08:06,470 - WARNING - Failed to load sentiment model: 'CovidTwitterAnalysisPipeline' object is not callable. Using fallback.
+2025-11-14 23:08:19,802 - INFO - Performing emotion analysis...
+2025-11-14 23:08:19,802 - WARNING - Failed to load emotion model: 'CovidTwitterAnalysisPipeline' object is not callable
+2025-11-14 23:08:20,199 - INFO - [DEBUG] df rows: 143903
+2025-11-14 23:08:23,351 - INFO - Checkpoint saved at phase 4
+2025-11-14 23:08:23,351 - INFO - ================================================================================
+2025-11-14 23:08:23,351 - INFO - PHASE 5: ANOMALY DETECTION AND CHARACTERIZATION
+2025-11-14 23:08:23,351 - INFO - ================================================================================
+2025-11-14 23:08:23,351 - INFO - Optimizing Isolation Forest parameters...
+2025-11-14 23:08:25,304 - INFO - Optimal n_estimators: 200
+2025-11-14 23:08:25,305 - INFO - Detecting anomalies...
+2025-11-14 23:08:30,001 - ERROR - Pipeline failed: Length of values (143902) does not match length of index (143903)
+2025-11-14 23:22:33,100 - INFO - Using device: cuda
+2025-11-14 23:22:33,103 - INFO - ================================================================================
+2025-11-14 23:22:33,103 - INFO - COVID-19 SOCIAL MEDIA DISCOURSE ANALYSIS PIPELINE
+2025-11-14 23:22:33,103 - INFO - ================================================================================
+2025-11-14 23:22:33,103 - INFO - ================================================================================
+2025-11-14 23:22:33,104 - INFO - PHASE 1: DATA PREPROCESSING AND PREPARATION
+2025-11-14 23:22:33,104 - INFO - ================================================================================
+2025-11-14 23:22:33,580 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-11-14 23:22:33,581 - INFO - Total tweets loaded: 143,903
+2025-11-14 23:22:33,581 - INFO - Removing duplicates...
+2025-11-14 23:22:33,752 - WARNING - datasketch not available, using basic deduplication
+2025-11-14 23:22:33,752 - INFO - Removed 0 duplicates
+2025-11-14 23:22:33,752 - INFO - Normalizing text...
+2025-11-14 23:22:35,065 - INFO - Filtering for English tweets...
+2025-11-14 23:22:35,136 - INFO - Retained 143,902 English tweets
+2025-11-14 23:22:35,136 - INFO - Extracting metadata...
+2025-11-14 23:22:38,543 - INFO - Preprocessing complete. Final dataset size: 143,902
+2025-11-14 23:22:38,566 - INFO - [DEBUG] df rows: 143902
+2025-11-14 23:22:39,020 - INFO - Checkpoint saved at phase 1
+2025-11-14 23:22:39,021 - INFO - ================================================================================
+2025-11-14 23:22:39,021 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-11-14 23:22:39,021 - INFO - ================================================================================
+2025-11-14 23:22:39,021 - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 23:22:39,022 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 23:22:40,414 - INFO - Processing chunk 1/15
+2025-11-14 23:22:42,038 - INFO - Processing chunk 2/15
+2025-11-14 23:22:43,530 - INFO - Processing chunk 3/15
+2025-11-14 23:22:44,950 - INFO - Processing chunk 4/15
+2025-11-14 23:22:46,442 - INFO - Processing chunk 5/15
+2025-11-14 23:22:47,875 - INFO - Processing chunk 6/15
+2025-11-14 23:22:49,350 - INFO - Processing chunk 7/15
+2025-11-14 23:22:50,768 - INFO - Processing chunk 8/15
+2025-11-14 23:22:52,242 - INFO - Processing chunk 9/15
+2025-11-14 23:22:53,623 - INFO - Processing chunk 10/15
+2025-11-14 23:22:55,018 - INFO - Processing chunk 11/15
+2025-11-14 23:22:56,472 - INFO - Processing chunk 12/15
+2025-11-14 23:22:57,900 - INFO - Processing chunk 13/15
+2025-11-14 23:22:59,320 - INFO - Processing chunk 14/15
+2025-11-14 23:23:00,713 - INFO - Processing chunk 15/15
+2025-11-14 23:23:01,749 - INFO - Generated embeddings with shape: (143902, 384)
+2025-11-14 23:23:01,756 - INFO - [DEBUG] df rows: 143902
+2025-11-14 23:23:02,254 - INFO - Checkpoint saved at phase 2
+2025-11-14 23:23:02,254 - INFO - ================================================================================
+2025-11-14 23:23:02,254 - INFO - PHASE 3: UNSUPERVISED TOPIC DISCOVERY AND MODELING
+2025-11-14 23:23:02,254 - INFO - ================================================================================
+2025-11-14 23:23:02,255 - INFO - Fitting BERTopic model...
+2025-11-14 23:37:32,565 - INFO - Characterizing topics...
+2025-11-14 23:37:33,030 - INFO - Discovered 240 topics
+2025-11-14 23:37:33,030 - INFO - [DEBUG] df rows: 143902
+2025-11-14 23:37:35,586 - INFO - Checkpoint saved at phase 3
+2025-11-14 23:37:35,587 - INFO - ================================================================================
+2025-11-14 23:37:35,587 - INFO - PHASE 4: AUTOMATED AFFECTIVE ANALYSIS
+2025-11-14 23:37:35,587 - INFO - ================================================================================
+2025-11-14 23:37:35,587 - INFO - Performing sentiment analysis...
+2025-11-14 23:37:35,587 - WARNING - Failed to load sentiment model: 'CovidTwitterAnalysisPipeline' object is not callable. Using fallback.
+2025-11-14 23:37:49,108 - INFO - Performing emotion analysis...
+2025-11-14 23:37:49,108 - WARNING - Failed to load emotion model: 'CovidTwitterAnalysisPipeline' object is not callable
+2025-11-14 23:37:49,498 - INFO - [DEBUG] df rows: 143903
+2025-11-14 23:37:52,138 - INFO - Checkpoint saved at phase 4
+2025-11-14 23:37:52,139 - INFO - ================================================================================
+2025-11-14 23:37:52,139 - INFO - PHASE 5: ANOMALY DETECTION AND CHARACTERIZATION
+2025-11-14 23:37:52,139 - INFO - ================================================================================
+2025-11-14 23:37:52,139 - INFO - Optimizing Isolation Forest parameters...
+2025-11-14 23:37:54,126 - INFO - Optimal n_estimators: 200
+2025-11-14 23:37:54,127 - INFO - Detecting anomalies...
+2025-11-14 23:54:57,922 - INFO - Using device: cuda
+2025-11-14 23:54:57,924 - INFO - ================================================================================
+2025-11-14 23:54:57,924 - INFO - COVID-19 SOCIAL MEDIA DISCOURSE ANALYSIS PIPELINE
+2025-11-14 23:54:57,924 - INFO - ================================================================================
+2025-11-14 23:54:57,924 - INFO - Loading from checkpoint...
+2025-11-14 23:55:04,569 - INFO - [DEBUG] df rows: 143903
+2025-11-14 23:55:04,569 - INFO - Resuming from phase 4
+2025-11-14 23:55:05,184 - INFO - [DEBUG] df rows: 143903
+2025-11-14 23:55:05,184 - INFO - ================================================================================
+2025-11-14 23:55:05,184 - INFO - PHASE 5: ANOMALY DETECTION AND CHARACTERIZATION
+2025-11-14 23:55:05,184 - INFO - ================================================================================
+2025-11-14 23:55:05,184 - INFO - Optimizing Isolation Forest parameters...
+2025-11-14 23:55:06,986 - INFO - Optimal n_estimators: 200
+2025-11-14 23:55:06,986 - INFO - Detecting anomalies...
+2025-11-14 23:55:11,653 - ERROR - Pipeline failed: Length of values (143902) does not match length of index (143903)
+2025-11-14 23:56:50,930 - INFO - Using device: cuda
+2025-11-14 23:56:50,933 - INFO - ================================================================================
+2025-11-14 23:56:50,933 - INFO - COVID-19 SOCIAL MEDIA DISCOURSE ANALYSIS PIPELINE
+2025-11-14 23:56:50,933 - INFO - ================================================================================
+2025-11-14 23:56:50,934 - INFO - ================================================================================
+2025-11-14 23:56:50,934 - INFO - PHASE 1: DATA PREPROCESSING AND PREPARATION
+2025-11-14 23:56:50,934 - INFO - ================================================================================
+2025-11-14 23:56:51,409 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-11-14 23:56:51,410 - INFO - Total tweets loaded: 143,903
+2025-11-14 23:56:51,410 - INFO - Removing duplicates...
+2025-11-14 23:56:51,581 - WARNING - datasketch not available, using basic deduplication
+2025-11-14 23:56:51,582 - INFO - Removed 0 duplicates
+2025-11-14 23:56:51,582 - INFO - Normalizing text...
+2025-11-14 23:56:52,896 - INFO - Filtering for English tweets...
+2025-11-14 23:56:52,966 - INFO - Retained 143,902 English tweets
+2025-11-14 23:56:52,966 - INFO - Extracting metadata...
+2025-11-14 23:56:56,468 - INFO - Preprocessing complete. Final dataset size: 143,902
+2025-11-14 23:56:56,491 - INFO - [DEBUG] df rows: 143902
+2025-11-14 23:56:56,948 - INFO - Checkpoint saved at phase 1
+2025-11-14 23:56:56,948 - INFO - ================================================================================
+2025-11-14 23:56:56,948 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-11-14 23:56:56,948 - INFO - ================================================================================
+2025-11-14 23:56:56,949 - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 23:56:56,950 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-14 23:56:58,307 - INFO - Processing chunk 1/15
+2025-11-14 23:56:59,888 - INFO - Processing chunk 2/15
+2025-11-14 23:57:01,303 - INFO - Processing chunk 3/15
+2025-11-14 23:57:02,702 - INFO - Processing chunk 4/15
+2025-11-14 23:57:04,137 - INFO - Processing chunk 5/15
+2025-11-14 23:57:05,544 - INFO - Processing chunk 6/15
+2025-11-14 23:57:06,946 - INFO - Processing chunk 7/15
+2025-11-14 23:57:08,382 - INFO - Processing chunk 8/15
+2025-11-14 23:57:09,776 - INFO - Processing chunk 9/15
+2025-11-14 23:57:11,180 - INFO - Processing chunk 10/15
+2025-11-14 23:57:12,577 - INFO - Processing chunk 11/15
+2025-11-14 23:57:13,992 - INFO - Processing chunk 12/15
+2025-11-14 23:57:15,413 - INFO - Processing chunk 13/15
+2025-11-14 23:57:16,830 - INFO - Processing chunk 14/15
+2025-11-14 23:57:18,251 - INFO - Processing chunk 15/15
+2025-11-14 23:57:19,135 - INFO - Generated embeddings with shape: (143902, 384)
+2025-11-14 23:57:19,143 - INFO - [DEBUG] df rows: 143902
+2025-11-14 23:57:19,663 - INFO - Checkpoint saved at phase 2
+2025-11-14 23:57:19,663 - INFO - ================================================================================
+2025-11-14 23:57:19,663 - INFO - PHASE 3: UNSUPERVISED TOPIC DISCOVERY AND MODELING
+2025-11-14 23:57:19,663 - INFO - ================================================================================
+2025-11-14 23:57:19,664 - INFO - Fitting BERTopic model...
+2025-11-15 00:11:48,513 - INFO - Characterizing topics...
+2025-11-15 00:11:48,970 - INFO - Discovered 240 topics
+2025-11-15 00:11:48,970 - INFO - [DEBUG] df rows: 143902
+2025-11-15 00:11:51,482 - INFO - Checkpoint saved at phase 3
+2025-11-15 00:11:51,483 - INFO - ================================================================================
+2025-11-15 00:11:51,483 - INFO - PHASE 4: AUTOMATED AFFECTIVE ANALYSIS
+2025-11-15 00:11:51,483 - INFO - ================================================================================
+2025-11-15 00:11:51,483 - INFO - Performing sentiment analysis...
+2025-11-15 00:11:51,483 - WARNING - Failed to load sentiment model: 'CovidTwitterAnalysisPipeline' object is not callable. Using fallback.
+2025-11-15 00:12:04,892 - INFO - Performing emotion analysis...
+2025-11-15 00:12:04,892 - WARNING - Failed to load emotion model: 'CovidTwitterAnalysisPipeline' object is not callable
+2025-11-15 00:12:05,295 - INFO - [DEBUG] df rows: 143902
+2025-11-15 00:12:07,921 - INFO - Checkpoint saved at phase 4
+2025-11-15 00:12:07,922 - INFO - ================================================================================
+2025-11-15 00:12:07,922 - INFO - PHASE 5: ANOMALY DETECTION AND CHARACTERIZATION
+2025-11-15 00:12:07,922 - INFO - ================================================================================
+2025-11-15 00:12:07,922 - INFO - Optimizing Isolation Forest parameters...
+2025-11-15 00:12:09,885 - INFO - Optimal n_estimators: 200
+2025-11-15 00:12:09,885 - INFO - Detecting anomalies...
+2025-11-15 00:12:14,598 - INFO - Characterizing anomalies...
+2025-11-15 00:12:14,843 - INFO - Detected 1 anomalies (0.00%)
+2025-11-15 00:12:14,844 - INFO - [DEBUG] df rows: 143902
+2025-11-15 00:12:17,468 - INFO - Checkpoint saved at phase 5
+2025-11-15 00:12:17,469 - INFO - ================================================================================
+2025-11-15 00:12:17,469 - INFO - PHASE 6: BOT DETECTION AND IMPACT ANALYSIS
+2025-11-15 00:12:17,469 - INFO - ================================================================================
+2025-11-15 00:12:17,469 - INFO - Detecting potential bots using heuristics...
+2025-11-15 00:12:20,769 - INFO - Identified 0 potential bot accounts
+2025-11-15 00:12:20,770 - INFO - Bot tweets: 0 (0.00%)
+2025-11-15 00:12:20,780 - INFO - [DEBUG] df rows: 143902
+2025-11-15 00:12:23,401 - INFO - Checkpoint saved at phase 6
+2025-11-15 00:12:23,401 - INFO - ================================================================================
+2025-11-15 00:12:23,401 - INFO - PHASE 7: STATISTICAL VALIDATION AND SIGNIFICANCE TESTING
+2025-11-15 00:12:23,401 - INFO - ================================================================================
+2025-11-15 00:12:23,401 - INFO - Performing Mann-Kendall trend analysis...
+2025-11-15 00:12:23,431 - INFO - Detecting changepoints...
+2025-11-15 00:12:23,472 - INFO - Validating topic coherence...
+2025-11-15 00:12:23,893 - INFO - [DEBUG] df rows: 143902
+2025-11-15 00:12:26,524 - INFO - Checkpoint saved at phase 7
+2025-11-15 00:12:26,525 - INFO - ================================================================================
+2025-11-15 00:12:26,525 - INFO - PHASE 8: INTEGRATED OUTPUT GENERATION AND VISUALIZATION
+2025-11-15 00:12:26,525 - INFO - ================================================================================
+2025-11-15 00:12:26,525 - INFO - Creating temporal visualizations...
+2025-11-15 00:12:27,463 - INFO - Creating topic visualizations...
+2025-11-15 00:12:27,798 - INFO - Creating affective visualizations...
+2025-11-15 00:12:28,277 - INFO - Creating anomaly visualizations...
+2025-11-15 00:12:28,278 - INFO - Creating interactive timeline...
+2025-11-15 00:12:28,553 - INFO - Creating topic network...
+2025-11-15 00:12:29,457 - INFO - Visualizations saved to outputs/visualizations/
+2025-11-15 00:12:29,457 - INFO - Generating analytical reports...
+2025-11-15 00:12:33,168 - ERROR - Pipeline failed: module 'hdbscan' has no attribute '__version__'
+2025-11-15 00:15:15,121 - INFO - Using device: cuda
+2025-11-15 00:15:15,122 - INFO - ================================================================================
+2025-11-15 00:15:15,122 - INFO - COVID-19 SOCIAL MEDIA DISCOURSE ANALYSIS PIPELINE
+2025-11-15 00:15:15,122 - INFO - ================================================================================
+2025-11-15 00:15:15,123 - INFO - Loading from checkpoint...
+2025-11-15 00:15:22,741 - INFO - [DEBUG] df rows: 143902
+2025-11-15 00:15:22,741 - INFO - Resuming from phase 7
+2025-11-15 00:15:23,322 - INFO - [DEBUG] df rows: 143902
+2025-11-15 00:15:23,322 - INFO - ================================================================================
+2025-11-15 00:15:23,322 - INFO - PHASE 8: INTEGRATED OUTPUT GENERATION AND VISUALIZATION
+2025-11-15 00:15:23,322 - INFO - ================================================================================
+2025-11-15 00:15:23,322 - INFO - Creating temporal visualizations...
+2025-11-15 00:15:24,194 - INFO - Creating topic visualizations...
+2025-11-15 00:15:24,528 - INFO - Creating affective visualizations...
+2025-11-15 00:15:24,999 - INFO - Creating anomaly visualizations...
+2025-11-15 00:15:24,999 - INFO - Creating interactive timeline...
+2025-11-15 00:15:25,117 - INFO - Creating topic network...
+2025-11-15 00:15:25,964 - INFO - Visualizations saved to outputs/visualizations/
+2025-11-15 00:15:25,964 - INFO - Generating analytical reports...
+2025-11-15 00:15:30,094 - ERROR - Pipeline failed: module 'hdbscan' has no attribute 'full_version'
+2025-11-15 00:30:35,310 - INFO - Using device: cuda
+2025-11-15 00:30:35,312 - INFO - ================================================================================
+2025-11-15 00:30:35,312 - INFO - COVID-19 SOCIAL MEDIA DISCOURSE ANALYSIS PIPELINE
+2025-11-15 00:30:35,312 - INFO - ================================================================================
+2025-11-15 00:30:35,312 - INFO - Loading from checkpoint...
+2025-11-15 00:30:38,038 - INFO - [DEBUG] df rows: 143902
+2025-11-15 00:30:38,038 - INFO - Resuming from phase 7
+2025-11-15 00:30:38,098 - INFO - [DEBUG] df rows: 143902
+2025-11-15 00:30:38,098 - INFO - ================================================================================
+2025-11-15 00:30:38,098 - INFO - PHASE 8: INTEGRATED OUTPUT GENERATION AND VISUALIZATION
+2025-11-15 00:30:38,098 - INFO - ================================================================================
+2025-11-15 00:30:38,099 - INFO - Creating temporal visualizations...
+2025-11-15 00:30:38,970 - INFO - Creating topic visualizations...
+2025-11-15 00:30:39,303 - INFO - Creating affective visualizations...
+2025-11-15 00:30:39,773 - INFO - Creating anomaly visualizations...
+2025-11-15 00:30:39,773 - INFO - Creating interactive timeline...
+2025-11-15 00:30:39,890 - INFO - Creating topic network...
+2025-11-15 00:30:40,731 - INFO - Visualizations saved to outputs/visualizations/
+2025-11-15 00:30:40,731 - INFO - Generating analytical reports...
+2025-11-15 00:30:44,854 - INFO - Reports saved to outputs/reports/
+2025-11-15 00:30:44,854 - INFO - ================================================================================
+2025-11-15 00:30:44,854 - INFO - PIPELINE EXECUTION COMPLETED SUCCESSFULLY
+2025-11-15 00:30:44,854 - INFO - Total tweets processed: 143,902
+2025-11-15 00:30:44,855 - INFO - Topics identified: 240
+2025-11-15 00:30:44,855 - INFO - Anomalies detected: 1
+2025-11-15 00:30:44,855 - INFO - Bot tweets identified: 0
+2025-11-15 00:30:44,855 - INFO - Total runtime: 0:00:09.542482
+2025-11-15 00:30:44,855 - INFO - Outputs saved to: outputs/
+2025-11-15 00:30:44,855 - INFO - ================================================================================

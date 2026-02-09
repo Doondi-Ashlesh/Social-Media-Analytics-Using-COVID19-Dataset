@@ -1,0 +1,293 @@
+{
+  "overall_sentiment": {
+    "positive": 0.09192245107992712,
+    "neutral": 0.823407924565039,
+    "negative": 0.08466962435503386,
+    "avg_score": 0.007252826724893259,
+    "avg_confidence": 0.31057917611226227
+  },
+  "overall_emotion": {
+    "neutral": 1.0
+  },
+  "emotion_confidence": {
+    "avg": 0.5,
+    "high_confidence_rate": 0.0
+  },
+  "topic_affective": {
+    "0": {
+      "sentiment": {
+        "positive": 0.5180571335822107,
+        "neutral": 0.0,
+        "negative": 0.48194286641778933,
+        "avg_score": 0.03611426716442136,
+        "confidence": 0.7307931748092843
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 24644,
+      "confidence_filtered": 115202
+    },
+    "6": {
+      "sentiment": {
+        "positive": 0.25555555555555554,
+        "neutral": 0.0,
+        "negative": 0.7444444444444445,
+        "avg_score": -0.4888888888888889,
+        "confidence": 0.7459911111111109
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 90,
+      "confidence_filtered": 251
+    },
+    "5": {
+      "sentiment": {
+        "positive": 0.4583333333333333,
+        "neutral": 0.0,
+        "negative": 0.5416666666666666,
+        "avg_score": -0.08333333333333333,
+        "confidence": 0.7320291666666666
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 24,
+      "confidence_filtered": 230
+    },
+    "2": {
+      "sentiment": {
+        "positive": 0.58,
+        "neutral": 0.0,
+        "negative": 0.42,
+        "avg_score": 0.16,
+        "confidence": 0.6939759999999999
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 50,
+      "confidence_filtered": 317
+    },
+    "13": {
+      "sentiment": {
+        "positive": 0.9285714285714286,
+        "neutral": 0.0,
+        "negative": 0.07142857142857142,
+        "avg_score": 0.8571428571428571,
+        "confidence": 0.7600071428571429
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 14,
+      "confidence_filtered": 71
+    },
+    "14": {
+      "sentiment": {
+        "positive": 0.625,
+        "neutral": 0.0,
+        "negative": 0.375,
+        "avg_score": 0.25,
+        "confidence": 0.720075
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 8,
+      "confidence_filtered": 39
+    },
+    "11": {
+      "sentiment": {
+        "positive": 0.6987951807228916,
+        "neutral": 0.0,
+        "negative": 0.30120481927710846,
+        "avg_score": 0.39759036144578314,
+        "confidence": 0.7754554216867469
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 83,
+      "confidence_filtered": 252
+    },
+    "4": {
+      "sentiment": {
+        "positive": 0.6086956521739131,
+        "neutral": 0.0,
+        "negative": 0.391304347826087,
+        "avg_score": 0.21739130434782608,
+        "confidence": 0.7371152173913044
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 46,
+      "confidence_filtered": 235
+    },
+    "3": {
+      "sentiment": {
+        "positive": 0.336,
+        "neutral": 0.0,
+        "negative": 0.664,
+        "avg_score": -0.328,
+        "confidence": 0.7496808
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 125,
+      "confidence_filtered": 515
+    },
+    "12": {
+      "sentiment": {
+        "positive": 0.9375,
+        "neutral": 0.0,
+        "negative": 0.0625,
+        "avg_score": 0.875,
+        "confidence": 0.7778125
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 32,
+      "confidence_filtered": 43
+    },
+    "7": {
+      "sentiment": {
+        "positive": 0.6666666666666666,
+        "neutral": 0.0,
+        "negative": 0.3333333333333333,
+        "avg_score": 0.3333333333333333,
+        "confidence": 0.7344166666666666
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 48,
+      "confidence_filtered": 254
+    },
+    "1": {
+      "sentiment": {
+        "positive": 0.6170212765957447,
+        "neutral": 0.0,
+        "negative": 0.3829787234042553,
+        "avg_score": 0.23404255319148937,
+        "confidence": 0.7239723404255318
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 47,
+      "confidence_filtered": 229
+    },
+    "8": {
+      "sentiment": {
+        "positive": 0.9090909090909091,
+        "neutral": 0.0,
+        "negative": 0.09090909090909091,
+        "avg_score": 0.8181818181818182,
+        "confidence": 0.7491883116883119
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 77,
+      "confidence_filtered": 261
+    },
+    "10": {
+      "sentiment": {
+        "positive": 0.9,
+        "neutral": 0.0,
+        "negative": 0.1,
+        "avg_score": 0.8,
+        "confidence": 0.7258549999999999
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 40,
+      "confidence_filtered": 128
+    },
+    "9": {
+      "sentiment": {
+        "positive": 0.6666666666666666,
+        "neutral": 0.0,
+        "negative": 0.3333333333333333,
+        "avg_score": 0.3333333333333333,
+        "confidence": 0.6941966666666666
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 30,
+      "confidence_filtered": 160
+    },
+    "17": {
+      "sentiment": {
+        "positive": 0.7058823529411765,
+        "neutral": 0.0,
+        "negative": 0.29411764705882354,
+        "avg_score": 0.4117647058823529,
+        "confidence": 0.7158470588235294
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 17,
+      "confidence_filtered": 85
+    },
+    "16": {
+      "sentiment": {
+        "positive": 0.8,
+        "neutral": 0.0,
+        "negative": 0.2,
+        "avg_score": 0.6,
+        "confidence": 0.7477599999999999
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 10,
+      "confidence_filtered": 65
+    },
+    "18": {
+      "sentiment": {
+        "positive": 0.0,
+        "neutral": 0.0,
+        "negative": 1.0,
+        "avg_score": -1.0,
+        "confidence": 0.7666
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 2,
+      "confidence_filtered": 13
+    },
+    "15": {
+      "sentiment": {
+        "positive": 0.75,
+        "neutral": 0.0,
+        "negative": 0.25,
+        "avg_score": 0.5,
+        "confidence": 0.6938625
+      },
+      "emotion": {
+        "neutral": 1.0
+      },
+      "sample_size": 8,
+      "confidence_filtered": 61
+    }
+  },
+  "temporal_analysis": {
+    "most_positive_day": "2020-06-09 00:00:00",
+    "most_positive_score": 0.0338680926916221,
+    "most_negative_day": "2020-04-19 00:00:00",
+    "most_negative_score": -0.07100591715976332
+  },
+  "emotion_transitions": {
+    "top_transitions": []
+  }
+}

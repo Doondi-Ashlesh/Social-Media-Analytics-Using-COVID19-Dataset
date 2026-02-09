@@ -1,0 +1,56 @@
+{
+  "dataset_statistics": {
+    "total_tweets": 143806,
+    "unique_users": 126072,
+    "date_range": {
+      "start": "2020-04-19 00:00:00",
+      "end": "2020-06-20 00:00:00",
+      "duration_days": 62
+    },
+    "phases": {
+      "Phase1": 143806
+    }
+  },
+  "topic_statistics": {
+    "num_topics": 19,
+    "noise_tweets": 0,
+    "noise_percentage": 0.0,
+    "avg_topic_size": 7568.736842105263,
+    "largest_topic_size": 139846,
+    "smallest_topic_size": 15,
+    "topic_balance_score": 0.06752617320488159
+  },
+  "sentiment_statistics": {
+    "positive_percentage": 9.192245107992711,
+    "neutral_percentage": 82.34079245650389,
+    "negative_percentage": 8.466962435503387,
+    "avg_sentiment": 0.007252826724893259,
+    "avg_confidence": 0.31057917611226227,
+    "high_confidence_rate": 10.361181035561799
+  },
+  "emotion_statistics": {
+    "distribution": {
+      "neutral": 100.0
+    },
+    "avg_confidence": 0.5,
+    "dominant_emotion": "neutral"
+  },
+  "anomaly_statistics": {
+    "anomaly_rate": 10.000278152511022,
+    "total_anomalies": 14381,
+    "avg_confidence": 0.2596447101443443,
+    "high_confidence_anomalies": 19
+  },
+  "bot_statistics": {
+    "bot_tweet_rate": 0.03268292004506071,
+    "total_bot_tweets": 47,
+    "avg_confidence": 0.4050277486410811,
+    "unique_bot_accounts": 10
+  },
+  "engagement_statistics": {
+    "total_engagement": 276712259,
+    "avg_engagement": 1924.2052417840703,
+    "median_engagement": 17.0,
+    "top_1_percent_threshold": 46473.05000000069
+  }
+}

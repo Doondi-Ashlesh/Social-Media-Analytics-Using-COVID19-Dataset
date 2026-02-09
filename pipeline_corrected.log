@@ -1,0 +1,1473 @@
+2025-12-11 15:40:25,007 - INFO - Using device: cuda
+2025-12-11 15:40:36,291 - INFO - ACE Annotator initialized with NER model
+2025-12-11 15:40:36,298 - INFO - ================================================================================
+2025-12-11 15:40:36,298 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 15:40:36,298 - INFO - ================================================================================
+2025-12-11 15:40:36,298 - INFO - 
+📊 PHASE 1: Data Preprocessing & ACE Annotation
+2025-12-11 15:40:36,298 - INFO - ================================================================================
+2025-12-11 15:40:36,298 - INFO - PHASE 1: ENHANCED DATA PREPROCESSING WITH ACE ANNOTATION
+2025-12-11 15:40:36,298 - INFO - ================================================================================
+2025-12-11 15:40:38,384 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-12-11 15:40:38,385 - INFO - Total tweets loaded: 143,903
+2025-12-11 15:40:38,385 - INFO - Removing duplicates...
+2025-12-11 15:40:38,672 - INFO - Removed 0 exact duplicates
+2025-12-11 15:40:38,672 - INFO - Normalizing text...
+2025-12-11 15:40:41,217 - INFO - Filtering for English tweets...
+2025-12-11 15:40:41,341 - INFO - Retained 143,806 English tweets
+2025-12-11 15:40:41,342 - INFO - Average language confidence: 1.000
+2025-12-11 15:40:41,342 - INFO - Extracting metadata...
+2025-12-11 15:40:43,237 - INFO - Applying ACE annotation...
+2025-12-11 15:40:45,832 - ERROR - ❌ Pipeline failed: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - '/home/alhz6n/nltk_data'
+    - '/home/alhz6n/.conda/envs/COVID/nltk_data'
+    - '/home/alhz6n/.conda/envs/COVID/share/nltk_data'
+    - '/home/alhz6n/.conda/envs/COVID/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2025-12-11 15:42:24,375 - INFO - Using device: cuda
+2025-12-11 15:42:25,290 - INFO - ACE Annotator initialized with NER model
+2025-12-11 15:42:25,292 - INFO - ================================================================================
+2025-12-11 15:42:25,292 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 15:42:25,292 - INFO - ================================================================================
+2025-12-11 15:42:25,292 - INFO - 
+📊 PHASE 1: Data Preprocessing & ACE Annotation
+2025-12-11 15:42:25,292 - INFO - ================================================================================
+2025-12-11 15:42:25,292 - INFO - PHASE 1: ENHANCED DATA PREPROCESSING WITH ACE ANNOTATION
+2025-12-11 15:42:25,292 - INFO - ================================================================================
+2025-12-11 15:42:26,094 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-12-11 15:42:26,095 - INFO - Total tweets loaded: 143,903
+2025-12-11 15:42:26,095 - INFO - Removing duplicates...
+2025-12-11 15:42:26,376 - INFO - Removed 0 exact duplicates
+2025-12-11 15:42:26,376 - INFO - Normalizing text...
+2025-12-11 15:42:28,871 - INFO - Filtering for English tweets...
+2025-12-11 15:42:28,993 - INFO - Retained 143,806 English tweets
+2025-12-11 15:42:28,993 - INFO - Average language confidence: 1.000
+2025-12-11 15:42:28,993 - INFO - Extracting metadata...
+2025-12-11 15:42:30,892 - INFO - Applying ACE annotation...
+2025-12-11 15:42:31,084 - ERROR - ❌ Pipeline failed: 
+**********************************************************************
+  Resource [93maveraged_perceptron_tagger_eng[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('averaged_perceptron_tagger_eng')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtaggers/averaged_perceptron_tagger_eng[0m
+
+  Searched in:
+    - '/home/alhz6n/nltk_data'
+    - '/home/alhz6n/.conda/envs/COVID/nltk_data'
+    - '/home/alhz6n/.conda/envs/COVID/share/nltk_data'
+    - '/home/alhz6n/.conda/envs/COVID/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+**********************************************************************
+
+2025-12-11 15:43:27,033 - INFO - Using device: cuda
+2025-12-11 15:43:27,888 - INFO - ACE Annotator initialized with NER model
+2025-12-11 15:43:27,890 - INFO - ================================================================================
+2025-12-11 15:43:27,890 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 15:43:27,890 - INFO - ================================================================================
+2025-12-11 15:43:27,890 - INFO - 
+📊 PHASE 1: Data Preprocessing & ACE Annotation
+2025-12-11 15:43:27,890 - INFO - ================================================================================
+2025-12-11 15:43:27,890 - INFO - PHASE 1: ENHANCED DATA PREPROCESSING WITH ACE ANNOTATION
+2025-12-11 15:43:27,890 - INFO - ================================================================================
+2025-12-11 15:43:28,708 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-12-11 15:43:28,708 - INFO - Total tweets loaded: 143,903
+2025-12-11 15:43:28,708 - INFO - Removing duplicates...
+2025-12-11 15:43:28,997 - INFO - Removed 0 exact duplicates
+2025-12-11 15:43:28,997 - INFO - Normalizing text...
+2025-12-11 15:43:31,454 - INFO - Filtering for English tweets...
+2025-12-11 15:43:31,581 - INFO - Retained 143,806 English tweets
+2025-12-11 15:43:31,582 - INFO - Average language confidence: 1.000
+2025-12-11 15:43:31,582 - INFO - Extracting metadata...
+2025-12-11 15:43:33,416 - INFO - Applying ACE annotation...
+2025-12-11 15:45:20,019 - INFO - ACE annotation complete. Average entities per tweet: 0.26
+2025-12-11 15:45:25,185 - INFO - Preprocessing complete. Final dataset: 143,806 tweets
+2025-12-11 15:45:26,279 - INFO - Checkpoint saved at phase 1
+2025-12-11 15:45:26,279 - INFO - 
+🧠 PHASE 2: Semantic Embedding Generation
+2025-12-11 15:45:26,279 - INFO - ================================================================================
+2025-12-11 15:45:26,279 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-12-11 15:45:26,279 - INFO - ================================================================================
+2025-12-11 15:45:26,279 - INFO - Loading existing embeddings...
+2025-12-11 15:45:30,587 - INFO - Checkpoint saved at phase 2
+2025-12-11 15:45:30,587 - INFO - 
+🎯 PHASE 3: Topic Discovery (20 Named Topics)
+2025-12-11 15:45:30,587 - INFO - ================================================================================
+2025-12-11 15:45:30,587 - INFO - PHASE 3: ENHANCED TOPIC DISCOVERY - 20 NAMED TOPICS
+2025-12-11 15:45:30,587 - INFO - ================================================================================
+2025-12-11 15:45:30,587 - INFO - Fitting BERTopic model...
+2025-12-11 15:45:30,602 - ERROR - ❌ Pipeline failed: Make sure that the embeddings are a numpy array with shape: (len(docs), vector_dim) where vector_dim is the dimensionality of the vector embeddings. 
+2025-12-11 15:56:59,708 - INFO - Using device: cuda
+2025-12-11 15:57:00,597 - INFO - ACE Annotator initialized with NER model
+2025-12-11 15:57:00,599 - INFO - ================================================================================
+2025-12-11 15:57:00,599 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 15:57:00,599 - INFO - ================================================================================
+2025-12-11 15:57:00,599 - INFO - 
+📊 PHASE 1: Data Preprocessing & ACE Annotation
+2025-12-11 15:57:00,600 - INFO - ================================================================================
+2025-12-11 15:57:00,600 - INFO - PHASE 1: ENHANCED DATA PREPROCESSING WITH ACE ANNOTATION
+2025-12-11 15:57:00,600 - INFO - ================================================================================
+2025-12-11 15:57:01,412 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-12-11 15:57:01,412 - INFO - Total tweets loaded: 143,903
+2025-12-11 15:57:01,412 - INFO - Removing duplicates...
+2025-12-11 15:57:01,688 - INFO - Removed 0 exact duplicates
+2025-12-11 15:57:01,688 - INFO - Normalizing text...
+2025-12-11 15:57:04,139 - INFO - Filtering for English tweets...
+2025-12-11 15:57:04,263 - INFO - Retained 143,806 English tweets
+2025-12-11 15:57:04,263 - INFO - Average language confidence: 1.000
+2025-12-11 15:57:04,263 - INFO - Extracting metadata...
+2025-12-11 15:57:06,062 - INFO - Applying ACE annotation...
+2025-12-11 15:58:45,809 - INFO - ACE annotation complete. Average entities per tweet: 0.26
+2025-12-11 15:58:50,751 - INFO - Preprocessing complete. Final dataset: 143,806 tweets
+2025-12-11 15:58:51,853 - INFO - Checkpoint saved at phase 1
+2025-12-11 15:58:51,853 - INFO - 
+🧠 PHASE 2: Semantic Embedding Generation
+2025-12-11 15:58:51,853 - INFO - ================================================================================
+2025-12-11 15:58:51,853 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-12-11 15:58:51,853 - INFO - ================================================================================
+2025-12-11 15:58:51,854 - INFO - Loading existing embeddings...
+2025-12-11 15:58:52,666 - INFO - Checkpoint saved at phase 2
+2025-12-11 15:58:52,666 - INFO - 
+🎯 PHASE 3: Topic Discovery (20 Named Topics)
+2025-12-11 15:58:52,666 - INFO - ================================================================================
+2025-12-11 15:58:52,666 - INFO - PHASE 3: ENHANCED TOPIC DISCOVERY - 20 NAMED TOPICS
+2025-12-11 15:58:52,666 - INFO - ================================================================================
+2025-12-11 15:58:52,666 - INFO - Fitting BERTopic model...
+2025-12-11 15:58:52,671 - INFO - Number of documents (texts) being processed: 143806
+2025-12-11 15:58:52,671 - INFO - Shape of the embeddings array: (143902, 384)
+2025-12-11 15:58:52,679 - ERROR - ❌ Pipeline failed: Make sure that the embeddings are a numpy array with shape: (len(docs), vector_dim) where vector_dim is the dimensionality of the vector embeddings. 
+2025-12-11 16:06:30,554 - INFO - Using device: cuda
+2025-12-11 16:06:31,414 - INFO - ACE Annotator initialized with NER model
+2025-12-11 16:06:31,416 - INFO - ================================================================================
+2025-12-11 16:06:31,416 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 16:06:31,416 - INFO - ================================================================================
+2025-12-11 16:06:31,416 - INFO - 
+📊 PHASE 1: Data Preprocessing & ACE Annotation
+2025-12-11 16:06:31,416 - INFO - ================================================================================
+2025-12-11 16:06:31,417 - INFO - PHASE 1: ENHANCED DATA PREPROCESSING WITH ACE ANNOTATION
+2025-12-11 16:06:31,417 - INFO - ================================================================================
+2025-12-11 16:06:32,248 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-12-11 16:06:32,249 - INFO - Total tweets loaded: 143,903
+2025-12-11 16:06:32,249 - INFO - Removing duplicates...
+2025-12-11 16:06:32,522 - INFO - Removed 0 exact duplicates
+2025-12-11 16:06:32,522 - INFO - Normalizing text...
+2025-12-11 16:06:34,960 - INFO - Filtering for English tweets...
+2025-12-11 16:06:35,087 - INFO - Retained 143,806 English tweets
+2025-12-11 16:06:35,088 - INFO - Average language confidence: 1.000
+2025-12-11 16:06:35,088 - INFO - Extracting metadata...
+2025-12-11 16:06:36,983 - INFO - Applying ACE annotation...
+2025-12-11 16:08:17,284 - INFO - ACE annotation complete. Average entities per tweet: 0.26
+2025-12-11 16:08:22,227 - INFO - Preprocessing complete. Final dataset: 143,806 tweets
+2025-12-11 16:08:23,416 - INFO - Checkpoint saved at phase 1
+2025-12-11 16:08:23,417 - INFO - 
+🧠 PHASE 2: Semantic Embedding Generation
+2025-12-11 16:08:23,417 - INFO - ================================================================================
+2025-12-11 16:08:23,417 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-12-11 16:08:23,417 - INFO - ================================================================================
+2025-12-11 16:08:23,417 - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-12-11 16:08:23,419 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-11 16:08:27,874 - INFO - Processing chunk 1/15
+2025-12-11 16:08:31,824 - INFO - Processing chunk 2/15
+2025-12-11 16:08:34,878 - INFO - Processing chunk 3/15
+2025-12-11 16:08:37,893 - INFO - Processing chunk 4/15
+2025-12-11 16:08:40,956 - INFO - Processing chunk 5/15
+2025-12-11 16:08:43,985 - INFO - Processing chunk 6/15
+2025-12-11 16:08:47,014 - INFO - Processing chunk 7/15
+2025-12-11 16:08:50,033 - INFO - Processing chunk 8/15
+2025-12-11 16:08:53,064 - INFO - Processing chunk 9/15
+2025-12-11 16:08:56,095 - INFO - Processing chunk 10/15
+2025-12-11 16:08:59,118 - INFO - Processing chunk 11/15
+2025-12-11 16:09:02,158 - INFO - Processing chunk 12/15
+2025-12-11 16:09:05,190 - INFO - Processing chunk 13/15
+2025-12-11 16:09:08,224 - INFO - Processing chunk 14/15
+2025-12-11 16:09:11,230 - INFO - Processing chunk 15/15
+2025-12-11 16:09:12,889 - INFO - Generated embeddings with shape: (143806, 384)
+2025-12-11 16:09:13,641 - INFO - Checkpoint saved at phase 2
+2025-12-11 16:09:13,641 - INFO - 
+🎯 PHASE 3: Topic Discovery (20 Named Topics)
+2025-12-11 16:09:13,641 - INFO - ================================================================================
+2025-12-11 16:09:13,641 - INFO - PHASE 3: ENHANCED TOPIC DISCOVERY - 20 NAMED TOPICS
+2025-12-11 16:09:13,641 - INFO - ================================================================================
+2025-12-11 16:09:13,642 - INFO - Fitting BERTopic model...
+2025-12-11 16:09:13,647 - INFO - Number of documents (texts) being processed: 143806
+2025-12-11 16:09:13,647 - INFO - Shape of the embeddings array: (143806, 384)
+2025-12-11 16:17:45,982 - ERROR - ❌ Pipeline failed: 'NoneType' object has no attribute 'embed_documents'
+2025-12-11 16:51:51,940 - INFO - Using device: cuda
+2025-12-11 16:51:53,089 - INFO - ACE Annotator initialized with NER model
+2025-12-11 16:51:53,091 - INFO - ================================================================================
+2025-12-11 16:51:53,091 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 16:51:53,091 - INFO - ================================================================================
+2025-12-11 16:51:53,091 - INFO - 
+📊 PHASE 1: Data Preprocessing & ACE Annotation
+2025-12-11 16:51:53,091 - INFO - ================================================================================
+2025-12-11 16:51:53,091 - INFO - PHASE 1: ENHANCED DATA PREPROCESSING WITH ACE ANNOTATION
+2025-12-11 16:51:53,091 - INFO - ================================================================================
+2025-12-11 16:51:53,894 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-12-11 16:51:53,894 - INFO - Total tweets loaded: 143,903
+2025-12-11 16:51:53,894 - INFO - Removing duplicates...
+2025-12-11 16:51:54,175 - INFO - Removed 0 exact duplicates
+2025-12-11 16:51:54,175 - INFO - Normalizing text...
+2025-12-11 16:51:56,655 - INFO - Filtering for English tweets...
+2025-12-11 16:51:56,778 - INFO - Retained 143,806 English tweets
+2025-12-11 16:51:56,779 - INFO - Average language confidence: 1.000
+2025-12-11 16:51:56,779 - INFO - Extracting metadata...
+2025-12-11 16:51:58,681 - INFO - Applying ACE annotation...
+2025-12-11 16:53:40,304 - INFO - ACE annotation complete. Average entities per tweet: 0.26
+2025-12-11 16:53:45,341 - INFO - Preprocessing complete. Final dataset: 143,806 tweets
+2025-12-11 16:53:46,521 - INFO - Checkpoint saved at phase 1
+2025-12-11 16:53:46,521 - INFO - 
+🧠 PHASE 2: Semantic Embedding Generation
+2025-12-11 16:53:46,521 - INFO - ================================================================================
+2025-12-11 16:53:46,521 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-12-11 16:53:46,521 - INFO - ================================================================================
+2025-12-11 16:53:46,522 - INFO - Loading existing embeddings...
+2025-12-11 16:53:47,989 - INFO - Checkpoint saved at phase 2
+2025-12-11 16:53:47,989 - INFO - 
+🎯 PHASE 3: Topic Discovery (20 Named Topics)
+2025-12-11 16:53:47,989 - INFO - ================================================================================
+2025-12-11 16:53:47,989 - INFO - PHASE 3: ENHANCED TOPIC DISCOVERY - 20 NAMED TOPICS
+2025-12-11 16:53:47,989 - INFO - ================================================================================
+2025-12-11 16:53:47,992 - INFO - Use pytorch device_name: cuda:0
+2025-12-11 16:53:47,992 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-11 16:53:49,033 - INFO - Fitting BERTopic model...
+2025-12-11 16:53:49,038 - INFO - Number of documents (texts) being processed: 143806
+2025-12-11 16:53:49,038 - INFO - Shape of the embeddings array: (143806, 384)
+2025-12-11 16:58:24,399 - INFO - Using device: cuda
+2025-12-11 16:58:39,054 - INFO - ACE Annotator initialized with NER model
+2025-12-11 16:58:39,060 - INFO - ================================================================================
+2025-12-11 16:58:39,060 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 16:58:39,060 - INFO - ================================================================================
+2025-12-11 16:58:39,060 - INFO - 
+📊 PHASE 1: Data Preprocessing & ACE Annotation
+2025-12-11 16:58:39,060 - INFO - ================================================================================
+2025-12-11 16:58:39,060 - INFO - PHASE 1: ENHANCED DATA PREPROCESSING WITH ACE ANNOTATION
+2025-12-11 16:58:39,060 - INFO - ================================================================================
+2025-12-11 16:58:41,294 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-12-11 16:58:41,294 - INFO - Total tweets loaded: 143,903
+2025-12-11 16:58:41,295 - INFO - Removing duplicates...
+2025-12-11 16:58:41,569 - INFO - Removed 0 exact duplicates
+2025-12-11 16:58:41,569 - INFO - Normalizing text...
+2025-12-11 16:58:43,873 - INFO - Filtering for English tweets...
+2025-12-11 16:58:43,996 - INFO - Retained 143,806 English tweets
+2025-12-11 16:58:43,997 - INFO - Average language confidence: 1.000
+2025-12-11 16:58:43,997 - INFO - Extracting metadata...
+2025-12-11 16:58:45,756 - INFO - Applying ACE annotation...
+2025-12-11 17:00:18,563 - INFO - ACE annotation complete. Average entities per tweet: 0.26
+2025-12-11 17:00:23,555 - INFO - Preprocessing complete. Final dataset: 143,806 tweets
+2025-12-11 17:00:24,601 - INFO - Checkpoint saved at phase 1
+2025-12-11 17:00:24,601 - INFO - 
+🧠 PHASE 2: Semantic Embedding Generation
+2025-12-11 17:00:24,602 - INFO - ================================================================================
+2025-12-11 17:00:24,602 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-12-11 17:00:24,602 - INFO - ================================================================================
+2025-12-11 17:00:24,602 - INFO - Loading existing embeddings...
+2025-12-11 17:00:25,953 - INFO - Checkpoint saved at phase 2
+2025-12-11 17:00:25,953 - INFO - 
+🎯 PHASE 3: Topic Discovery (20 Named Topics)
+2025-12-11 17:00:25,953 - INFO - ================================================================================
+2025-12-11 17:00:25,953 - INFO - PHASE 3: ENHANCED TOPIC DISCOVERY - 20 NAMED TOPICS
+2025-12-11 17:00:25,953 - INFO - ================================================================================
+2025-12-11 17:00:25,955 - INFO - Use pytorch device_name: cuda:0
+2025-12-11 17:00:25,955 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-11 17:00:32,770 - INFO - Fitting BERTopic model...
+2025-12-11 17:00:32,774 - INFO - Number of documents (texts) being processed: 143806
+2025-12-11 17:00:32,775 - INFO - Shape of the embeddings array: (143806, 384)
+                                                                                                                                                                                                                                                                2025-12-11 17:08:00,973 - INFO - Initial topics discovered: 190
+2025-12-11 17:08:00,974 - INFO - Reducing from 190 to 20 topics...
+2025-12-11 17:08:00,979 - ERROR - ❌ Pipeline failed: BERTopic.reduce_topics() got multiple values for argument 'nr_topics'
+2025-12-11 17:17:25,954 - INFO - Using device: cuda
+2025-12-11 17:17:36,352 - INFO - ACE Annotator initialized with NER model
+2025-12-11 17:17:36,356 - INFO - ================================================================================
+2025-12-11 17:17:36,356 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 17:17:36,357 - INFO - ================================================================================
+2025-12-11 17:17:36,357 - INFO - 
+📊 PHASE 1: Data Preprocessing & ACE Annotation
+2025-12-11 17:17:36,357 - INFO - ================================================================================
+2025-12-11 17:17:36,357 - INFO - PHASE 1: ENHANCED DATA PREPROCESSING WITH ACE ANNOTATION
+2025-12-11 17:17:36,357 - INFO - ================================================================================
+2025-12-11 17:17:37,796 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-12-11 17:17:37,797 - INFO - Total tweets loaded: 143,903
+2025-12-11 17:17:37,797 - INFO - Removing duplicates...
+2025-12-11 17:17:38,017 - INFO - Removed 0 exact duplicates
+2025-12-11 17:17:38,017 - INFO - Normalizing text...
+2025-12-11 17:17:39,509 - INFO - Filtering for English tweets...
+2025-12-11 17:17:39,593 - INFO - Retained 143,806 English tweets
+2025-12-11 17:17:39,593 - INFO - Average language confidence: 1.000
+2025-12-11 17:17:39,593 - INFO - Extracting metadata...
+2025-12-11 17:17:40,953 - INFO - Applying ACE annotation...
+2025-12-11 17:18:43,160 - INFO - ACE annotation complete. Average entities per tweet: 0.26
+2025-12-11 17:18:46,806 - INFO - Preprocessing complete. Final dataset: 143,806 tweets
+2025-12-11 17:18:47,726 - INFO - Checkpoint saved at phase 1
+2025-12-11 17:18:47,726 - INFO - 
+🧠 PHASE 2: Semantic Embedding Generation
+2025-12-11 17:18:47,726 - INFO - ================================================================================
+2025-12-11 17:18:47,726 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-12-11 17:18:47,726 - INFO - ================================================================================
+2025-12-11 17:18:47,727 - INFO - Loading existing embeddings...
+2025-12-11 17:18:48,920 - INFO - Checkpoint saved at phase 2
+2025-12-11 17:18:48,920 - INFO - 
+🎯 PHASE 3: Topic Discovery (20 Named Topics)
+2025-12-11 17:18:48,920 - INFO - ================================================================================
+2025-12-11 17:18:48,920 - INFO - PHASE 3: ENHANCED TOPIC DISCOVERY - 20 NAMED TOPICS
+2025-12-11 17:18:48,920 - INFO - ================================================================================
+2025-12-11 17:18:48,923 - INFO - Use pytorch device_name: cuda:0
+2025-12-11 17:18:48,923 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-11 17:18:55,108 - INFO - Fitting BERTopic model...
+2025-12-11 17:18:55,112 - INFO - Number of documents (texts) being processed: 143806
+2025-12-11 17:18:55,112 - INFO - Shape of the embeddings array: (143806, 384)
+2025-12-11 17:25:38,690 - INFO - Initial topics discovered: 190
+2025-12-11 17:25:38,691 - INFO - Reducing from 190 to 20 topics...
+2025-12-11 17:25:38,695 - ERROR - ❌ Pipeline failed: BERTopic.reduce_topics() got multiple values for argument 'nr_topics'
+2025-12-11 17:26:50,792 - INFO - Using device: cuda
+2025-12-11 17:26:51,753 - INFO - ACE Annotator initialized with NER model
+2025-12-11 17:26:51,755 - INFO - ================================================================================
+2025-12-11 17:26:51,755 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 17:26:51,755 - INFO - ================================================================================
+2025-12-11 17:26:51,755 - INFO - 
+📊 PHASE 1: Data Preprocessing & ACE Annotation
+2025-12-11 17:26:51,755 - INFO - ================================================================================
+2025-12-11 17:26:51,755 - INFO - PHASE 1: ENHANCED DATA PREPROCESSING WITH ACE ANNOTATION
+2025-12-11 17:26:51,755 - INFO - ================================================================================
+2025-12-11 17:26:52,559 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-12-11 17:26:52,560 - INFO - Total tweets loaded: 143,903
+2025-12-11 17:26:52,560 - INFO - Removing duplicates...
+2025-12-11 17:26:52,838 - INFO - Removed 0 exact duplicates
+2025-12-11 17:26:52,838 - INFO - Normalizing text...
+2025-12-11 17:26:55,286 - INFO - Filtering for English tweets...
+2025-12-11 17:26:55,411 - INFO - Retained 143,806 English tweets
+2025-12-11 17:26:55,412 - INFO - Average language confidence: 1.000
+2025-12-11 17:26:55,412 - INFO - Extracting metadata...
+2025-12-11 17:26:57,260 - INFO - Applying ACE annotation...
+2025-12-11 17:28:39,809 - INFO - ACE annotation complete. Average entities per tweet: 0.26
+2025-12-11 17:28:44,751 - INFO - Preprocessing complete. Final dataset: 143,806 tweets
+2025-12-11 17:28:45,850 - INFO - Checkpoint saved at phase 1
+2025-12-11 17:28:45,851 - INFO - 
+🧠 PHASE 2: Semantic Embedding Generation
+2025-12-11 17:28:45,851 - INFO - ================================================================================
+2025-12-11 17:28:45,851 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-12-11 17:28:45,851 - INFO - ================================================================================
+2025-12-11 17:28:45,851 - INFO - Loading existing embeddings...
+2025-12-11 17:28:46,653 - INFO - Checkpoint saved at phase 2
+2025-12-11 17:28:46,653 - INFO - 
+🎯 PHASE 3: Topic Discovery (20 Named Topics)
+2025-12-11 17:28:46,653 - INFO - ================================================================================
+2025-12-11 17:28:46,654 - INFO - PHASE 3: ENHANCED TOPIC DISCOVERY - 20 NAMED TOPICS
+2025-12-11 17:28:46,654 - INFO - ================================================================================
+2025-12-11 17:28:46,656 - INFO - Use pytorch device_name: cuda:0
+2025-12-11 17:28:46,656 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-11 17:28:47,566 - INFO - Fitting BERTopic model...
+2025-12-11 17:28:47,571 - INFO - Number of documents (texts) being processed: 143806
+2025-12-11 17:28:47,571 - INFO - Shape of the embeddings array: (143806, 384)
+2025-12-11 17:37:26,210 - INFO - Initial topics discovered: 190
+2025-12-11 17:37:26,211 - INFO - Reducing from 190 to 20 topics...
+2025-12-11 17:37:26,216 - ERROR - ❌ Pipeline failed: BERTopic.reduce_topics() got an unexpected keyword argument 'documents'
+2025-12-11 18:03:04,927 - INFO - Using device: cuda
+2025-12-11 18:03:10,486 - INFO - ACE Annotator initialized with NER model
+2025-12-11 18:03:10,490 - INFO - ================================================================================
+2025-12-11 18:03:10,490 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 18:03:10,490 - INFO - ================================================================================
+2025-12-11 18:03:10,490 - INFO - 
+📊 PHASE 1: Data Preprocessing & ACE Annotation
+2025-12-11 18:03:10,490 - INFO - ================================================================================
+2025-12-11 18:03:10,490 - INFO - PHASE 1: ENHANCED DATA PREPROCESSING WITH ACE ANNOTATION
+2025-12-11 18:03:10,490 - INFO - ================================================================================
+2025-12-11 18:03:12,536 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-12-11 18:03:12,536 - INFO - Total tweets loaded: 143,903
+2025-12-11 18:03:12,537 - INFO - Removing duplicates...
+2025-12-11 18:03:12,814 - INFO - Removed 0 exact duplicates
+2025-12-11 18:03:12,814 - INFO - Normalizing text...
+2025-12-11 18:03:14,588 - INFO - Filtering for English tweets...
+2025-12-11 18:03:14,715 - INFO - Retained 143,806 English tweets
+2025-12-11 18:03:14,716 - INFO - Average language confidence: 1.000
+2025-12-11 18:03:14,716 - INFO - Extracting metadata...
+2025-12-11 18:03:16,544 - INFO - Applying ACE annotation...
+2025-12-11 18:04:24,043 - INFO - ACE annotation complete. Average entities per tweet: 0.26
+2025-12-11 18:04:27,604 - INFO - Preprocessing complete. Final dataset: 143,806 tweets
+2025-12-11 18:04:28,889 - INFO - Checkpoint saved at phase 1
+2025-12-11 18:04:28,889 - INFO - 
+🧠 PHASE 2: Semantic Embedding Generation
+2025-12-11 18:04:28,889 - INFO - ================================================================================
+2025-12-11 18:04:28,889 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-12-11 18:04:28,889 - INFO - ================================================================================
+2025-12-11 18:04:28,890 - INFO - Loading existing embeddings...
+2025-12-11 18:04:30,215 - INFO - Checkpoint saved at phase 2
+2025-12-11 18:04:30,215 - INFO - 
+🎯 PHASE 3: Topic Discovery (20 Named Topics)
+2025-12-11 18:04:30,215 - INFO - ================================================================================
+2025-12-11 18:04:30,215 - INFO - PHASE 3: ENHANCED TOPIC DISCOVERY - 20 NAMED TOPICS
+2025-12-11 18:04:30,215 - INFO - ================================================================================
+2025-12-11 18:04:30,218 - INFO - Use pytorch device_name: cuda:0
+2025-12-11 18:04:30,218 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-11 18:04:34,080 - INFO - Fitting BERTopic model...
+2025-12-11 18:04:34,090 - INFO - Number of documents (texts) being processed: 143806
+2025-12-11 18:04:34,090 - INFO - Shape of the embeddings array: (143806, 384)
+2025-12-11 18:11:07,627 - INFO - Initial topics discovered: 190
+2025-12-11 18:11:07,628 - INFO - Reducing from 190 to 20 topics...
+2025-12-11 18:11:07,628 - ERROR - ❌ Pipeline failed: BERTopic.reduce_topics() got an unexpected keyword argument 'topics'
+2025-12-11 18:25:17,310 - INFO - Using device: cuda
+2025-12-11 18:25:18,412 - INFO - ACE Annotator initialized with NER model
+2025-12-11 18:25:18,414 - INFO - ================================================================================
+2025-12-11 18:25:18,414 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 18:25:18,414 - INFO - ================================================================================
+2025-12-11 18:25:18,414 - INFO - 
+📊 PHASE 1: Data Preprocessing & ACE Annotation
+2025-12-11 18:25:18,414 - INFO - ================================================================================
+2025-12-11 18:25:18,415 - INFO - PHASE 1: ENHANCED DATA PREPROCESSING WITH ACE ANNOTATION
+2025-12-11 18:25:18,415 - INFO - ================================================================================
+2025-12-11 18:25:19,026 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-12-11 18:25:19,026 - INFO - Total tweets loaded: 143,903
+2025-12-11 18:25:19,026 - INFO - Removing duplicates...
+2025-12-11 18:25:19,220 - INFO - Removed 0 exact duplicates
+2025-12-11 18:25:19,220 - INFO - Normalizing text...
+2025-12-11 18:25:20,671 - INFO - Filtering for English tweets...
+2025-12-11 18:25:20,766 - INFO - Retained 143,806 English tweets
+2025-12-11 18:25:20,767 - INFO - Average language confidence: 1.000
+2025-12-11 18:25:20,767 - INFO - Extracting metadata...
+2025-12-11 18:25:22,108 - INFO - Applying ACE annotation...
+2025-12-11 18:26:21,770 - INFO - ACE annotation complete. Average entities per tweet: 0.26
+2025-12-11 18:26:24,956 - INFO - Preprocessing complete. Final dataset: 143,806 tweets
+2025-12-11 18:26:25,921 - INFO - Checkpoint saved at phase 1
+2025-12-11 18:26:25,921 - INFO - 
+🧠 PHASE 2: Semantic Embedding Generation
+2025-12-11 18:26:25,922 - INFO - ================================================================================
+2025-12-11 18:26:25,922 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-12-11 18:26:25,922 - INFO - ================================================================================
+2025-12-11 18:26:25,922 - INFO - Loading existing embeddings...
+2025-12-11 18:26:27,122 - INFO - Checkpoint saved at phase 2
+2025-12-11 18:26:27,122 - INFO - 
+🎯 PHASE 3: Topic Discovery (20 Named Topics)
+2025-12-11 18:26:27,123 - INFO - ================================================================================
+2025-12-11 18:26:27,123 - INFO - PHASE 3: ENHANCED TOPIC DISCOVERY - 20 NAMED TOPICS
+2025-12-11 18:26:27,123 - INFO - ================================================================================
+2025-12-11 18:26:27,125 - INFO - Use pytorch device_name: cuda:0
+2025-12-11 18:26:27,125 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-11 18:26:28,084 - INFO - Fitting BERTopic model...
+2025-12-11 18:26:28,087 - INFO - Number of documents (texts) being processed: 143806
+2025-12-11 18:26:28,087 - INFO - Shape of the embeddings array: (143806, 384)
+2025-12-11 18:33:14,735 - INFO - Initial topics discovered: 190
+2025-12-11 18:33:14,736 - INFO - Reducing from 190 to 20 topics...
+2025-12-11 18:33:14,740 - ERROR - ❌ Pipeline failed: BERTopic.reduce_topics() got multiple values for argument 'nr_topics'
+2025-12-11 18:48:54,907 - INFO - Using device: cuda
+2025-12-11 18:48:55,626 - INFO - ACE Annotator initialized with NER model
+2025-12-11 18:48:55,629 - INFO - ================================================================================
+2025-12-11 18:48:55,629 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 18:48:55,629 - INFO - ================================================================================
+2025-12-11 18:48:55,629 - INFO - 
+📊 PHASE 1: Data Preprocessing & ACE Annotation
+2025-12-11 18:48:55,629 - INFO - ================================================================================
+2025-12-11 18:48:55,629 - INFO - PHASE 1: ENHANCED DATA PREPROCESSING WITH ACE ANNOTATION
+2025-12-11 18:48:55,629 - INFO - ================================================================================
+2025-12-11 18:48:56,237 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-12-11 18:48:56,238 - INFO - Total tweets loaded: 143,903
+2025-12-11 18:48:56,238 - INFO - Removing duplicates...
+2025-12-11 18:48:56,430 - INFO - Removed 0 exact duplicates
+2025-12-11 18:48:56,430 - INFO - Normalizing text...
+2025-12-11 18:48:57,915 - INFO - Filtering for English tweets...
+2025-12-11 18:48:58,010 - INFO - Retained 143,806 English tweets
+2025-12-11 18:48:58,011 - INFO - Average language confidence: 1.000
+2025-12-11 18:48:58,011 - INFO - Extracting metadata...
+2025-12-11 18:48:59,375 - INFO - Applying ACE annotation...
+2025-12-11 18:50:00,095 - INFO - ACE annotation complete. Average entities per tweet: 0.26
+2025-12-11 18:50:03,342 - INFO - Preprocessing complete. Final dataset: 143,806 tweets
+2025-12-11 18:50:04,401 - INFO - Checkpoint saved at phase 1
+2025-12-11 18:50:04,401 - INFO - 
+🧠 PHASE 2: Semantic Embedding Generation
+2025-12-11 18:50:04,401 - INFO - ================================================================================
+2025-12-11 18:50:04,401 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-12-11 18:50:04,401 - INFO - ================================================================================
+2025-12-11 18:50:04,402 - INFO - Loading existing embeddings...
+2025-12-11 18:50:05,099 - INFO - Checkpoint saved at phase 2
+2025-12-11 18:50:05,099 - INFO - 
+🎯 PHASE 3: Topic Discovery (20 Named Topics)
+2025-12-11 18:50:05,099 - INFO - ================================================================================
+2025-12-11 18:50:05,099 - INFO - PHASE 3: ENHANCED TOPIC DISCOVERY - 20 NAMED TOPICS
+2025-12-11 18:50:05,099 - INFO - ================================================================================
+2025-12-11 18:50:05,101 - INFO - Use pytorch device_name: cuda:0
+2025-12-11 18:50:05,102 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-11 18:50:06,561 - INFO - Fitting BERTopic model...
+2025-12-11 18:50:06,564 - INFO - Number of documents (texts) being processed: 143806
+2025-12-11 18:50:06,564 - INFO - Shape of the embeddings array: (143806, 384)
+2025-12-11 18:56:51,941 - INFO - Initial topics discovered: 190
+2025-12-11 18:56:51,942 - INFO - Reducing from 190 to 20 topics...
+2025-12-11 18:56:51,946 - ERROR - ❌ Pipeline failed: BERTopic.reduce_topics() got an unexpected keyword argument 'topics'
+2025-12-11 19:07:27,286 - INFO - Using device: cuda
+2025-12-11 19:07:28,483 - INFO - ACE Annotator initialized with NER model
+2025-12-11 19:07:28,487 - INFO - ================================================================================
+2025-12-11 19:07:28,488 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 19:07:28,488 - INFO - ================================================================================
+2025-12-11 19:07:28,488 - INFO - 
+📊 PHASE 1: Data Preprocessing & ACE Annotation
+2025-12-11 19:07:28,488 - INFO - ================================================================================
+2025-12-11 19:07:28,488 - INFO - PHASE 1: ENHANCED DATA PREPROCESSING WITH ACE ANNOTATION
+2025-12-11 19:07:28,488 - INFO - ================================================================================
+2025-12-11 19:07:29,101 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-12-11 19:07:29,101 - INFO - Total tweets loaded: 143,903
+2025-12-11 19:07:29,101 - INFO - Removing duplicates...
+2025-12-11 19:07:29,282 - INFO - Removed 0 exact duplicates
+2025-12-11 19:07:29,283 - INFO - Normalizing text...
+2025-12-11 19:07:30,720 - INFO - Filtering for English tweets...
+2025-12-11 19:07:30,807 - INFO - Retained 143,806 English tweets
+2025-12-11 19:07:30,808 - INFO - Average language confidence: 1.000
+2025-12-11 19:07:30,808 - INFO - Extracting metadata...
+2025-12-11 19:07:32,162 - INFO - Applying ACE annotation...
+2025-12-11 19:08:32,626 - INFO - ACE annotation complete. Average entities per tweet: 0.26
+2025-12-11 19:08:35,978 - INFO - Preprocessing complete. Final dataset: 143,806 tweets
+2025-12-11 19:08:36,937 - INFO - Checkpoint saved at phase 1
+2025-12-11 19:08:36,937 - INFO - 
+🧠 PHASE 2: Semantic Embedding Generation
+2025-12-11 19:08:36,937 - INFO - ================================================================================
+2025-12-11 19:08:36,937 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-12-11 19:08:36,937 - INFO - ================================================================================
+2025-12-11 19:08:36,938 - INFO - Loading existing embeddings...
+2025-12-11 19:08:37,608 - INFO - Checkpoint saved at phase 2
+2025-12-11 19:08:37,608 - INFO - 
+🎯 PHASE 3: Topic Discovery (20 Named Topics)
+2025-12-11 19:08:37,608 - INFO - ================================================================================
+2025-12-11 19:08:37,608 - INFO - PHASE 3: ENHANCED TOPIC DISCOVERY - 20 NAMED TOPICS
+2025-12-11 19:08:37,608 - INFO - ================================================================================
+2025-12-11 19:08:37,610 - INFO - Use pytorch device_name: cuda:0
+2025-12-11 19:08:37,610 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-11 19:08:39,068 - INFO - Fitting BERTopic model...
+2025-12-11 19:08:39,072 - INFO - Number of documents (texts) being processed: 143806
+2025-12-11 19:08:39,072 - INFO - Shape of the embeddings array: (143806, 384)
+2025-12-11 19:15:22,358 - INFO - Initial topics discovered: 190
+2025-12-11 19:15:22,358 - INFO - Reducing from 190 to 20 topics...
+2025-12-11 19:15:24,771 - INFO - Reassigning 63889 outlier tweets to nearest topics...
+2025-12-11 19:16:36,674 - INFO - Outliers reassigned. New outlier count: 0
+2025-12-11 19:16:36,697 - INFO - Generating human-readable topic names...
+2025-12-11 19:16:36,702 - INFO - Characterizing topics with confidence scores...
+2025-12-11 19:16:37,107 - INFO - Calculating topic quality metrics...
+2025-12-11 19:16:52,494 - INFO - Final topic count: 19
+2025-12-11 19:16:52,495 - INFO - Average topic confidence: 0.304
+2025-12-11 19:16:56,001 - INFO - Checkpoint saved at phase 3
+2025-12-11 19:16:56,002 - INFO - 
+😊 PHASE 4: Ensemble Affective Analysis
+2025-12-11 19:16:56,002 - INFO - ================================================================================
+2025-12-11 19:16:56,002 - INFO - PHASE 4: ENHANCED AFFECTIVE ANALYSIS (ENSEMBLE)
+2025-12-11 19:16:56,002 - INFO - ================================================================================
+2025-12-11 19:16:56,002 - INFO - Performing ensemble sentiment analysis...
+2025-12-11 19:16:56,003 - WARNING - RoBERTa sentiment failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 19:17:09,512 - WARNING - DistilBERT sentiment failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 19:17:21,267 - INFO - Performing ensemble emotion analysis...
+2025-12-11 19:17:21,267 - WARNING - Primary emotion model failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 19:17:21,349 - WARNING - GoEmotions model failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 19:17:21,530 - INFO - Sentiment distribution: {'neutral': 0.823407924565039, 'positive': 0.09192245107992712, 'negative': 0.08466962435503386}
+2025-12-11 19:17:21,530 - INFO - Average sentiment confidence: 0.311
+2025-12-11 19:17:21,534 - INFO - Emotion distribution: {'neutral': 1.0}
+2025-12-11 19:17:21,535 - INFO - Average emotion confidence: 0.500
+2025-12-11 19:17:25,838 - INFO - Checkpoint saved at phase 4
+2025-12-11 19:17:25,839 - INFO - 
+🔍 PHASE 5: Multi-Scale Anomaly Detection
+2025-12-11 19:17:25,839 - INFO - ================================================================================
+2025-12-11 19:17:25,839 - INFO - PHASE 5: ENHANCED MULTI-SCALE ANOMALY DETECTION
+2025-12-11 19:17:25,839 - INFO - ================================================================================
+2025-12-11 19:17:25,839 - INFO - Method 1: Isolation Forest on embeddings...
+2025-12-11 19:17:31,850 - INFO - Method 2: Local Outlier Factor...
+2025-12-11 19:18:22,354 - INFO - Method 3: Statistical anomalies...
+2025-12-11 19:18:22,653 - INFO - Detected 14,381 anomalies (10.00%)
+2025-12-11 19:18:22,653 - INFO - Average anomaly confidence: 0.260
+2025-12-11 19:18:25,911 - INFO - Checkpoint saved at phase 5
+2025-12-11 19:18:25,912 - INFO - 
+🤖 PHASE 6: Ensemble Bot Detection
+2025-12-11 19:18:25,912 - INFO - ================================================================================
+2025-12-11 19:18:25,912 - INFO - PHASE 6: ENHANCED BOT DETECTION (ENSEMBLE)
+2025-12-11 19:18:25,912 - INFO - ================================================================================
+2025-12-11 19:18:25,912 - INFO - Calculating bot detection features...
+2025-12-11 19:18:43,769 - INFO - Identified 10 potential bot accounts
+2025-12-11 19:18:43,769 - INFO - Bot tweets: 47 (0.03%)
+2025-12-11 19:18:43,769 - INFO - Average bot detection confidence: 0.405
+2025-12-11 19:18:47,817 - INFO - Checkpoint saved at phase 6
+2025-12-11 19:18:47,818 - INFO - 
+📈 PHASE 7: Statistical Validation
+2025-12-11 19:18:47,818 - INFO - ================================================================================
+2025-12-11 19:18:47,818 - INFO - PHASE 7: STATISTICAL VALIDATION AND SIGNIFICANCE TESTING
+2025-12-11 19:18:47,818 - INFO - ================================================================================
+2025-12-11 19:18:47,818 - INFO - Performing Mann-Kendall trend analysis...
+2025-12-11 19:18:47,879 - INFO - Detecting changepoints...
+2025-12-11 19:18:47,974 - INFO - Validating topic coherence...
+2025-12-11 19:18:48,529 - INFO - Validating sentiment distribution...
+2025-12-11 19:18:52,288 - INFO - Checkpoint saved at phase 7
+2025-12-11 19:18:52,289 - INFO - 
+📊 PHASE 8: Enhanced Visualizations
+2025-12-11 19:18:52,289 - INFO - ================================================================================
+2025-12-11 19:18:52,289 - INFO - PHASE 8: ENHANCED VISUALIZATIONS WITH CONFIDENCE TRACKING
+2025-12-11 19:18:52,289 - INFO - ================================================================================
+2025-12-11 19:18:52,289 - INFO - Creating enhanced temporal visualizations...
+2025-12-11 19:18:54,178 - INFO - Creating enhanced topic visualizations...
+2025-12-11 19:18:54,992 - INFO - Creating topic word clouds...
+2025-12-11 19:19:02,461 - INFO - Creating enhanced affective visualizations...
+2025-12-11 19:19:03,536 - INFO - Creating enhanced anomaly visualizations...
+2025-12-11 19:19:04,680 - INFO - Creating UMAP projections...
+2025-12-11 19:19:26,639 - INFO - Creating bot detection visualizations...
+2025-12-11 19:19:27,610 - INFO - Creating confidence score dashboard...
+2025-12-11 19:19:28,600 - INFO - Confidence dashboard created successfully
+2025-12-11 19:19:28,600 - INFO - Creating enhanced interactive timeline...
+2025-12-11 19:19:31,084 - INFO - Interactive timeline saved
+2025-12-11 19:19:31,084 - INFO - Creating enhanced topic network...
+2025-12-11 19:19:31,442 - INFO - Topic network saved
+2025-12-11 19:19:31,442 - INFO - Creating sentiment-topic heatmap...
+2025-12-11 19:19:31,637 - INFO - Sentiment-topic heatmap saved
+2025-12-11 19:19:31,637 - INFO - All visualizations saved to outputs/visualizations/
+2025-12-11 19:19:31,638 - INFO - 
+📝 PHASE 9: Comprehensive Reports
+2025-12-11 19:19:31,638 - INFO - ================================================================================
+2025-12-11 19:19:31,638 - INFO - PHASE 9: COMPREHENSIVE REPORT GENERATION
+2025-12-11 19:19:31,638 - INFO - ================================================================================
+2025-12-11 19:19:31,638 - INFO - Saving annotated dataset...
+2025-12-11 19:19:38,353 - ERROR - ❌ Pipeline failed: cannot convert the series to <class 'int'>
+2025-12-11 20:40:46,145 - INFO - Using device: cuda
+2025-12-11 20:40:52,955 - INFO - ACE Annotator initialized with NER model
+2025-12-11 20:40:52,960 - INFO - ================================================================================
+2025-12-11 20:40:52,960 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 20:40:52,960 - INFO - ================================================================================
+2025-12-11 20:40:52,960 - INFO - 
+📊 PHASE 1: Data Preprocessing & ACE Annotation
+2025-12-11 20:40:52,960 - INFO - ================================================================================
+2025-12-11 20:40:52,960 - INFO - PHASE 1: ENHANCED DATA PREPROCESSING WITH ACE ANNOTATION
+2025-12-11 20:40:52,960 - INFO - ================================================================================
+2025-12-11 20:40:53,441 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-12-11 20:40:53,442 - INFO - Total tweets loaded: 143,903
+2025-12-11 20:40:53,442 - INFO - Removing duplicates...
+2025-12-11 20:40:53,624 - INFO - Removed 0 exact duplicates
+2025-12-11 20:40:53,624 - INFO - Normalizing text...
+2025-12-11 20:40:55,068 - INFO - Filtering for English tweets...
+2025-12-11 20:40:55,153 - INFO - Retained 143,806 English tweets
+2025-12-11 20:40:55,153 - INFO - Average language confidence: 1.000
+2025-12-11 20:40:55,153 - INFO - Extracting metadata...
+2025-12-11 20:40:56,359 - INFO - Applying ACE annotation...
+2025-12-11 20:41:52,961 - INFO - ACE annotation complete. Average entities per tweet: 0.26
+2025-12-11 20:41:55,971 - INFO - Preprocessing complete. Final dataset: 143,806 tweets
+2025-12-11 20:41:56,835 - INFO - Checkpoint saved at phase 1
+2025-12-11 20:41:56,835 - INFO - 
+🧠 PHASE 2: Semantic Embedding Generation
+2025-12-11 20:41:56,835 - INFO - ================================================================================
+2025-12-11 20:41:56,835 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-12-11 20:41:56,835 - INFO - ================================================================================
+2025-12-11 20:41:56,836 - INFO - Loading existing embeddings...
+2025-12-11 20:41:57,830 - INFO - Checkpoint saved at phase 2
+2025-12-11 20:41:57,830 - INFO - 
+🎯 PHASE 3: Topic Discovery (20 Named Topics)
+2025-12-11 20:41:57,830 - INFO - ================================================================================
+2025-12-11 20:41:57,830 - INFO - PHASE 3: ENHANCED TOPIC DISCOVERY - 20 NAMED TOPICS
+2025-12-11 20:41:57,830 - INFO - ================================================================================
+2025-12-11 20:41:57,833 - INFO - Use pytorch device_name: cuda:0
+2025-12-11 20:41:57,833 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-11 20:42:01,005 - INFO - Fitting BERTopic model...
+2025-12-11 20:42:01,008 - INFO - Number of documents (texts) being processed: 143806
+2025-12-11 20:42:01,008 - INFO - Shape of the embeddings array: (143806, 384)
+2025-12-11 20:48:05,000 - INFO - Initial topics discovered: 190
+2025-12-11 20:48:05,001 - INFO - Reducing from 190 to 20 topics...
+2025-12-11 20:48:06,972 - INFO - Reassigning 63889 outlier tweets to nearest topics...
+2025-12-11 20:49:17,492 - INFO - Outliers reassigned. New outlier count: 0
+2025-12-11 20:49:17,513 - INFO - Generating human-readable topic names...
+2025-12-11 20:49:17,517 - INFO - Characterizing topics with confidence scores...
+2025-12-11 20:49:17,799 - INFO - Calculating topic quality metrics...
+2025-12-11 20:49:30,400 - INFO - Final topic count: 19
+2025-12-11 20:49:30,400 - INFO - Average topic confidence: 0.304
+2025-12-11 20:49:33,109 - INFO - Checkpoint saved at phase 3
+2025-12-11 20:49:33,109 - INFO - 
+😊 PHASE 4: Ensemble Affective Analysis
+2025-12-11 20:49:33,109 - INFO - ================================================================================
+2025-12-11 20:49:33,109 - INFO - PHASE 4: ENHANCED AFFECTIVE ANALYSIS (ENSEMBLE)
+2025-12-11 20:49:33,109 - INFO - ================================================================================
+2025-12-11 20:49:33,110 - INFO - Performing ensemble sentiment analysis...
+2025-12-11 20:49:33,110 - WARNING - RoBERTa sentiment failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 20:49:46,603 - WARNING - DistilBERT sentiment failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 20:49:57,581 - INFO - Performing ensemble emotion analysis...
+2025-12-11 20:49:57,582 - WARNING - Primary emotion model failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 20:49:57,657 - WARNING - GoEmotions model failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 20:49:57,814 - INFO - Sentiment distribution: {'neutral': 0.823407924565039, 'positive': 0.09192245107992712, 'negative': 0.08466962435503386}
+2025-12-11 20:49:57,815 - INFO - Average sentiment confidence: 0.311
+2025-12-11 20:49:57,819 - INFO - Emotion distribution: {'neutral': 1.0}
+2025-12-11 20:49:57,819 - INFO - Average emotion confidence: 0.500
+2025-12-11 20:50:00,635 - INFO - Checkpoint saved at phase 4
+2025-12-11 20:50:00,635 - INFO - 
+🔍 PHASE 5: Multi-Scale Anomaly Detection
+2025-12-11 20:50:00,635 - INFO - ================================================================================
+2025-12-11 20:50:00,635 - INFO - PHASE 5: ENHANCED MULTI-SCALE ANOMALY DETECTION
+2025-12-11 20:50:00,635 - INFO - ================================================================================
+2025-12-11 20:50:00,635 - INFO - Method 1: Isolation Forest on embeddings...
+2025-12-11 20:50:03,908 - INFO - Method 2: Local Outlier Factor...
+2025-12-11 20:50:37,277 - INFO - Method 3: Statistical anomalies...
+2025-12-11 20:50:37,484 - INFO - Detected 14,381 anomalies (10.00%)
+2025-12-11 20:50:37,484 - INFO - Average anomaly confidence: 0.260
+2025-12-11 20:50:40,360 - INFO - Checkpoint saved at phase 5
+2025-12-11 20:50:40,360 - INFO - 
+🤖 PHASE 6: Ensemble Bot Detection
+2025-12-11 20:50:40,360 - INFO - ================================================================================
+2025-12-11 20:50:40,360 - INFO - PHASE 6: ENHANCED BOT DETECTION (ENSEMBLE)
+2025-12-11 20:50:40,360 - INFO - ================================================================================
+2025-12-11 20:50:40,360 - INFO - Calculating bot detection features...
+2025-12-11 20:50:57,389 - INFO - Identified 10 potential bot accounts
+2025-12-11 20:50:57,390 - INFO - Bot tweets: 47 (0.03%)
+2025-12-11 20:50:57,390 - INFO - Average bot detection confidence: 0.405
+2025-12-11 20:51:00,175 - INFO - Checkpoint saved at phase 6
+2025-12-11 20:51:00,176 - INFO - 
+📈 PHASE 7: Statistical Validation
+2025-12-11 20:51:00,176 - INFO - ================================================================================
+2025-12-11 20:51:00,176 - INFO - PHASE 7: STATISTICAL VALIDATION AND SIGNIFICANCE TESTING
+2025-12-11 20:51:00,176 - INFO - ================================================================================
+2025-12-11 20:51:00,176 - INFO - Performing Mann-Kendall trend analysis...
+2025-12-11 20:51:00,193 - INFO - Detecting changepoints...
+2025-12-11 20:51:00,264 - INFO - Validating topic coherence...
+2025-12-11 20:51:00,795 - INFO - Validating sentiment distribution...
+2025-12-11 20:51:03,526 - INFO - Checkpoint saved at phase 7
+2025-12-11 20:51:03,527 - INFO - 
+📊 PHASE 8: Enhanced Visualizations
+2025-12-11 20:51:03,527 - INFO - ================================================================================
+2025-12-11 20:51:03,527 - INFO - PHASE 8: ENHANCED VISUALIZATIONS WITH CONFIDENCE TRACKING
+2025-12-11 20:51:03,527 - INFO - ================================================================================
+2025-12-11 20:51:03,527 - INFO - Creating enhanced temporal visualizations...
+2025-12-11 20:51:05,326 - INFO - Creating enhanced topic visualizations...
+2025-12-11 20:51:06,078 - INFO - Creating topic word clouds...
+2025-12-11 20:51:12,518 - INFO - Creating enhanced affective visualizations...
+2025-12-11 20:51:13,493 - INFO - Creating enhanced anomaly visualizations...
+2025-12-11 20:51:14,559 - INFO - Creating UMAP projections...
+2025-12-11 20:51:35,459 - INFO - Creating bot detection visualizations...
+2025-12-11 20:51:36,359 - INFO - Creating confidence score dashboard...
+2025-12-11 20:51:37,269 - INFO - Confidence dashboard created successfully
+2025-12-11 20:51:37,269 - INFO - Creating enhanced interactive timeline...
+2025-12-11 20:51:39,319 - INFO - Interactive timeline saved
+2025-12-11 20:51:39,320 - INFO - Creating enhanced topic network...
+2025-12-11 20:51:39,619 - INFO - Topic network saved
+2025-12-11 20:51:39,619 - INFO - Creating sentiment-topic heatmap...
+2025-12-11 20:51:39,772 - INFO - Sentiment-topic heatmap saved
+2025-12-11 20:51:39,772 - INFO - All visualizations saved to outputs/visualizations/
+2025-12-11 20:51:39,772 - INFO - 
+📝 PHASE 9: Comprehensive Reports
+2025-12-11 20:51:39,772 - INFO - ================================================================================
+2025-12-11 20:51:39,772 - INFO - PHASE 9: COMPREHENSIVE REPORT GENERATION
+2025-12-11 20:51:39,772 - INFO - ================================================================================
+2025-12-11 20:51:39,772 - INFO - Saving annotated dataset...
+2025-12-11 20:51:45,216 - ERROR - ❌ Pipeline failed: cannot convert the series to <class 'int'>
+2025-12-11 20:54:32,447 - INFO - Using device: cuda
+2025-12-11 20:54:39,636 - INFO - ACE Annotator initialized with NER model
+2025-12-11 20:54:39,640 - INFO - ================================================================================
+2025-12-11 20:54:39,640 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 20:54:39,640 - INFO - ================================================================================
+2025-12-11 20:54:39,641 - INFO - 
+📊 PHASE 1: Data Preprocessing & ACE Annotation
+2025-12-11 20:54:39,641 - INFO - ================================================================================
+2025-12-11 20:54:39,641 - INFO - PHASE 1: ENHANCED DATA PREPROCESSING WITH ACE ANNOTATION
+2025-12-11 20:54:39,641 - INFO - ================================================================================
+2025-12-11 20:54:41,369 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-12-11 20:54:41,369 - INFO - Total tweets loaded: 143,903
+2025-12-11 20:54:41,369 - INFO - Removing duplicates...
+2025-12-11 20:54:41,642 - INFO - Removed 0 exact duplicates
+2025-12-11 20:54:41,642 - INFO - Normalizing text...
+2025-12-11 20:54:43,797 - INFO - Filtering for English tweets...
+2025-12-11 20:54:43,915 - INFO - Retained 143,806 English tweets
+2025-12-11 20:54:43,916 - INFO - Average language confidence: 1.000
+2025-12-11 20:54:43,916 - INFO - Extracting metadata...
+2025-12-11 20:54:45,658 - INFO - Applying ACE annotation...
+2025-12-11 20:56:15,677 - INFO - ACE annotation complete. Average entities per tweet: 0.26
+2025-12-11 20:56:20,198 - INFO - Preprocessing complete. Final dataset: 143,806 tweets
+2025-12-11 20:56:21,253 - INFO - Checkpoint saved at phase 1
+2025-12-11 20:56:21,253 - INFO - 
+🧠 PHASE 2: Semantic Embedding Generation
+2025-12-11 20:56:21,253 - INFO - ================================================================================
+2025-12-11 20:56:21,253 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-12-11 20:56:21,253 - INFO - ================================================================================
+2025-12-11 20:56:21,253 - INFO - Loading existing embeddings...
+2025-12-11 20:56:22,574 - INFO - Checkpoint saved at phase 2
+2025-12-11 20:56:22,574 - INFO - 
+🎯 PHASE 3: Topic Discovery (20 Named Topics)
+2025-12-11 20:56:22,574 - INFO - ================================================================================
+2025-12-11 20:56:22,574 - INFO - PHASE 3: ENHANCED TOPIC DISCOVERY - 20 NAMED TOPICS
+2025-12-11 20:56:22,574 - INFO - ================================================================================
+2025-12-11 20:56:22,577 - INFO - Use pytorch device_name: cuda:0
+2025-12-11 20:56:22,577 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-11 20:56:29,307 - INFO - Fitting BERTopic model...
+2025-12-11 20:56:29,312 - INFO - Number of documents (texts) being processed: 143806
+2025-12-11 20:56:29,313 - INFO - Shape of the embeddings array: (143806, 384)
+2025-12-11 21:03:39,989 - INFO - Initial topics discovered: 190
+2025-12-11 21:03:39,990 - INFO - Reducing from 190 to 20 topics...
+2025-12-11 21:03:42,831 - INFO - Reassigning 63889 outlier tweets to nearest topics...
+2025-12-11 21:05:05,780 - INFO - Outliers reassigned. New outlier count: 0
+2025-12-11 21:05:05,805 - INFO - Generating human-readable topic names...
+2025-12-11 21:05:05,810 - INFO - Characterizing topics with confidence scores...
+2025-12-11 21:05:06,188 - INFO - Calculating topic quality metrics...
+2025-12-11 21:05:22,782 - INFO - Final topic count: 19
+2025-12-11 21:05:22,782 - INFO - Average topic confidence: 0.304
+2025-12-11 21:05:25,972 - INFO - Checkpoint saved at phase 3
+2025-12-11 21:05:25,973 - INFO - 
+😊 PHASE 4: Ensemble Affective Analysis
+2025-12-11 21:05:25,973 - INFO - ================================================================================
+2025-12-11 21:05:25,973 - INFO - PHASE 4: ENHANCED AFFECTIVE ANALYSIS (ENSEMBLE)
+2025-12-11 21:05:25,973 - INFO - ================================================================================
+2025-12-11 21:05:25,973 - INFO - Performing ensemble sentiment analysis...
+2025-12-11 21:05:25,973 - WARNING - RoBERTa sentiment failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 21:05:45,088 - WARNING - DistilBERT sentiment failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 21:05:58,975 - INFO - Performing ensemble emotion analysis...
+2025-12-11 21:05:58,975 - WARNING - Primary emotion model failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 21:05:59,100 - WARNING - GoEmotions model failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 21:05:59,286 - INFO - Sentiment distribution: {'neutral': 0.823407924565039, 'positive': 0.09192245107992712, 'negative': 0.08466962435503386}
+2025-12-11 21:05:59,286 - INFO - Average sentiment confidence: 0.311
+2025-12-11 21:05:59,291 - INFO - Emotion distribution: {'neutral': 1.0}
+2025-12-11 21:05:59,292 - INFO - Average emotion confidence: 0.500
+2025-12-11 21:06:02,834 - INFO - Checkpoint saved at phase 4
+2025-12-11 21:06:02,835 - INFO - 
+🔍 PHASE 5: Multi-Scale Anomaly Detection
+2025-12-11 21:06:02,835 - INFO - ================================================================================
+2025-12-11 21:06:02,835 - INFO - PHASE 5: ENHANCED MULTI-SCALE ANOMALY DETECTION
+2025-12-11 21:06:02,835 - INFO - ================================================================================
+2025-12-11 21:06:02,835 - INFO - Method 1: Isolation Forest on embeddings...
+2025-12-11 21:06:07,188 - INFO - Method 2: Local Outlier Factor...
+2025-12-11 21:06:46,924 - INFO - Method 3: Statistical anomalies...
+2025-12-11 21:06:47,273 - INFO - Detected 14,381 anomalies (10.00%)
+2025-12-11 21:06:47,274 - INFO - Average anomaly confidence: 0.260
+2025-12-11 21:06:50,602 - INFO - Checkpoint saved at phase 5
+2025-12-11 21:06:50,603 - INFO - 
+🤖 PHASE 6: Ensemble Bot Detection
+2025-12-11 21:06:50,603 - INFO - ================================================================================
+2025-12-11 21:06:50,603 - INFO - PHASE 6: ENHANCED BOT DETECTION (ENSEMBLE)
+2025-12-11 21:06:50,603 - INFO - ================================================================================
+2025-12-11 21:06:50,603 - INFO - Calculating bot detection features...
+2025-12-11 21:07:14,810 - INFO - Identified 10 potential bot accounts
+2025-12-11 21:07:14,811 - INFO - Bot tweets: 47 (0.03%)
+2025-12-11 21:07:14,811 - INFO - Average bot detection confidence: 0.405
+2025-12-11 21:07:18,089 - INFO - Checkpoint saved at phase 6
+2025-12-11 21:07:18,089 - INFO - 
+📈 PHASE 7: Statistical Validation
+2025-12-11 21:07:18,089 - INFO - ================================================================================
+2025-12-11 21:07:18,090 - INFO - PHASE 7: STATISTICAL VALIDATION AND SIGNIFICANCE TESTING
+2025-12-11 21:07:18,090 - INFO - ================================================================================
+2025-12-11 21:07:18,090 - INFO - Performing Mann-Kendall trend analysis...
+2025-12-11 21:07:18,135 - INFO - Detecting changepoints...
+2025-12-11 21:07:18,254 - INFO - Validating topic coherence...
+2025-12-11 21:07:19,127 - INFO - Validating sentiment distribution...
+2025-12-11 21:07:22,381 - INFO - Checkpoint saved at phase 7
+2025-12-11 21:07:22,381 - INFO - 
+📊 PHASE 8: Enhanced Visualizations
+2025-12-11 21:07:22,382 - INFO - ================================================================================
+2025-12-11 21:07:22,382 - INFO - PHASE 8: ENHANCED VISUALIZATIONS WITH CONFIDENCE TRACKING
+2025-12-11 21:07:22,382 - INFO - ================================================================================
+2025-12-11 21:07:22,382 - INFO - Creating enhanced temporal visualizations...
+2025-12-11 21:07:24,546 - INFO - Creating enhanced topic visualizations...
+2025-12-11 21:07:25,623 - INFO - Creating topic word clouds...
+2025-12-11 21:07:34,665 - INFO - Creating enhanced affective visualizations...
+2025-12-11 21:07:36,074 - INFO - Creating enhanced anomaly visualizations...
+2025-12-11 21:07:37,677 - INFO - Creating UMAP projections...
+2025-12-11 21:08:05,022 - INFO - Creating bot detection visualizations...
+2025-12-11 21:08:06,316 - INFO - Creating confidence score dashboard...
+2025-12-11 21:08:07,612 - INFO - Confidence dashboard created successfully
+2025-12-11 21:08:07,613 - INFO - Creating enhanced interactive timeline...
+2025-12-11 21:08:10,029 - INFO - Interactive timeline saved
+2025-12-11 21:08:10,029 - INFO - Creating enhanced topic network...
+2025-12-11 21:08:10,431 - INFO - Topic network saved
+2025-12-11 21:08:10,431 - INFO - Creating sentiment-topic heatmap...
+2025-12-11 21:08:10,651 - INFO - Sentiment-topic heatmap saved
+2025-12-11 21:08:10,651 - INFO - All visualizations saved to outputs/visualizations/
+2025-12-11 21:08:10,651 - INFO - 
+📝 PHASE 9: Comprehensive Reports
+2025-12-11 21:08:10,651 - INFO - ================================================================================
+2025-12-11 21:08:10,651 - INFO - PHASE 9: COMPREHENSIVE REPORT GENERATION
+2025-12-11 21:08:10,651 - INFO - ================================================================================
+2025-12-11 21:08:10,651 - INFO - Saving annotated dataset...
+2025-12-11 21:08:18,156 - ERROR - ❌ Pipeline failed: cannot convert the series to <class 'int'>
+2025-12-11 21:17:53,866 - INFO - Using device: cuda
+2025-12-11 21:17:54,789 - INFO - ACE Annotator initialized with NER model
+2025-12-11 21:17:54,792 - INFO - ================================================================================
+2025-12-11 21:17:54,792 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 21:17:54,792 - INFO - ================================================================================
+2025-12-11 21:17:54,792 - INFO - 
+📊 PHASE 1: Data Preprocessing & ACE Annotation
+2025-12-11 21:17:54,792 - INFO - ================================================================================
+2025-12-11 21:17:54,792 - INFO - PHASE 1: ENHANCED DATA PREPROCESSING WITH ACE ANNOTATION
+2025-12-11 21:17:54,792 - INFO - ================================================================================
+2025-12-11 21:17:55,518 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-12-11 21:17:55,518 - INFO - Total tweets loaded: 143,903
+2025-12-11 21:17:55,518 - INFO - Removing duplicates...
+2025-12-11 21:17:55,769 - INFO - Removed 0 exact duplicates
+2025-12-11 21:17:55,769 - INFO - Normalizing text...
+2025-12-11 21:17:57,893 - INFO - Filtering for English tweets...
+2025-12-11 21:17:58,009 - INFO - Retained 143,806 English tweets
+2025-12-11 21:17:58,010 - INFO - Average language confidence: 1.000
+2025-12-11 21:17:58,010 - INFO - Extracting metadata...
+2025-12-11 21:17:59,699 - INFO - Applying ACE annotation...
+2025-12-11 21:19:28,035 - INFO - ACE annotation complete. Average entities per tweet: 0.26
+2025-12-11 21:19:32,362 - INFO - Preprocessing complete. Final dataset: 143,806 tweets
+2025-12-11 21:19:33,493 - INFO - Checkpoint saved at phase 1
+2025-12-11 21:19:33,494 - INFO - 
+🧠 PHASE 2: Semantic Embedding Generation
+2025-12-11 21:19:33,494 - INFO - ================================================================================
+2025-12-11 21:19:33,494 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-12-11 21:19:33,494 - INFO - ================================================================================
+2025-12-11 21:19:33,494 - INFO - Loading existing embeddings...
+2025-12-11 21:19:34,231 - INFO - Checkpoint saved at phase 2
+2025-12-11 21:19:34,231 - INFO - 
+🎯 PHASE 3: Topic Discovery (20 Named Topics)
+2025-12-11 21:19:34,231 - INFO - ================================================================================
+2025-12-11 21:19:34,231 - INFO - PHASE 3: ENHANCED TOPIC DISCOVERY - 20 NAMED TOPICS
+2025-12-11 21:19:34,231 - INFO - ================================================================================
+2025-12-11 21:19:34,234 - INFO - Use pytorch device_name: cuda:0
+2025-12-11 21:19:34,234 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-11 21:19:35,152 - INFO - Fitting BERTopic model...
+2025-12-11 21:19:35,157 - INFO - Number of documents (texts) being processed: 143806
+2025-12-11 21:19:35,157 - INFO - Shape of the embeddings array: (143806, 384)
+2025-12-11 21:26:45,362 - INFO - Initial topics discovered: 190
+2025-12-11 21:26:45,363 - INFO - Reducing from 190 to 20 topics...
+2025-12-11 21:26:48,203 - INFO - Reassigning 63889 outlier tweets to nearest topics...
+2025-12-11 21:28:11,404 - INFO - Outliers reassigned. New outlier count: 0
+2025-12-11 21:28:11,429 - INFO - Generating human-readable topic names...
+2025-12-11 21:28:11,434 - INFO - Characterizing topics with confidence scores...
+2025-12-11 21:28:11,797 - INFO - Calculating topic quality metrics...
+2025-12-11 21:28:27,011 - INFO - Final topic count: 19
+2025-12-11 21:28:27,012 - INFO - Average topic confidence: 0.304
+2025-12-11 21:28:30,412 - INFO - Checkpoint saved at phase 3
+2025-12-11 21:28:30,412 - INFO - 
+😊 PHASE 4: Ensemble Affective Analysis
+2025-12-11 21:28:30,412 - INFO - ================================================================================
+2025-12-11 21:28:30,412 - INFO - PHASE 4: ENHANCED AFFECTIVE ANALYSIS (ENSEMBLE)
+2025-12-11 21:28:30,412 - INFO - ================================================================================
+2025-12-11 21:28:30,413 - INFO - Performing ensemble sentiment analysis...
+2025-12-11 21:28:30,413 - WARNING - RoBERTa sentiment failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 21:28:49,489 - WARNING - DistilBERT sentiment failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 21:29:03,622 - INFO - Performing ensemble emotion analysis...
+2025-12-11 21:29:03,622 - WARNING - Primary emotion model failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 21:29:03,748 - WARNING - GoEmotions model failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 21:29:03,952 - INFO - Sentiment distribution: {'neutral': 0.823407924565039, 'positive': 0.09192245107992712, 'negative': 0.08466962435503386}
+2025-12-11 21:29:03,952 - INFO - Average sentiment confidence: 0.311
+2025-12-11 21:29:03,958 - INFO - Emotion distribution: {'neutral': 1.0}
+2025-12-11 21:29:03,958 - INFO - Average emotion confidence: 0.500
+2025-12-11 21:29:07,217 - INFO - Checkpoint saved at phase 4
+2025-12-11 21:29:07,218 - INFO - 
+🔍 PHASE 5: Multi-Scale Anomaly Detection
+2025-12-11 21:29:07,218 - INFO - ================================================================================
+2025-12-11 21:29:07,218 - INFO - PHASE 5: ENHANCED MULTI-SCALE ANOMALY DETECTION
+2025-12-11 21:29:07,218 - INFO - ================================================================================
+2025-12-11 21:29:07,218 - INFO - Method 1: Isolation Forest on embeddings...
+2025-12-11 21:29:11,512 - INFO - Method 2: Local Outlier Factor...
+2025-12-11 21:29:51,452 - INFO - Method 3: Statistical anomalies...
+2025-12-11 21:29:51,723 - INFO - Detected 14,381 anomalies (10.00%)
+2025-12-11 21:29:51,724 - INFO - Average anomaly confidence: 0.260
+2025-12-11 21:29:55,054 - INFO - Checkpoint saved at phase 5
+2025-12-11 21:29:55,055 - INFO - 
+🤖 PHASE 6: Ensemble Bot Detection
+2025-12-11 21:29:55,055 - INFO - ================================================================================
+2025-12-11 21:29:55,055 - INFO - PHASE 6: ENHANCED BOT DETECTION (ENSEMBLE)
+2025-12-11 21:29:55,055 - INFO - ================================================================================
+2025-12-11 21:29:55,055 - INFO - Calculating bot detection features...
+2025-12-11 21:30:19,079 - INFO - Identified 10 potential bot accounts
+2025-12-11 21:30:19,080 - INFO - Bot tweets: 47 (0.03%)
+2025-12-11 21:30:19,080 - INFO - Average bot detection confidence: 0.405
+2025-12-11 21:30:22,346 - INFO - Checkpoint saved at phase 6
+2025-12-11 21:30:22,347 - INFO - 
+📈 PHASE 7: Statistical Validation
+2025-12-11 21:30:22,347 - INFO - ================================================================================
+2025-12-11 21:30:22,347 - INFO - PHASE 7: STATISTICAL VALIDATION AND SIGNIFICANCE TESTING
+2025-12-11 21:30:22,347 - INFO - ================================================================================
+2025-12-11 21:30:22,347 - INFO - Performing Mann-Kendall trend analysis...
+2025-12-11 21:30:22,380 - INFO - Detecting changepoints...
+2025-12-11 21:30:22,499 - INFO - Validating topic coherence...
+2025-12-11 21:30:23,374 - INFO - Validating sentiment distribution...
+2025-12-11 21:30:26,039 - INFO - Checkpoint saved at phase 7
+2025-12-11 21:30:26,039 - INFO - 
+📊 PHASE 8: Enhanced Visualizations
+2025-12-11 21:30:26,040 - INFO - ================================================================================
+2025-12-11 21:30:26,040 - INFO - PHASE 8: ENHANCED VISUALIZATIONS WITH CONFIDENCE TRACKING
+2025-12-11 21:30:26,040 - INFO - ================================================================================
+2025-12-11 21:30:26,040 - INFO - Creating enhanced temporal visualizations...
+2025-12-11 21:30:27,693 - INFO - Creating enhanced topic visualizations...
+2025-12-11 21:30:28,776 - INFO - Creating topic word clouds...
+2025-12-11 21:30:37,749 - INFO - Creating enhanced affective visualizations...
+2025-12-11 21:30:39,161 - INFO - Creating enhanced anomaly visualizations...
+2025-12-11 21:30:40,637 - INFO - Creating UMAP projections...
+2025-12-11 21:31:08,021 - INFO - Creating bot detection visualizations...
+2025-12-11 21:31:09,331 - INFO - Creating confidence score dashboard...
+2025-12-11 21:31:10,649 - INFO - Confidence dashboard created successfully
+2025-12-11 21:31:10,649 - INFO - Creating enhanced interactive timeline...
+2025-12-11 21:31:11,061 - INFO - Interactive timeline saved
+2025-12-11 21:31:11,061 - INFO - Creating enhanced topic network...
+2025-12-11 21:31:11,363 - INFO - Topic network saved
+2025-12-11 21:31:11,363 - INFO - Creating sentiment-topic heatmap...
+2025-12-11 21:31:11,569 - INFO - Sentiment-topic heatmap saved
+2025-12-11 21:31:11,569 - INFO - All visualizations saved to outputs/visualizations/
+2025-12-11 21:31:11,569 - INFO - 
+📝 PHASE 9: Comprehensive Reports
+2025-12-11 21:31:11,569 - INFO - ================================================================================
+2025-12-11 21:31:11,569 - INFO - PHASE 9: COMPREHENSIVE REPORT GENERATION
+2025-12-11 21:31:11,569 - INFO - ================================================================================
+2025-12-11 21:31:11,569 - INFO - Saving annotated dataset...
+2025-12-11 21:31:19,580 - ERROR - ❌ Pipeline failed: keys must be str, int, float, bool or None, not int64
+2025-12-11 21:47:08,977 - INFO - Using device: cuda
+2025-12-11 21:47:09,830 - INFO - ACE Annotator initialized with NER model
+2025-12-11 21:47:09,832 - INFO - ================================================================================
+2025-12-11 21:47:09,833 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 21:47:09,833 - INFO - ================================================================================
+2025-12-11 21:47:09,833 - INFO - Loading from checkpoint...
+2025-12-11 21:47:21,331 - INFO - 💾 Resuming pipeline from Phase 7 with 143,806 records.
+2025-12-11 21:47:21,400 - INFO - ✅ Loaded existing embeddings from disk.
+2025-12-11 21:47:21,400 - INFO - 
+📊 PHASE 8: Enhanced Visualizations
+2025-12-11 21:47:21,400 - INFO - ================================================================================
+2025-12-11 21:47:21,400 - INFO - PHASE 8: ENHANCED VISUALIZATIONS WITH CONFIDENCE TRACKING
+2025-12-11 21:47:21,400 - INFO - ================================================================================
+2025-12-11 21:47:21,400 - INFO - Creating enhanced temporal visualizations...
+2025-12-11 21:47:23,072 - INFO - Creating enhanced topic visualizations...
+2025-12-11 21:47:24,181 - INFO - Creating topic word clouds...
+2025-12-11 21:47:33,188 - INFO - Creating enhanced affective visualizations...
+2025-12-11 21:47:34,604 - INFO - Creating enhanced anomaly visualizations...
+2025-12-11 21:47:36,072 - INFO - Creating UMAP projections...
+2025-12-11 21:48:11,429 - INFO - Creating bot detection visualizations...
+2025-12-11 21:48:12,774 - INFO - Creating confidence score dashboard...
+2025-12-11 21:48:14,097 - INFO - Confidence dashboard created successfully
+2025-12-11 21:48:14,097 - INFO - Creating enhanced interactive timeline...
+2025-12-11 21:48:14,916 - INFO - Interactive timeline saved
+2025-12-11 21:48:14,917 - INFO - Creating enhanced topic network...
+2025-12-11 21:48:15,190 - INFO - Topic network saved
+2025-12-11 21:48:15,190 - INFO - Creating sentiment-topic heatmap...
+2025-12-11 21:48:15,388 - INFO - Sentiment-topic heatmap saved
+2025-12-11 21:48:15,388 - INFO - All visualizations saved to outputs/visualizations/
+2025-12-11 21:48:15,388 - INFO - 
+📝 PHASE 9: Comprehensive Reports
+2025-12-11 21:48:15,388 - INFO - ================================================================================
+2025-12-11 21:48:15,388 - INFO - PHASE 9: COMPREHENSIVE REPORT GENERATION
+2025-12-11 21:48:15,388 - INFO - ================================================================================
+2025-12-11 21:48:15,388 - INFO - Saving annotated dataset...
+2025-12-11 21:48:22,934 - ERROR - ❌ Pipeline failed: keys must be str, int, float, bool or None, not int64
+2025-12-11 22:22:29,658 - INFO - Using device: cuda
+2025-12-11 22:22:30,349 - INFO - ACE Annotator initialized with NER model
+2025-12-11 22:22:30,351 - INFO - ================================================================================
+2025-12-11 22:22:30,351 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 22:22:30,351 - INFO - ================================================================================
+2025-12-11 22:22:30,351 - INFO - Loading from checkpoint...
+2025-12-11 22:22:33,911 - INFO - 💾 Resuming pipeline from Phase 7 with 143,806 records.
+2025-12-11 22:22:33,978 - INFO - ✅ Loaded existing embeddings from disk.
+2025-12-11 22:22:33,978 - INFO - 
+📊 PHASE 8: Enhanced Visualizations
+2025-12-11 22:22:33,978 - INFO - ================================================================================
+2025-12-11 22:22:33,978 - INFO - PHASE 8: ENHANCED VISUALIZATIONS WITH CONFIDENCE TRACKING
+2025-12-11 22:22:33,979 - INFO - ================================================================================
+2025-12-11 22:22:33,979 - INFO - Creating enhanced temporal visualizations...
+2025-12-11 22:22:35,639 - INFO - Creating enhanced topic visualizations...
+2025-12-11 22:22:36,727 - INFO - Creating topic word clouds...
+2025-12-11 22:22:45,496 - INFO - Creating enhanced affective visualizations...
+2025-12-11 22:22:46,908 - INFO - Creating enhanced anomaly visualizations...
+2025-12-11 22:22:48,369 - INFO - Creating UMAP projections...
+2025-12-11 22:23:23,836 - INFO - Creating bot detection visualizations...
+2025-12-11 22:23:25,183 - INFO - Creating confidence score dashboard...
+2025-12-11 22:23:26,495 - INFO - Confidence dashboard created successfully
+2025-12-11 22:23:26,495 - INFO - Creating enhanced interactive timeline...
+2025-12-11 22:23:27,270 - INFO - Interactive timeline saved
+2025-12-11 22:23:27,270 - INFO - Creating enhanced topic network...
+2025-12-11 22:23:27,543 - INFO - Topic network saved
+2025-12-11 22:23:27,543 - INFO - Creating sentiment-topic heatmap...
+2025-12-11 22:23:27,741 - INFO - Sentiment-topic heatmap saved
+2025-12-11 22:23:27,741 - INFO - All visualizations saved to outputs/visualizations/
+2025-12-11 22:23:27,741 - INFO - 
+📝 PHASE 9: Comprehensive Reports
+2025-12-11 22:23:27,741 - INFO - ================================================================================
+2025-12-11 22:23:27,741 - INFO - PHASE 9: COMPREHENSIVE REPORT GENERATION
+2025-12-11 22:23:27,741 - INFO - ================================================================================
+2025-12-11 22:23:27,741 - INFO - Saving annotated dataset...
+2025-12-11 22:23:35,294 - ERROR - ❌ Pipeline failed: name '_convert_keys_to_str' is not defined
+2025-12-11 22:26:56,568 - INFO - Using device: cuda
+2025-12-11 22:26:57,442 - INFO - ACE Annotator initialized with NER model
+2025-12-11 22:26:57,444 - INFO - ================================================================================
+2025-12-11 22:26:57,444 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 22:26:57,444 - INFO - ================================================================================
+2025-12-11 22:26:57,444 - INFO - Loading from checkpoint...
+2025-12-11 22:27:00,975 - INFO - 💾 Resuming pipeline from Phase 7 with 143,806 records.
+2025-12-11 22:27:01,042 - INFO - ✅ Loaded existing embeddings from disk.
+2025-12-11 22:27:01,042 - INFO - 
+📊 PHASE 8: Enhanced Visualizations
+2025-12-11 22:27:01,043 - INFO - ================================================================================
+2025-12-11 22:27:01,043 - INFO - PHASE 8: ENHANCED VISUALIZATIONS WITH CONFIDENCE TRACKING
+2025-12-11 22:27:01,043 - INFO - ================================================================================
+2025-12-11 22:27:01,043 - INFO - Creating enhanced temporal visualizations...
+2025-12-11 22:27:02,712 - INFO - Creating enhanced topic visualizations...
+2025-12-11 22:27:03,836 - INFO - Creating topic word clouds...
+2025-12-11 22:27:12,572 - INFO - Creating enhanced affective visualizations...
+2025-12-11 22:27:13,980 - INFO - Creating enhanced anomaly visualizations...
+2025-12-11 22:27:15,440 - INFO - Creating UMAP projections...
+2025-12-11 22:27:50,783 - INFO - Creating bot detection visualizations...
+2025-12-11 22:27:52,120 - INFO - Creating confidence score dashboard...
+2025-12-11 22:27:53,434 - INFO - Confidence dashboard created successfully
+2025-12-11 22:27:53,434 - INFO - Creating enhanced interactive timeline...
+2025-12-11 22:27:54,214 - INFO - Interactive timeline saved
+2025-12-11 22:27:54,215 - INFO - Creating enhanced topic network...
+2025-12-11 22:27:54,486 - INFO - Topic network saved
+2025-12-11 22:27:54,486 - INFO - Creating sentiment-topic heatmap...
+2025-12-11 22:27:54,683 - INFO - Sentiment-topic heatmap saved
+2025-12-11 22:27:54,684 - INFO - All visualizations saved to outputs/visualizations/
+2025-12-11 22:27:54,684 - INFO - 
+📝 PHASE 9: Comprehensive Reports
+2025-12-11 22:27:54,684 - INFO - ================================================================================
+2025-12-11 22:27:54,684 - INFO - PHASE 9: COMPREHENSIVE REPORT GENERATION
+2025-12-11 22:27:54,684 - INFO - ================================================================================
+2025-12-11 22:27:54,684 - INFO - Saving annotated dataset...
+2025-12-11 22:28:02,253 - ERROR - ❌ Pipeline failed: name '_convert_keys_to_str' is not defined
+2025-12-11 22:28:57,159 - INFO - Using device: cuda
+2025-12-11 22:28:58,053 - INFO - ACE Annotator initialized with NER model
+2025-12-11 22:28:58,055 - INFO - ================================================================================
+2025-12-11 22:28:58,055 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 22:28:58,055 - INFO - ================================================================================
+2025-12-11 22:28:58,055 - INFO - Loading from checkpoint...
+2025-12-11 22:29:01,578 - INFO - 💾 Resuming pipeline from Phase 7 with 143,806 records.
+2025-12-11 22:29:01,646 - INFO - ✅ Loaded existing embeddings from disk.
+2025-12-11 22:29:01,646 - INFO - 
+📊 PHASE 8: Enhanced Visualizations
+2025-12-11 22:29:01,646 - INFO - ================================================================================
+2025-12-11 22:29:01,646 - INFO - PHASE 8: ENHANCED VISUALIZATIONS WITH CONFIDENCE TRACKING
+2025-12-11 22:29:01,646 - INFO - ================================================================================
+2025-12-11 22:29:01,646 - INFO - Creating enhanced temporal visualizations...
+2025-12-11 22:29:03,315 - INFO - Creating enhanced topic visualizations...
+2025-12-11 22:29:04,471 - INFO - Creating topic word clouds...
+2025-12-11 22:29:13,260 - INFO - Creating enhanced affective visualizations...
+2025-12-11 22:29:14,669 - INFO - Creating enhanced anomaly visualizations...
+2025-12-11 22:29:16,134 - INFO - Creating UMAP projections...
+2025-12-11 22:29:51,422 - INFO - Creating bot detection visualizations...
+2025-12-11 22:29:52,766 - INFO - Creating confidence score dashboard...
+2025-12-11 22:29:54,096 - INFO - Confidence dashboard created successfully
+2025-12-11 22:29:54,096 - INFO - Creating enhanced interactive timeline...
+2025-12-11 22:29:54,864 - INFO - Interactive timeline saved
+2025-12-11 22:29:54,864 - INFO - Creating enhanced topic network...
+2025-12-11 22:29:55,137 - INFO - Topic network saved
+2025-12-11 22:29:55,137 - INFO - Creating sentiment-topic heatmap...
+2025-12-11 22:29:55,335 - INFO - Sentiment-topic heatmap saved
+2025-12-11 22:29:55,335 - INFO - All visualizations saved to outputs/visualizations/
+2025-12-11 22:29:55,335 - INFO - 
+📝 PHASE 9: Comprehensive Reports
+2025-12-11 22:29:55,335 - INFO - ================================================================================
+2025-12-11 22:29:55,335 - INFO - PHASE 9: COMPREHENSIVE REPORT GENERATION
+2025-12-11 22:29:55,335 - INFO - ================================================================================
+2025-12-11 22:29:55,335 - INFO - Saving annotated dataset...
+2025-12-11 22:30:02,922 - ERROR - ❌ Pipeline failed: name '_convert_keys_to_str' is not defined
+2025-12-11 23:07:00,253 - INFO - Using device: cuda
+2025-12-11 23:07:02,055 - INFO - ACE Annotator initialized with NER model
+2025-12-11 23:07:02,057 - INFO - ================================================================================
+2025-12-11 23:07:02,057 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 23:07:02,057 - INFO - ================================================================================
+2025-12-11 23:07:02,057 - INFO - Loading from checkpoint...
+2025-12-11 23:07:11,830 - INFO - 💾 Resuming pipeline from Phase 7 with 143,806 records.
+2025-12-11 23:07:12,097 - INFO - ✅ Loaded existing embeddings from disk.
+2025-12-11 23:07:12,097 - INFO - 
+📊 PHASE 8: Enhanced Visualizations
+2025-12-11 23:07:12,097 - INFO - ================================================================================
+2025-12-11 23:07:12,097 - INFO - PHASE 8: ENHANCED VISUALIZATIONS WITH CONFIDENCE TRACKING
+2025-12-11 23:07:12,097 - INFO - ================================================================================
+2025-12-11 23:07:12,097 - INFO - Creating enhanced temporal visualizations...
+2025-12-11 23:07:13,941 - INFO - Creating enhanced topic visualizations...
+2025-12-11 23:07:14,859 - INFO - Creating topic word clouds...
+2025-12-11 23:07:22,131 - INFO - Creating enhanced affective visualizations...
+2025-12-11 23:07:23,276 - INFO - Creating enhanced anomaly visualizations...
+2025-12-11 23:07:24,463 - INFO - Creating UMAP projections...
+2025-12-11 23:07:53,652 - INFO - Creating bot detection visualizations...
+2025-12-11 23:07:54,689 - INFO - Creating confidence score dashboard...
+2025-12-11 23:07:55,683 - INFO - Confidence dashboard created successfully
+2025-12-11 23:07:55,684 - INFO - Creating enhanced interactive timeline...
+2025-12-11 23:07:56,568 - INFO - Interactive timeline saved
+2025-12-11 23:07:56,568 - INFO - Creating enhanced topic network...
+2025-12-11 23:07:56,806 - INFO - Topic network saved
+2025-12-11 23:07:56,806 - INFO - Creating sentiment-topic heatmap...
+2025-12-11 23:07:56,981 - INFO - Sentiment-topic heatmap saved
+2025-12-11 23:07:56,981 - INFO - All visualizations saved to outputs/visualizations/
+2025-12-11 23:07:56,981 - INFO - 
+📝 PHASE 9: Comprehensive Reports
+2025-12-11 23:07:56,981 - INFO - ================================================================================
+2025-12-11 23:07:56,981 - INFO - PHASE 9: COMPREHENSIVE REPORT GENERATION
+2025-12-11 23:07:56,981 - INFO - ================================================================================
+2025-12-11 23:07:56,981 - INFO - Saving annotated dataset...
+2025-12-11 23:08:03,185 - ERROR - ❌ Pipeline failed: name '_convert_keys_to_str' is not defined
+2025-12-11 23:16:43,942 - INFO - Using device: cuda
+2025-12-11 23:16:44,931 - INFO - ACE Annotator initialized with NER model
+2025-12-11 23:16:44,934 - INFO - ================================================================================
+2025-12-11 23:16:44,934 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 23:16:44,934 - INFO - ================================================================================
+2025-12-11 23:16:44,934 - INFO - Loading from checkpoint...
+2025-12-11 23:16:54,992 - INFO - 💾 Resuming pipeline from Phase 7 with 143,806 records.
+2025-12-11 23:16:55,258 - INFO - ✅ Loaded existing embeddings from disk.
+2025-12-11 23:16:55,258 - INFO - 
+📊 PHASE 8: Enhanced Visualizations
+2025-12-11 23:16:55,258 - INFO - ================================================================================
+2025-12-11 23:16:55,258 - INFO - PHASE 8: ENHANCED VISUALIZATIONS WITH CONFIDENCE TRACKING
+2025-12-11 23:16:55,258 - INFO - ================================================================================
+2025-12-11 23:16:55,258 - INFO - Creating enhanced temporal visualizations...
+2025-12-11 23:16:56,688 - INFO - Creating enhanced topic visualizations...
+2025-12-11 23:16:57,541 - INFO - Creating topic word clouds...
+2025-12-11 23:17:04,552 - INFO - Creating enhanced affective visualizations...
+2025-12-11 23:17:05,652 - INFO - Creating enhanced anomaly visualizations...
+2025-12-11 23:17:06,802 - INFO - Creating UMAP projections...
+2025-12-11 23:17:35,674 - INFO - Creating bot detection visualizations...
+2025-12-11 23:17:36,682 - INFO - Creating confidence score dashboard...
+2025-12-11 23:17:37,670 - INFO - Confidence dashboard created successfully
+2025-12-11 23:17:37,670 - INFO - Creating enhanced interactive timeline...
+2025-12-11 23:17:38,454 - INFO - Interactive timeline saved
+2025-12-11 23:17:38,454 - INFO - Creating enhanced topic network...
+2025-12-11 23:17:38,677 - INFO - Topic network saved
+2025-12-11 23:17:38,677 - INFO - Creating sentiment-topic heatmap...
+2025-12-11 23:17:38,845 - INFO - Sentiment-topic heatmap saved
+2025-12-11 23:17:38,846 - INFO - All visualizations saved to outputs/visualizations/
+2025-12-11 23:17:38,846 - INFO - 
+📝 PHASE 9: Comprehensive Reports
+2025-12-11 23:17:38,846 - INFO - ================================================================================
+2025-12-11 23:17:38,846 - INFO - PHASE 9: COMPREHENSIVE REPORT GENERATION
+2025-12-11 23:17:38,846 - INFO - ================================================================================
+2025-12-11 23:17:38,846 - INFO - Saving annotated dataset...
+2025-12-11 23:17:45,485 - ERROR - ❌ Pipeline failed: module 'hdbscan' has no attribute '__version__'
+2025-12-11 23:19:02,677 - INFO - Using device: cuda
+2025-12-11 23:19:03,861 - INFO - ACE Annotator initialized with NER model
+2025-12-11 23:19:03,864 - INFO - ================================================================================
+2025-12-11 23:19:03,864 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 23:19:03,864 - INFO - ================================================================================
+2025-12-11 23:19:03,864 - INFO - Loading from checkpoint...
+2025-12-11 23:19:11,897 - INFO - 💾 Resuming pipeline from Phase 7 with 143,806 records.
+2025-12-11 23:19:11,988 - INFO - ✅ Loaded existing embeddings from disk.
+2025-12-11 23:19:11,988 - INFO - 
+📊 PHASE 8: Enhanced Visualizations
+2025-12-11 23:19:11,988 - INFO - ================================================================================
+2025-12-11 23:19:11,988 - INFO - PHASE 8: ENHANCED VISUALIZATIONS WITH CONFIDENCE TRACKING
+2025-12-11 23:19:11,988 - INFO - ================================================================================
+2025-12-11 23:19:11,988 - INFO - Creating enhanced temporal visualizations...
+2025-12-11 23:19:13,258 - INFO - Creating enhanced topic visualizations...
+2025-12-11 23:19:14,117 - INFO - Creating topic word clouds...
+2025-12-11 23:19:21,515 - INFO - Creating enhanced affective visualizations...
+2025-12-11 23:19:22,641 - INFO - Creating enhanced anomaly visualizations...
+2025-12-11 23:19:23,762 - INFO - Creating UMAP projections...
+2025-12-11 23:19:52,576 - INFO - Creating bot detection visualizations...
+2025-12-11 23:19:53,614 - INFO - Creating confidence score dashboard...
+2025-12-11 23:19:54,623 - INFO - Confidence dashboard created successfully
+2025-12-11 23:19:54,623 - INFO - Creating enhanced interactive timeline...
+2025-12-11 23:19:55,429 - INFO - Interactive timeline saved
+2025-12-11 23:19:55,429 - INFO - Creating enhanced topic network...
+2025-12-11 23:19:55,661 - INFO - Topic network saved
+2025-12-11 23:19:55,661 - INFO - Creating sentiment-topic heatmap...
+2025-12-11 23:19:55,830 - INFO - Sentiment-topic heatmap saved
+2025-12-11 23:19:55,831 - INFO - All visualizations saved to outputs/visualizations/
+2025-12-11 23:19:55,831 - INFO - 
+📝 PHASE 9: Comprehensive Reports
+2025-12-11 23:19:55,831 - INFO - ================================================================================
+2025-12-11 23:19:55,831 - INFO - PHASE 9: COMPREHENSIVE REPORT GENERATION
+2025-12-11 23:19:55,831 - INFO - ================================================================================
+2025-12-11 23:19:55,831 - INFO - Saving annotated dataset...
+2025-12-11 23:20:01,992 - ERROR - ❌ Pipeline failed: module 'plotly.graph_objects' has no attribute '__version__'
+2025-12-11 23:22:29,992 - INFO - Using device: cuda
+2025-12-11 23:22:30,999 - INFO - ACE Annotator initialized with NER model
+2025-12-11 23:22:31,001 - INFO - ================================================================================
+2025-12-11 23:22:31,001 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 23:22:31,001 - INFO - ================================================================================
+2025-12-11 23:22:31,001 - INFO - Loading from checkpoint...
+2025-12-11 23:22:34,878 - INFO - 💾 Resuming pipeline from Phase 7 with 143,806 records.
+2025-12-11 23:22:34,965 - INFO - ✅ Loaded existing embeddings from disk.
+2025-12-11 23:22:34,965 - INFO - 
+📊 PHASE 8: Enhanced Visualizations
+2025-12-11 23:22:34,965 - INFO - ================================================================================
+2025-12-11 23:22:34,965 - INFO - PHASE 8: ENHANCED VISUALIZATIONS WITH CONFIDENCE TRACKING
+2025-12-11 23:22:34,965 - INFO - ================================================================================
+2025-12-11 23:22:34,965 - INFO - Creating enhanced temporal visualizations...
+2025-12-11 23:22:36,242 - INFO - Creating enhanced topic visualizations...
+2025-12-11 23:22:37,124 - INFO - Creating topic word clouds...
+2025-12-11 23:22:44,202 - INFO - Creating enhanced affective visualizations...
+2025-12-11 23:22:45,302 - INFO - Creating enhanced anomaly visualizations...
+2025-12-11 23:22:46,382 - INFO - Creating UMAP projections...
+2025-12-11 23:23:15,092 - INFO - Creating bot detection visualizations...
+2025-12-11 23:23:16,136 - INFO - Creating confidence score dashboard...
+2025-12-11 23:23:17,132 - INFO - Confidence dashboard created successfully
+2025-12-11 23:23:17,133 - INFO - Creating enhanced interactive timeline...
+2025-12-11 23:23:17,879 - INFO - Interactive timeline saved
+2025-12-11 23:23:17,880 - INFO - Creating enhanced topic network...
+2025-12-11 23:23:18,108 - INFO - Topic network saved
+2025-12-11 23:23:18,108 - INFO - Creating sentiment-topic heatmap...
+2025-12-11 23:23:18,273 - INFO - Sentiment-topic heatmap saved
+2025-12-11 23:23:18,274 - INFO - All visualizations saved to outputs/visualizations/
+2025-12-11 23:23:18,274 - INFO - 
+📝 PHASE 9: Comprehensive Reports
+2025-12-11 23:23:18,274 - INFO - ================================================================================
+2025-12-11 23:23:18,274 - INFO - PHASE 9: COMPREHENSIVE REPORT GENERATION
+2025-12-11 23:23:18,274 - INFO - ================================================================================
+2025-12-11 23:23:18,274 - INFO - Saving annotated dataset...
+2025-12-11 23:23:24,496 - INFO - Generating executive summary...
+2025-12-11 23:23:24,523 - INFO - Executive summary generated
+2025-12-11 23:23:24,523 - INFO - All reports generated and saved to outputs/reports/
+2025-12-11 23:23:24,524 - INFO - 
+================================================================================
+2025-12-11 23:23:24,524 - INFO - ✅ PIPELINE EXECUTION COMPLETED SUCCESSFULLY
+2025-12-11 23:23:24,524 - INFO - ================================================================================
+2025-12-11 23:23:24,524 - INFO - 📊 Total tweets processed: 143,806
+2025-12-11 23:23:24,524 - INFO - 🎯 Topics identified: 19
+2025-12-11 23:23:24,524 - INFO - 🔍 Anomalies detected: 14,381
+2025-12-11 23:23:24,524 - INFO - 🤖 Bot tweets identified: 47
+2025-12-11 23:23:24,524 - INFO - ⏱️  Total runtime: 0:00:53.522311
+2025-12-11 23:23:24,524 - INFO - 📁 Outputs saved to: outputs/
+2025-12-11 23:23:24,524 - INFO - ================================================================================
+2025-12-11 23:25:51,076 - INFO - Using device: cuda
+2025-12-11 23:25:52,046 - INFO - ACE Annotator initialized with NER model
+2025-12-11 23:25:52,053 - INFO - ================================================================================
+2025-12-11 23:25:52,053 - INFO - COVID-19 TWITTER ANALYSIS PIPELINE - ENHANCED VERSION 2.0
+2025-12-11 23:25:52,053 - INFO - ================================================================================
+2025-12-11 23:25:52,054 - INFO - 🆕 Starting new pipeline run.
+2025-12-11 23:25:52,054 - INFO - 
+📊 PHASE 1: Data Preprocessing & ACE Annotation
+2025-12-11 23:25:52,054 - INFO - ================================================================================
+2025-12-11 23:25:52,054 - INFO - PHASE 1: ENHANCED DATA PREPROCESSING WITH ACE ANNOTATION
+2025-12-11 23:25:52,054 - INFO - ================================================================================
+2025-12-11 23:25:52,661 - INFO - Loaded 143,903 tweets from Covid-19 Twitter Dataset (Apr-Jun 2020).csv
+2025-12-11 23:25:52,661 - INFO - Total tweets loaded: 143,903
+2025-12-11 23:25:52,661 - INFO - Removing duplicates...
+2025-12-11 23:25:52,854 - INFO - Removed 0 exact duplicates
+2025-12-11 23:25:52,854 - INFO - Normalizing text...
+2025-12-11 23:25:54,296 - INFO - Filtering for English tweets...
+2025-12-11 23:25:54,380 - INFO - Retained 143,806 English tweets
+2025-12-11 23:25:54,380 - INFO - Average language confidence: 1.000
+2025-12-11 23:25:54,380 - INFO - Extracting metadata...
+2025-12-11 23:25:55,782 - INFO - Applying ACE annotation...
+2025-12-11 23:26:57,339 - INFO - ACE annotation complete. Average entities per tweet: 0.26
+2025-12-11 23:27:00,661 - INFO - Preprocessing complete. Final dataset: 143,806 tweets
+2025-12-11 23:27:01,691 - INFO - Checkpoint saved at phase 1
+2025-12-11 23:27:01,691 - INFO - 
+🧠 PHASE 2: Semantic Embedding Generation
+2025-12-11 23:27:01,691 - INFO - ================================================================================
+2025-12-11 23:27:01,691 - INFO - PHASE 2: SEMANTIC EMBEDDING GENERATION
+2025-12-11 23:27:01,691 - INFO - ================================================================================
+2025-12-11 23:27:01,692 - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-12-11 23:27:01,695 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-11 23:27:04,075 - INFO - Processing chunk 1/15
+2025-12-11 23:27:06,857 - INFO - Processing chunk 2/15
+2025-12-11 23:27:08,757 - INFO - Processing chunk 3/15
+2025-12-11 23:27:10,615 - INFO - Processing chunk 4/15
+2025-12-11 23:27:12,508 - INFO - Processing chunk 5/15
+2025-12-11 23:27:14,387 - INFO - Processing chunk 6/15
+2025-12-11 23:27:16,286 - INFO - Processing chunk 7/15
+2025-12-11 23:27:18,149 - INFO - Processing chunk 8/15
+2025-12-11 23:27:19,994 - INFO - Processing chunk 9/15
+2025-12-11 23:27:21,842 - INFO - Processing chunk 10/15
+2025-12-11 23:27:23,726 - INFO - Processing chunk 11/15
+2025-12-11 23:27:25,593 - INFO - Processing chunk 12/15
+2025-12-11 23:27:27,465 - INFO - Processing chunk 13/15
+2025-12-11 23:27:29,371 - INFO - Processing chunk 14/15
+2025-12-11 23:27:31,276 - INFO - Processing chunk 15/15
+2025-12-11 23:27:32,786 - INFO - Generated embeddings with shape: (143806, 384)
+2025-12-11 23:27:33,697 - INFO - Checkpoint saved at phase 2
+2025-12-11 23:27:33,698 - INFO - 
+🎯 PHASE 3: Topic Discovery (20 Named Topics)
+2025-12-11 23:27:33,698 - INFO - ================================================================================
+2025-12-11 23:27:33,698 - INFO - PHASE 3: ENHANCED TOPIC DISCOVERY - 20 NAMED TOPICS
+2025-12-11 23:27:33,698 - INFO - ================================================================================
+2025-12-11 23:27:33,700 - INFO - Use pytorch device_name: cuda:0
+2025-12-11 23:27:33,700 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-11 23:27:34,528 - INFO - Fitting BERTopic model...
+2025-12-11 23:27:34,531 - INFO - Number of documents (texts) being processed: 143806
+2025-12-11 23:27:34,531 - INFO - Shape of the embeddings array: (143806, 384)
+2025-12-11 23:33:54,583 - INFO - Initial topics discovered: 190
+2025-12-11 23:33:54,584 - INFO - Reducing from 190 to 20 topics...
+2025-12-11 23:33:57,156 - INFO - Reassigning 66061 outlier tweets to nearest topics...
+2025-12-11 23:35:13,352 - INFO - Outliers reassigned. New outlier count: 0
+2025-12-11 23:35:13,376 - INFO - Generating human-readable topic names...
+2025-12-11 23:35:13,381 - INFO - Characterizing topics with confidence scores...
+2025-12-11 23:35:13,782 - INFO - Calculating topic quality metrics...
+2025-12-11 23:35:29,410 - INFO - Final topic count: 19
+2025-12-11 23:35:29,411 - INFO - Average topic confidence: 0.303
+2025-12-11 23:35:33,889 - INFO - Checkpoint saved at phase 3
+2025-12-11 23:35:33,889 - INFO - 
+😊 PHASE 4: Ensemble Affective Analysis
+2025-12-11 23:35:33,889 - INFO - ================================================================================
+2025-12-11 23:35:33,889 - INFO - PHASE 4: ENHANCED AFFECTIVE ANALYSIS (ENSEMBLE)
+2025-12-11 23:35:33,889 - INFO - ================================================================================
+2025-12-11 23:35:33,890 - INFO - Performing ensemble sentiment analysis...
+2025-12-11 23:35:33,890 - WARNING - RoBERTa sentiment failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 23:35:47,525 - WARNING - DistilBERT sentiment failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 23:35:58,838 - INFO - Performing ensemble emotion analysis...
+2025-12-11 23:35:58,839 - WARNING - Primary emotion model failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 23:35:58,921 - WARNING - GoEmotions model failed: 'EnhancedCovidTwitterAnalysisPipeline' object is not callable
+2025-12-11 23:35:59,086 - INFO - Sentiment distribution: {'neutral': 0.823407924565039, 'positive': 0.09192245107992712, 'negative': 0.08466962435503386}
+2025-12-11 23:35:59,086 - INFO - Average sentiment confidence: 0.311
+2025-12-11 23:35:59,091 - INFO - Emotion distribution: {'neutral': 1.0}
+2025-12-11 23:35:59,091 - INFO - Average emotion confidence: 0.500
+2025-12-11 23:36:02,721 - INFO - Checkpoint saved at phase 4
+2025-12-11 23:36:02,722 - INFO - 
+🔍 PHASE 5: Multi-Scale Anomaly Detection
+2025-12-11 23:36:02,722 - INFO - ================================================================================
+2025-12-11 23:36:02,722 - INFO - PHASE 5: ENHANCED MULTI-SCALE ANOMALY DETECTION
+2025-12-11 23:36:02,722 - INFO - ================================================================================
+2025-12-11 23:36:02,722 - INFO - Method 1: Isolation Forest on embeddings...
+2025-12-11 23:36:08,759 - INFO - Method 2: Local Outlier Factor...
+2025-12-11 23:36:56,688 - INFO - Method 3: Statistical anomalies...
+2025-12-11 23:36:56,952 - INFO - Detected 14,381 anomalies (10.00%)
+2025-12-11 23:36:56,953 - INFO - Average anomaly confidence: 0.260
+2025-12-11 23:37:00,345 - INFO - Checkpoint saved at phase 5
+2025-12-11 23:37:00,346 - INFO - 
+🤖 PHASE 6: Ensemble Bot Detection
+2025-12-11 23:37:00,346 - INFO - ================================================================================
+2025-12-11 23:37:00,346 - INFO - PHASE 6: ENHANCED BOT DETECTION (ENSEMBLE)
+2025-12-11 23:37:00,346 - INFO - ================================================================================
+2025-12-11 23:37:00,346 - INFO - Calculating bot detection features...
+2025-12-11 23:37:18,368 - INFO - Identified 10 potential bot accounts
+2025-12-11 23:37:18,368 - INFO - Bot tweets: 47 (0.03%)
+2025-12-11 23:37:18,368 - INFO - Average bot detection confidence: 0.405
+2025-12-11 23:37:22,604 - INFO - Checkpoint saved at phase 6
+2025-12-11 23:37:22,605 - INFO - 
+📈 PHASE 7: Statistical Validation
+2025-12-11 23:37:22,605 - INFO - ================================================================================
+2025-12-11 23:37:22,605 - INFO - PHASE 7: STATISTICAL VALIDATION AND SIGNIFICANCE TESTING
+2025-12-11 23:37:22,605 - INFO - ================================================================================
+2025-12-11 23:37:22,605 - INFO - Performing Mann-Kendall trend analysis...
+2025-12-11 23:37:22,667 - INFO - Detecting changepoints...
+2025-12-11 23:37:22,754 - INFO - Validating topic coherence...
+2025-12-11 23:37:23,313 - INFO - Validating sentiment distribution...
+2025-12-11 23:37:27,244 - INFO - Checkpoint saved at phase 7
+2025-12-11 23:37:27,245 - INFO - 
+📊 PHASE 8: Enhanced Visualizations
+2025-12-11 23:37:27,245 - INFO - ================================================================================
+2025-12-11 23:37:27,245 - INFO - PHASE 8: ENHANCED VISUALIZATIONS WITH CONFIDENCE TRACKING
+2025-12-11 23:37:27,245 - INFO - ================================================================================
+2025-12-11 23:37:27,245 - INFO - Creating enhanced temporal visualizations...
+2025-12-11 23:37:28,507 - INFO - Creating enhanced topic visualizations...
+2025-12-11 23:37:29,336 - INFO - Creating topic word clouds...
+2025-12-11 23:37:36,691 - INFO - Creating enhanced affective visualizations...
+2025-12-11 23:37:37,770 - INFO - Creating enhanced anomaly visualizations...
+2025-12-11 23:37:38,906 - INFO - Creating UMAP projections...
+2025-12-11 23:38:00,366 - INFO - Creating bot detection visualizations...
+2025-12-11 23:38:01,346 - INFO - Creating confidence score dashboard...
+2025-12-11 23:38:02,349 - INFO - Confidence dashboard created successfully
+2025-12-11 23:38:02,349 - INFO - Creating enhanced interactive timeline...
+2025-12-11 23:38:03,154 - INFO - Interactive timeline saved
+2025-12-11 23:38:03,155 - INFO - Creating enhanced topic network...
+2025-12-11 23:38:03,385 - INFO - Topic network saved
+2025-12-11 23:38:03,385 - INFO - Creating sentiment-topic heatmap...
+2025-12-11 23:38:03,549 - INFO - Sentiment-topic heatmap saved
+2025-12-11 23:38:03,549 - INFO - All visualizations saved to outputs/visualizations/
+2025-12-11 23:38:03,549 - INFO - 
+📝 PHASE 9: Comprehensive Reports
+2025-12-11 23:38:03,549 - INFO - ================================================================================
+2025-12-11 23:38:03,549 - INFO - PHASE 9: COMPREHENSIVE REPORT GENERATION
+2025-12-11 23:38:03,549 - INFO - ================================================================================
+2025-12-11 23:38:03,549 - INFO - Saving annotated dataset...
+2025-12-11 23:38:09,963 - INFO - Generating executive summary...
+2025-12-11 23:38:09,992 - INFO - Executive summary generated
+2025-12-11 23:38:09,992 - INFO - All reports generated and saved to outputs/reports/
+2025-12-11 23:38:09,992 - INFO - 
+================================================================================
+2025-12-11 23:38:09,992 - INFO - ✅ PIPELINE EXECUTION COMPLETED SUCCESSFULLY
+2025-12-11 23:38:09,992 - INFO - ================================================================================
+2025-12-11 23:38:09,992 - INFO - 📊 Total tweets processed: 143,806
+2025-12-11 23:38:09,992 - INFO - 🎯 Topics identified: 19
+2025-12-11 23:38:09,992 - INFO - 🔍 Anomalies detected: 14,381
+2025-12-11 23:38:09,992 - INFO - 🤖 Bot tweets identified: 47
+2025-12-11 23:38:09,992 - INFO - ⏱️  Total runtime: 0:12:17.938739
+2025-12-11 23:38:09,992 - INFO - 📁 Outputs saved to: outputs/
+2025-12-11 23:38:09,992 - INFO - ================================================================================

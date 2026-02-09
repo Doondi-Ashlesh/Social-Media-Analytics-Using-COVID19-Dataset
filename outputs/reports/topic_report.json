@@ -1,0 +1,1328 @@
+{
+  "summary": {
+    "total_topics": 19,
+    "quality_metrics": {
+      "silhouette_score": -0.04125291854143143,
+      "davies_bouldin_index": 4.7990684433046455,
+      "calinski_harabasz_index": 40.362831115722656,
+      "topic_balance_score": 0.06752617320488159,
+      "interpretation": {
+        "silhouette": "Poor",
+        "balance": "Imbalanced"
+      }
+    }
+  },
+  "topics": [
+    {
+      "topic_id": 0,
+      "topic_name": "Covid19 & 19",
+      "keywords": [
+        {
+          "word": "covid19",
+          "score": 0.03664548993687097
+        },
+        {
+          "word": "19",
+          "score": 0.03413226547617382
+        },
+        {
+          "word": "the",
+          "score": 0.03237196204053667
+        },
+        {
+          "word": "to",
+          "score": 0.02756682700001987
+        },
+        {
+          "word": "of",
+          "score": 0.027054015063454756
+        },
+        {
+          "word": "in",
+          "score": 0.026632154419402053
+        },
+        {
+          "word": "and",
+          "score": 0.02113076234951726
+        },
+        {
+          "word": "is",
+          "score": 0.019767776712666246
+        },
+        {
+          "word": "for",
+          "score": 0.019362881237577304
+        },
+        {
+          "word": "on",
+          "score": 0.015952551424336107
+        }
+      ],
+      "size": 139846,
+      "percentage": 97.24629014088426,
+      "representative_tweets": [
+        "thread 2/2: #covid19 press conference slides (5 june 2020) \ud83d\udd35 people in hospital with covid19-19 (uk) \ud83d\udd35 daily covid19-\u2026",
+        "holding a covid19-19 briefing. watch:",
+        "holding a covid19-19 briefing. watch:"
+      ],
+      "avg_engagement": 1918.9069762452984,
+      "confidence_stats": {
+        "count": 139846.0,
+        "mean": 0.3022074157853623,
+        "std": 0.06873309915370258,
+        "min": 0.0008397409191106995,
+        "25%": 0.3,
+        "50%": 0.3,
+        "75%": 0.3,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-05-04",
+        "peak_count": 6989
+      }
+    },
+    {
+      "topic_id": 3,
+      "topic_name": "Trump & Realdonaldtrump",
+      "keywords": [
+        {
+          "word": "trump",
+          "score": 0.06769341027527036
+        },
+        {
+          "word": "realdonaldtrump",
+          "score": 0.056107227982736894
+        },
+        {
+          "word": "the",
+          "score": 0.03328089840739528
+        },
+        {
+          "word": "cummings",
+          "score": 0.02967300872438392
+        },
+        {
+          "word": "he",
+          "score": 0.029285218247540233
+        },
+        {
+          "word": "to",
+          "score": 0.026319081473976637
+        },
+        {
+          "word": "his",
+          "score": 0.025832332918111475
+        },
+        {
+          "word": "is",
+          "score": 0.024719290854113035
+        },
+        {
+          "word": "covid19",
+          "score": 0.024589805351912634
+        },
+        {
+          "word": "19",
+          "score": 0.024568354379368985
+        }
+      ],
+      "size": 640,
+      "percentage": 0.44504401763486917,
+      "representative_tweets": [
+        "@realdonaldtrump end the lockdown. confront the fake covid19-19 numbers and the fake news promoting them! time open america.",
+        "president @realdonaldtrump and i agree: \u2705helping our fellow americans during covid19 \u2705fund state-level response to\u2026",
+        "@christoq @notoriusnormani trump supporters what do you expect? when the vp is visiting people sick with covid19 19 a\u2026"
+      ],
+      "avg_engagement": 2464.075,
+      "confidence_stats": {
+        "count": 640.0,
+        "mean": 0.3745230677546535,
+        "std": 0.28180109370880074,
+        "min": 0.005314070974959831,
+        "25%": 0.3,
+        "50%": 0.3,
+        "75%": 0.3,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-05-08",
+        "peak_count": 30
+      }
+    },
+    {
+      "topic_id": 2,
+      "topic_name": "Schools & Education",
+      "keywords": [
+        {
+          "word": "schools",
+          "score": 0.036160867674882316
+        },
+        {
+          "word": "the",
+          "score": 0.036069353517031076
+        },
+        {
+          "word": "to",
+          "score": 0.03503554777777607
+        },
+        {
+          "word": "students",
+          "score": 0.03175394960522607
+        },
+        {
+          "word": "19",
+          "score": 0.028865780133052826
+        },
+        {
+          "word": "covid19",
+          "score": 0.028728872265995027
+        },
+        {
+          "word": "school",
+          "score": 0.02785334185509582
+        },
+        {
+          "word": "of",
+          "score": 0.02533196340556902
+        },
+        {
+          "word": "education",
+          "score": 0.02366062238303102
+        },
+        {
+          "word": "and",
+          "score": 0.022659006385749948
+        }
+      ],
+      "size": 367,
+      "percentage": 0.2552049288624953,
+      "representative_tweets": [
+        "this thursday, may 21, 2020 at 7:30 pm @nmgleadersforum will have a discussion on 'the impact of covid19-19 on education' and th\u2026",
+        "school-year closures now affect 50 million students via @educationweek for more on covid19-19\u2026",
+        "keep up to date with hgse's ongoing covid19-19 series about how schools and families can respond to change and disruption, b\u2026"
+      ],
+      "avg_engagement": 1857.899182561308,
+      "confidence_stats": {
+        "count": 367.0,
+        "mean": 0.2768539016014757,
+        "std": 0.2994342321368011,
+        "min": 0.0073789987457083565,
+        "25%": 0.03593530565480046,
+        "50%": 0.3,
+        "75%": 0.3,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-05-05",
+        "peak_count": 18
+      }
+    },
+    {
+      "topic_id": 6,
+      "topic_name": "Died & Her",
+      "keywords": [
+        {
+          "word": "died",
+          "score": 0.056373023613813494
+        },
+        {
+          "word": "her",
+          "score": 0.03842730327642222
+        },
+        {
+          "word": "my",
+          "score": 0.03535387179660878
+        },
+        {
+          "word": "covid19",
+          "score": 0.03530363072831362
+        },
+        {
+          "word": "19",
+          "score": 0.0349662525563041
+        },
+        {
+          "word": "of",
+          "score": 0.03438440654708795
+        },
+        {
+          "word": "she",
+          "score": 0.029673914035980044
+        },
+        {
+          "word": "family",
+          "score": 0.029270205932986113
+        },
+        {
+          "word": "was",
+          "score": 0.028421877157248938
+        },
+        {
+          "word": "to",
+          "score": 0.027931563051289406
+        }
+      ],
+      "size": 341,
+      "percentage": 0.23712501564607877,
+      "representative_tweets": [
+        "@samanthajpower no one has died from covid19-19. all people have died from underlying medical problems. the same can\u2026",
+        "if you know someone who has died of covid19-19 and would like to share their story, email us @ coronavirusvictims@buzzfeed.\u2026",
+        "my condolences to the family of those who did not survive #covid_19!"
+      ],
+      "avg_engagement": 3152.41642228739,
+      "confidence_stats": {
+        "count": 341.0,
+        "mean": 0.33535939938896026,
+        "std": 0.24320367139310717,
+        "min": 0.020468902536785367,
+        "25%": 0.3,
+        "50%": 0.3,
+        "75%": 0.3,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-04-25",
+        "peak_count": 16
+      }
+    },
+    {
+      "topic_id": 8,
+      "topic_name": "Work & Employment",
+      "keywords": [
+        {
+          "word": "nurses",
+          "score": 0.07451251106449742
+        },
+        {
+          "word": "nhs",
+          "score": 0.04665218269312109
+        },
+        {
+          "word": "ppe",
+          "score": 0.04380660460293247
+        },
+        {
+          "word": "workers",
+          "score": 0.04079166986819038
+        },
+        {
+          "word": "the",
+          "score": 0.03745572084191658
+        },
+        {
+          "word": "to",
+          "score": 0.037174782205197036
+        },
+        {
+          "word": "nurse",
+          "score": 0.03658219879993461
+        },
+        {
+          "word": "our",
+          "score": 0.032266903835918896
+        },
+        {
+          "word": "and",
+          "score": 0.029700090444540056
+        },
+        {
+          "word": "all",
+          "score": 0.02784183305595746
+        }
+      ],
+      "size": 338,
+      "percentage": 0.2350388718134153,
+      "representative_tweets": [
+        "to all our nation\u2019s nurses - especially those on the front lines of the covid19-19 crisis - thank you for the excepti\u2026",
+        "we salute all nurses in the frontline of covid19-19. thank you for your commitment in combating this pandemic. indeed\u2026",
+        "\ud83d\udca5 big shout out to all our carers for continuing their jobs to look after vulnerable people despite the covid19-19 ou\u2026"
+      ],
+      "avg_engagement": 1441.6627218934912,
+      "confidence_stats": {
+        "count": 338.0,
+        "mean": 0.3370266711171184,
+        "std": 0.22828648545427488,
+        "min": 0.014719611632487903,
+        "25%": 0.3,
+        "50%": 0.3,
+        "75%": 0.3,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-05-01",
+        "peak_count": 23
+      }
+    },
+    {
+      "topic_id": 11,
+      "topic_name": "We & This",
+      "keywords": [
+        {
+          "word": "we",
+          "score": 0.052041529341162684
+        },
+        {
+          "word": "this",
+          "score": 0.04183780626389113
+        },
+        {
+          "word": "is",
+          "score": 0.040635514867285984
+        },
+        {
+          "word": "it",
+          "score": 0.03921969324639496
+        },
+        {
+          "word": "the",
+          "score": 0.03585079929917047
+        },
+        {
+          "word": "and",
+          "score": 0.03555544235071501
+        },
+        {
+          "word": "to",
+          "score": 0.035011742048341996
+        },
+        {
+          "word": "that",
+          "score": 0.03099829856743536
+        },
+        {
+          "word": "you",
+          "score": 0.029140884889525827
+        },
+        {
+          "word": "of",
+          "score": 0.02733558398646422
+        }
+      ],
+      "size": 335,
+      "percentage": 0.23295272798075184,
+      "representative_tweets": [
+        "\u201cthe depth of human generosity has never been greater.\u201d read more from our ceo charlie scarf regarding the road forward aft\u2026",
+        "#businesses all across the globe are learning how to adapt to these new circumstances and we're all learning how to\u2026",
+        "@piersmorgan how about this for an example of corporate generosity in a global crisis. keep up the good work piers,\u2026"
+      ],
+      "avg_engagement": 2049.5522388059703,
+      "confidence_stats": {
+        "count": 335.0,
+        "mean": 0.3132395329491947,
+        "std": 0.12735148746940575,
+        "min": 0.03092583447277082,
+        "25%": 0.3,
+        "50%": 0.3,
+        "75%": 0.3,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-05-07",
+        "peak_count": 16
+      }
+    },
+    {
+      "topic_id": 7,
+      "topic_name": "You & Pmoindia",
+      "keywords": [
+        {
+          "word": "you",
+          "score": 0.034095333563786925
+        },
+        {
+          "word": "pmoindia",
+          "score": 0.03095985304759556
+        },
+        {
+          "word": "narendramodi",
+          "score": 0.022080838403859552
+        },
+        {
+          "word": "it",
+          "score": 0.018481913839538493
+        },
+        {
+          "word": "this",
+          "score": 0.01730014147510042
+        },
+        {
+          "word": "that",
+          "score": 0.01710164891225291
+        },
+        {
+          "word": "sir",
+          "score": 0.016674831909068103
+        },
+        {
+          "word": "to",
+          "score": 0.01626058380431601
+        },
+        {
+          "word": "the",
+          "score": 0.016256792582806323
+        },
+        {
+          "word": "is",
+          "score": 0.016226935526045646
+        }
+      ],
+      "size": 302,
+      "percentage": 0.2100051458214539,
+      "representative_tweets": [
+        "@mohfw_india @spokespersonmod @pmoindia @drharshvardhan @ashwinikchoubey @pib_india @pibhomeaffairs @mygovindia\u2026",
+        "@teddysmom8 @glennnross @bhoottay @lomaahhmore @mimzybug @silver_strike @jbarnathan @fab29292929 @lengrunstein @zimmlaw17\u2026",
+        "@mswami001 @iamritu @endouno @drpess @evebmd @johnsonthomasmd @aoglasser @arghavan_salles @drmarthagulati\u2026"
+      ],
+      "avg_engagement": 1617.6225165562914,
+      "confidence_stats": {
+        "count": 302.0,
+        "mean": 0.2939990081514453,
+        "std": 0.19858984006230335,
+        "min": 0.009019183299818531,
+        "25%": 0.3,
+        "50%": 0.3,
+        "75%": 0.3,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-05-04",
+        "peak_count": 19
+      }
+    },
+    {
+      "topic_id": 4,
+      "topic_name": "Food & Meat",
+      "keywords": [
+        {
+          "word": "food",
+          "score": 0.07663336291743211
+        },
+        {
+          "word": "meat",
+          "score": 0.03793270463218905
+        },
+        {
+          "word": "to",
+          "score": 0.03209890499186857
+        },
+        {
+          "word": "the",
+          "score": 0.030895385788365155
+        },
+        {
+          "word": "covid19",
+          "score": 0.02794755962198643
+        },
+        {
+          "word": "19",
+          "score": 0.026883916392891283
+        },
+        {
+          "word": "of",
+          "score": 0.025937459402316596
+        },
+        {
+          "word": "in",
+          "score": 0.0258958258144674
+        },
+        {
+          "word": "and",
+          "score": 0.02482456875864787
+        },
+        {
+          "word": "plant",
+          "score": 0.022357575649521982
+        }
+      ],
+      "size": 281,
+      "percentage": 0.19540213899280975,
+      "representative_tweets": [
+        "\u201cfood systems need to change. covid19-19 has revealed the gaps in our food systems - increased shortages in food could lea\u2026",
+        "due to the ongoing covid19-19 pandemic we wanted to provide this resource if you are currently facing food insecurity\u2026",
+        "interesting study outlining a worrying situation in the uk food system. #covid19-19 having impact in so many ways and the numb\u2026"
+      ],
+      "avg_engagement": 2038.2918149466193,
+      "confidence_stats": {
+        "count": 281.0,
+        "mean": 0.3265289937863517,
+        "std": 0.31480962105787813,
+        "min": 0.002077105686227752,
+        "25%": 0.08891607066544031,
+        "50%": 0.3,
+        "75%": 0.3,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-05-04",
+        "peak_count": 20
+      }
+    },
+    {
+      "topic_id": 1,
+      "topic_name": "Mask Mandates & PPE",
+      "keywords": [
+        {
+          "word": "masks",
+          "score": 0.06840151625217172
+        },
+        {
+          "word": "mask",
+          "score": 0.059629892158934106
+        },
+        {
+          "word": "face",
+          "score": 0.03937456300319256
+        },
+        {
+          "word": "wear",
+          "score": 0.03247889989399835
+        },
+        {
+          "word": "to",
+          "score": 0.031887735250054984
+        },
+        {
+          "word": "covid19",
+          "score": 0.02858862826337969
+        },
+        {
+          "word": "19",
+          "score": 0.026518296100997294
+        },
+        {
+          "word": "wearing",
+          "score": 0.026302692054254725
+        },
+        {
+          "word": "the",
+          "score": 0.02564451371767642
+        },
+        {
+          "word": "and",
+          "score": 0.024340781378314233
+        }
+      ],
+      "size": 276,
+      "percentage": 0.19192523260503733,
+      "representative_tweets": [
+        "evidence shows cloth masks may help against covid19-19",
+        "will be talking about the importance of wearing masks and why they are so critical for reducing the spread of covid19-19 whil\u2026",
+        "escalating cases of covid19 19 in the province a cause of concern and we urge everyone to continue to wear masks in p\u2026"
+      ],
+      "avg_engagement": 844.3840579710145,
+      "confidence_stats": {
+        "count": 276.0,
+        "mean": 0.32200373215336775,
+        "std": 0.325978894273977,
+        "min": 0.0014007277719847826,
+        "25%": 0.0743675344478261,
+        "50%": 0.2157045865265218,
+        "75%": 0.33835355126177885,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-04-25",
+        "peak_count": 27
+      }
+    },
+    {
+      "topic_id": 5,
+      "topic_name": "Treatments & Therapeutics",
+      "keywords": [
+        {
+          "word": "hydroxychloroquine",
+          "score": 0.08798537556134012
+        },
+        {
+          "word": "drug",
+          "score": 0.0628685159637401
+        },
+        {
+          "word": "remdesivir",
+          "score": 0.04671186719420418
+        },
+        {
+          "word": "covid19",
+          "score": 0.036468221930556606
+        },
+        {
+          "word": "madagascar",
+          "score": 0.0364605290385623
+        },
+        {
+          "word": "19",
+          "score": 0.03476445288051184
+        },
+        {
+          "word": "study",
+          "score": 0.03455122836375788
+        },
+        {
+          "word": "vitamin",
+          "score": 0.03112883965237655
+        },
+        {
+          "word": "treatment",
+          "score": 0.030370326016901636
+        },
+        {
+          "word": "of",
+          "score": 0.029808681018471152
+        }
+      ],
+      "size": 254,
+      "percentage": 0.17662684449883873,
+      "representative_tweets": [
+        "@newsmax new study drugs been around for decades new study now. and i've heard multiple reports of covid19-19 patients who use\u2026",
+        "i\u2019m eager to see the response and the outcome of this herbal medicine on covid19-19 through expert testing. the who s\u2026",
+        "what a surprise! hydroxychloroquine: trump's covid19-19 'cure' increases deaths, global study finds \u2026"
+      ],
+      "avg_engagement": 2615.6929133858266,
+      "confidence_stats": {
+        "count": 254.0,
+        "mean": 0.3618664968879623,
+        "std": 0.3446164858101643,
+        "min": 0.005142085134147798,
+        "25%": 0.07633415306358306,
+        "50%": 0.3,
+        "75%": 0.39858226751176684,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-05-23",
+        "peak_count": 16
+      }
+    },
+    {
+      "topic_id": 9,
+      "topic_name": "Travel & Transportation",
+      "keywords": [
+        {
+          "word": "tourism",
+          "score": 0.052680229911245435
+        },
+        {
+          "word": "travel",
+          "score": 0.04124896281556118
+        },
+        {
+          "word": "to",
+          "score": 0.0363947797955697
+        },
+        {
+          "word": "flight",
+          "score": 0.033937877354567804
+        },
+        {
+          "word": "the",
+          "score": 0.033428757305847524
+        },
+        {
+          "word": "covid19",
+          "score": 0.02886271444399721
+        },
+        {
+          "word": "19",
+          "score": 0.028013945328380918
+        },
+        {
+          "word": "air",
+          "score": 0.026317506512014643
+        },
+        {
+          "word": "industry",
+          "score": 0.02594128784026128
+        },
+        {
+          "word": "for",
+          "score": 0.02540208763940606
+        }
+      ],
+      "size": 190,
+      "percentage": 0.13212244273535179,
+      "representative_tweets": [
+        "this coming bank holiday, we'd like to remind our passengers that only essential travel is permitted due to covid19-19. yo\u2026",
+        "covid19-19 lockdown: need to move faster on relief, and split tourism sector via @talkofthetownec",
+        "our travels getting home during the rising global pandemic \u2013 covid19 covid19-19"
+      ],
+      "avg_engagement": 1677.9368421052632,
+      "confidence_stats": {
+        "count": 190.0,
+        "mean": 0.48865347796366576,
+        "std": 0.35137592286553243,
+        "min": 0.009723910349490241,
+        "25%": 0.3,
+        "50%": 0.3,
+        "75%": 1.0,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-05-04",
+        "peak_count": 11
+      }
+    },
+    {
+      "topic_id": 10,
+      "topic_name": "Music & Song",
+      "keywords": [
+        {
+          "word": "music",
+          "score": 0.065901531947423
+        },
+        {
+          "word": "song",
+          "score": 0.048666776823479786
+        },
+        {
+          "word": "concert",
+          "score": 0.037575955489530855
+        },
+        {
+          "word": "the",
+          "score": 0.03036274044657204
+        },
+        {
+          "word": "for",
+          "score": 0.02841013362022896
+        },
+        {
+          "word": "to",
+          "score": 0.02817561417297833
+        },
+        {
+          "word": "on",
+          "score": 0.026582106502104942
+        },
+        {
+          "word": "live",
+          "score": 0.02580306580166015
+        },
+        {
+          "word": "and",
+          "score": 0.024538766890676647
+        },
+        {
+          "word": "podcast",
+          "score": 0.023784849801780625
+        }
+      ],
+      "size": 168,
+      "percentage": 0.11682405462915316,
+      "representative_tweets": [
+        "\u2b50 today - fb live virtual town hall \u2b50 tune in today at 6pm cest - we will discuss #covid19-19, the way ahead for\u2026",
+        "@lamag looks like another iconic music venue may not make it through the covid19-19 closure!!",
+        "retweet if your joining our covid19 19 #listenupmbc twitter chat at 8 pm est! we are looking forward to chatting with you\u2026"
+      ],
+      "avg_engagement": 4962.041666666667,
+      "confidence_stats": {
+        "count": 168.0,
+        "mean": 0.2917836804076098,
+        "std": 0.22213488592566294,
+        "min": 0.008577878432261045,
+        "25%": 0.3,
+        "50%": 0.3,
+        "75%": 0.3,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-05-01",
+        "peak_count": 10
+      }
+    },
+    {
+      "topic_id": 17,
+      "topic_name": "Lockdowns & Restrictions",
+      "keywords": [
+        {
+          "word": "railways",
+          "score": 0.14150437951958958
+        },
+        {
+          "word": "lockdown",
+          "score": 0.10837210636183693
+        },
+        {
+          "word": "trains",
+          "score": 0.07655074138386712
+        },
+        {
+          "word": "train",
+          "score": 0.044567752730083544
+        },
+        {
+          "word": "indiafightscorona",
+          "score": 0.04015196281917188
+        },
+        {
+          "word": "in",
+          "score": 0.03979173349654466
+        },
+        {
+          "word": "indian",
+          "score": 0.038335634436429865
+        },
+        {
+          "word": "the",
+          "score": 0.034309770735574625
+        },
+        {
+          "word": "to",
+          "score": 0.03402192920163586
+        },
+        {
+          "word": "special",
+          "score": 0.031314958694430954
+        }
+      ],
+      "size": 102,
+      "percentage": 0.07092889031055728,
+      "representative_tweets": [
+        "i had to speak \ud83d\ude4f for this nonsensical bus controversy @bjp4india @priyankagandhi @incindia @incuttarpradesh #nonsense #\u2026",
+        "#indiafightscorona in its fight against covid19-19, the indian railways is rolling out train hospitals in tier ii and\u2026",
+        "@abhishek4479 dear customer, due to covid19-19, we are operating with limited staff. as advised by indian banks' asso\u2026"
+      ],
+      "avg_engagement": 1809.7156862745098,
+      "confidence_stats": {
+        "count": 102.0,
+        "mean": 0.3823529411764704,
+        "std": 0.22664656687978432,
+        "min": 0.3,
+        "25%": 0.3,
+        "50%": 0.3,
+        "75%": 0.3,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-05-04",
+        "peak_count": 8
+      }
+    },
+    {
+      "topic_id": 13,
+      "topic_name": "Film & Arts",
+      "keywords": [
+        {
+          "word": "film",
+          "score": 0.07821173469796007
+        },
+        {
+          "word": "arts",
+          "score": 0.057900074874500516
+        },
+        {
+          "word": "artists",
+          "score": 0.04710238234400802
+        },
+        {
+          "word": "art",
+          "score": 0.04485354402842472
+        },
+        {
+          "word": "museums",
+          "score": 0.04289375543789875
+        },
+        {
+          "word": "movie",
+          "score": 0.04245356206706947
+        },
+        {
+          "word": "the",
+          "score": 0.040173239099999085
+        },
+        {
+          "word": "museum",
+          "score": 0.03239959183884689
+        },
+        {
+          "word": "to",
+          "score": 0.03146830734386693
+        },
+        {
+          "word": "covid19",
+          "score": 0.030251266715455388
+        }
+      ],
+      "size": 85,
+      "percentage": 0.05910740859213107,
+      "representative_tweets": [
+        "here's a list of some of the think pieces, blog posts, twitter threads and provocations from theatre makers during covid19-19\u2026",
+        "an international film festival on lessons learnt from covid19-19 would be held online.the short film\u2019s duration shoul\u2026",
+        "q3: what are some of the inequities directly related to museums that the covid19-19 outbreak has brought to light? how is\u2026"
+      ],
+      "avg_engagement": 630.7058823529412,
+      "confidence_stats": {
+        "count": 85.0,
+        "mean": 0.4759500640088917,
+        "std": 0.3124493474777129,
+        "min": 0.1591739514268087,
+        "25%": 0.3,
+        "50%": 0.3,
+        "75%": 1.0,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-04-24",
+        "peak_count": 7
+      }
+    },
+    {
+      "topic_id": 12,
+      "topic_name": "Global Pandemic Response",
+      "keywords": [
+        {
+          "word": "givingtuesdaynow",
+          "score": 0.12330744163137655
+        },
+        {
+          "word": "day",
+          "score": 0.11120743010384714
+        },
+        {
+          "word": "mother",
+          "score": 0.07982141316116757
+        },
+        {
+          "word": "giving",
+          "score": 0.07610507738193341
+        },
+        {
+          "word": "unity",
+          "score": 0.050163052439783994
+        },
+        {
+          "word": "global",
+          "score": 0.048340423378333476
+        },
+        {
+          "word": "to",
+          "score": 0.042095920033337154
+        },
+        {
+          "word": "today",
+          "score": 0.040659529220451594
+        },
+        {
+          "word": "is",
+          "score": 0.039405952140467077
+        },
+        {
+          "word": "response",
+          "score": 0.033617552446822546
+        }
+      ],
+      "size": 75,
+      "percentage": 0.05215359581658623,
+      "representative_tweets": [
+        "we celebrate every act of giving and kindness in this time of covid19-19. @eaphilanthropy @globalfundcf @akf_ea @asiimwe\u2026",
+        "it\u2019s #givingtuesdaynow today. please join in with this global day of giving and donate what you can to our covid19-19 appeal\u2026",
+        "today is #givingtuesdaynow, a global day of giving as a response to the unprecedented need caused by covid19-19, and\u2026"
+      ],
+      "avg_engagement": 396.68,
+      "confidence_stats": {
+        "count": 75.0,
+        "mean": 0.3450750808357256,
+        "std": 0.2421733562206561,
+        "min": 0.030727640755606418,
+        "25%": 0.3,
+        "50%": 0.3,
+        "75%": 0.3,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-05-05",
+        "peak_count": 9
+      }
+    },
+    {
+      "topic_id": 16,
+      "topic_name": "Government Response & Policy",
+      "keywords": [
+        {
+          "word": "science",
+          "score": 0.1209552915633284
+        },
+        {
+          "word": "scientific",
+          "score": 0.07055328126445823
+        },
+        {
+          "word": "scientists",
+          "score": 0.0421616575775057
+        },
+        {
+          "word": "and",
+          "score": 0.03863765835428351
+        },
+        {
+          "word": "the",
+          "score": 0.03773901899568411
+        },
+        {
+          "word": "to",
+          "score": 0.03412470339708799
+        },
+        {
+          "word": "they",
+          "score": 0.030317980190643332
+        },
+        {
+          "word": "government",
+          "score": 0.029948207541847943
+        },
+        {
+          "word": "that",
+          "score": 0.029730912510335793
+        },
+        {
+          "word": "this",
+          "score": 0.029409675343982873
+        }
+      ],
+      "size": 75,
+      "percentage": 0.05215359581658623,
+      "representative_tweets": [
+        "@kazpsychic2 a panel of doctors, m.d.s, and a nobel prize winner unmask the science you aren\u2019t hearing on tv \u2026",
+        "have #\u0441ensorship of scientists, alarmist messaging and conspiracy theory smears all been used to reinforce the \u2018official\u2019\u2026",
+        "\"private companies, governments and research institutes are holding news conferences to report potential breakthroughs tha\u2026"
+      ],
+      "avg_engagement": 3053.4666666666667,
+      "confidence_stats": {
+        "count": 75.0,
+        "mean": 0.3628942148812048,
+        "std": 0.20686817306341485,
+        "min": 0.11706611609036303,
+        "25%": 0.3,
+        "50%": 0.3,
+        "75%": 0.3,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-04-24",
+        "peak_count": 5
+      }
+    },
+    {
+      "topic_id": 15,
+      "topic_name": "Cycling & Space",
+      "keywords": [
+        {
+          "word": "cycling",
+          "score": 0.06724715549699635
+        },
+        {
+          "word": "space",
+          "score": 0.04766406100324166
+        },
+        {
+          "word": "bike",
+          "score": 0.04352073861636123
+        },
+        {
+          "word": "streets",
+          "score": 0.04284339839671365
+        },
+        {
+          "word": "walking",
+          "score": 0.04156259893078202
+        },
+        {
+          "word": "to",
+          "score": 0.040500563037227155
+        },
+        {
+          "word": "road",
+          "score": 0.039888264162272105
+        },
+        {
+          "word": "cycle",
+          "score": 0.03778410345793122
+        },
+        {
+          "word": "cyclists",
+          "score": 0.036843282784351096
+        },
+        {
+          "word": "traffic",
+          "score": 0.0352542171742416
+        }
+      ],
+      "size": 69,
+      "percentage": 0.04798130815125933,
+      "representative_tweets": [
+        "happy #worldbicycleday! across the world, cities are creating space for cycling to keep people safe during #covid19 \ud83d\udeb4\ud83d\udeb2\u2026",
+        "@edinburghpaper braid hills drive, another road so busy with cyclists &amp; pedestrians it justified covid19-19 \"emergenc\u2026",
+        "the traffic today is insane. there are throngs of people everywhere. so many cyclists, walkers, joggers, groups hav\u2026"
+      ],
+      "avg_engagement": 1633.695652173913,
+      "confidence_stats": {
+        "count": 69.0,
+        "mean": 0.38377350554152034,
+        "std": 0.24315137936157588,
+        "min": 0.09008475837509476,
+        "25%": 0.3,
+        "50%": 0.3,
+        "75%": 0.3,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-05-06",
+        "peak_count": 5
+      }
+    },
+    {
+      "topic_id": 14,
+      "topic_name": "Mail & Voting",
+      "keywords": [
+        {
+          "word": "mail",
+          "score": 0.14397165251065727
+        },
+        {
+          "word": "voting",
+          "score": 0.09907078426781066
+        },
+        {
+          "word": "vote",
+          "score": 0.09392964113197436
+        },
+        {
+          "word": "ballot",
+          "score": 0.07043149625684171
+        },
+        {
+          "word": "voter",
+          "score": 0.0522859469070868
+        },
+        {
+          "word": "election",
+          "score": 0.048973288056235124
+        },
+        {
+          "word": "ballots",
+          "score": 0.04420357931259105
+        },
+        {
+          "word": "absentee",
+          "score": 0.04384077227737808
+        },
+        {
+          "word": "to",
+          "score": 0.04286495225324032
+        },
+        {
+          "word": "elections",
+          "score": 0.04018116735317114
+        }
+      ],
+      "size": 47,
+      "percentage": 0.03268292004506071,
+      "representative_tweets": [
+        "breaking: all voters affected by covid19-19 in texas will be allowed to vote by mail during the pandemic \u2014 thanks to a ruling in ou\u2026",
+        "six states (newly including california) will send all voters a mail-in ballot this november, 28 states have no-excuse ab\u2026",
+        "@senatortester please support sen. wyden\u2019s resilient elections during quarantines natural disasters act of 2020 bil\u2026"
+      ],
+      "avg_engagement": 782.1063829787234,
+      "confidence_stats": {
+        "count": 47.0,
+        "mean": 0.356455870081193,
+        "std": 0.28860862406395504,
+        "min": 0.010419544234347058,
+        "25%": 0.3,
+        "50%": 0.3,
+        "75%": 0.3,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-05-04",
+        "peak_count": 4
+      }
+    },
+    {
+      "topic_id": 18,
+      "topic_name": "5G & Huawei",
+      "keywords": [
+        {
+          "word": "5g",
+          "score": 0.37725799065338106
+        },
+        {
+          "word": "huawei",
+          "score": 0.0445059671557592
+        },
+        {
+          "word": "towers",
+          "score": 0.04327660106452199
+        },
+        {
+          "word": "conspiracy",
+          "score": 0.04255149497837108
+        },
+        {
+          "word": "is",
+          "score": 0.03616471449404822
+        },
+        {
+          "word": "19",
+          "score": 0.03249758628462863
+        },
+        {
+          "word": "covid19",
+          "score": 0.03249572383924311
+        },
+        {
+          "word": "and",
+          "score": 0.030940371425778497
+        },
+        {
+          "word": "theory",
+          "score": 0.02688638014893936
+        },
+        {
+          "word": "the",
+          "score": 0.02590963803270754
+        }
+      ],
+      "size": 15,
+      "percentage": 0.010430719163317247,
+      "representative_tweets": [
+        "@realdonaldtrump donald trump please turn off the whole america 5g. stop 5g then covid19-19 will disappear !!! \ud83d\ude4f",
+        "dr. fauci awkwardly address the theory that the launch of 5g technology + towers is the actual cause of the covid19-19 outbre\u2026",
+        "an important, deeply depressing, read from @sarahmanavis showing that the ludicrous 5g conspiracy theories are acting as a gat\u2026"
+      ],
+      "avg_engagement": 6365.733333333334,
+      "confidence_stats": {
+        "count": 15.0,
+        "mean": 0.7200000000000001,
+        "std": 0.354964786985977,
+        "min": 0.3,
+        "25%": 0.3,
+        "50%": 1.0,
+        "75%": 1.0,
+        "max": 1.0
+      },
+      "sentiment_distribution": {},
+      "temporal_pattern": {
+        "peak_date": "2020-04-25",
+        "peak_count": 2
+      }
+    }
+  ]
+}

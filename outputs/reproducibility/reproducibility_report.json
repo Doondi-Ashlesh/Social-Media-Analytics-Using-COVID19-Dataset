@@ -1,0 +1,109 @@
+{
+  "pipeline_version": "2.0_CORRECTED",
+  "execution_date": "2025-12-11 23:38:09.957616",
+  "random_seed": 42,
+  "configuration": {
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "batch_size": 32,
+    "chunk_size": 10000,
+    "num_topics": 20,
+    "topic_min_size": 50,
+    "reduce_outliers": true,
+    "hdbscan": {
+      "min_cluster_size": 100,
+      "min_samples": 30,
+      "metric": "euclidean",
+      "cluster_selection_method": "eom",
+      "prediction_data": true,
+      "cluster_selection_epsilon": 0.5
+    },
+    "umap": {
+      "n_components": 10,
+      "n_neighbors": 20,
+      "min_dist": 0.0,
+      "metric": "cosine",
+      "random_state": 42
+    },
+    "sentiment_ensemble": true,
+    "sentiment_threshold": 0.6,
+    "emotion_threshold": 0.4,
+    "anomaly_methods": [
+      "isolation_forest",
+      "local_outlier",
+      "statistical"
+    ],
+    "anomaly_sensitivity": 0.1,
+    "isolation_forest": {
+      "n_estimators": 200,
+      "max_samples": 512,
+      "contamination": 0.1,
+      "random_state": 42
+    },
+    "bot_detection_features": [
+      "posting_frequency",
+      "content_similarity",
+      "temporal_pattern",
+      "hashtag_usage",
+      "mention_pattern",
+      "url_ratio",
+      "retweet_ratio"
+    ],
+    "bot_threshold": 0.6,
+    "bot_ensemble": true,
+    "similarity_threshold": 0.85,
+    "significance_level": 0.05,
+    "output_dir": "outputs",
+    "use_checkpoints": true,
+    "confidence_tracking": true
+  },
+  "environment": {
+    "python_version": "3.11.5",
+    "platform": "Linux-4.18.0-553.8.1.el8_10.x86_64-x86_64-with-glibc2.28",
+    "libraries": {
+      "numpy": "2.3.4",
+      "pandas": "2.3.3",
+      "torch": "2.9.1+cu128",
+      "transformers": "4.57.1",
+      "sentence_transformers": "5.1.2",
+      "sklearn": "1.7.2",
+      "umap-learn": "0.5.9.post2",
+      "hdbscan": "0.8.39 (Installed Placeholder)",
+      "plotly": "placeholder",
+      "networkx": "3.5"
+    },
+    "hardware": {
+      "cpu": "x86_64",
+      "cpu_count": 112,
+      "ram_gb": 1006.89,
+      "gpu": "NVIDIA H100 80GB HBM3",
+      "cuda_available": true
+    }
+  },
+  "data_processing_steps": [
+    "Deduplication",
+    "Text normalization",
+    "Language filtering",
+    "ACE annotation",
+    "Semantic embedding (sentence-transformers)",
+    "Topic modeling (BERTopic with 20 topics)",
+    "Ensemble sentiment analysis",
+    "Ensemble emotion analysis",
+    "Multi-scale anomaly detection",
+    "Ensemble bot detection",
+    "Statistical validation"
+  ],
+  "models_used": {
+    "embedding": "sentence-transformers/all-MiniLM-L6-v2",
+    "sentiment": [
+      "cardiffnlp/twitter-roberta-base-sentiment-latest",
+      "VADER",
+      "distilbert-base-uncased-finetuned-sst-2-english"
+    ],
+    "emotion": [
+      "j-hartmann/emotion-english-distilroberta-base",
+      "SamLowe/roberta-base-go_emotions"
+    ],
+    "ner": "dslim/bert-base-NER"
+  }
+}

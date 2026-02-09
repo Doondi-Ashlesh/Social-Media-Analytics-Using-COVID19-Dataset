@@ -1,0 +1,122 @@
+{
+  "total_anomalies": 14381,
+  "anomaly_rate": 0.10000278152511022,
+  "characterization": {
+    "count": 14381,
+    "percentage": 10.000278152511022,
+    "temporal_bursts": {
+      "dates": [
+        "2020-04-25 00:00:00",
+        "2020-05-04 00:00:00",
+        "2020-05-24 00:00:00",
+        "2020-05-25 00:00:00"
+      ],
+      "counts": [
+        646,
+        789,
+        965,
+        733
+      ]
+    },
+    "anomaly_prone_topics": {
+      "11": 6.621557012653065,
+      "7": 3.354441782402286,
+      "10": 5.399833113135387,
+      "17": 3.57523196988416
+    },
+    "linguistic": {
+      "avg_length_anomalous": 105.26576733189626,
+      "avg_length_normal": 109.4250260768785,
+      "hashtag_count_anomalous": 0.6866699116890341,
+      "hashtag_count_normal": 0.31721846629322004
+    },
+    "affective": {
+      "sentiment_anomalous": 0.04999652319032056,
+      "sentiment_normal": 0.0025033803361019895
+    },
+    "examples": [
+      "covid19-19 confinement day 10. shypa belnades \ud83d\udd25 this show gets better and better ! . #marinevernhes #myart #sypha #castlevani\u2026",
+      "if ever a life should be a film...",
+      "japan may pay half your next trip",
+      "..my take on upcoming budget",
+      "famine in the bull bank due to covid19-19 battle, of the dera #truebloodpump went ahead and handled."
+    ]
+  },
+  "detection_methods": {
+    "isolation_forest": 0.10000278152511022,
+    "lof": 0.10000278152511022,
+    "statistical": 0.06622115906151342
+  },
+  "high_confidence_examples": [
+    {
+      "text": "if ever a life should be a film...",
+      "confidence": 1.0,
+      "anomaly_score": 0.6185670419985386,
+      "topic": 0,
+      "timestamp": "2020-05-22 00:00:00"
+    },
+    {
+      "text": "covid19-19 confinement day 10. shypa belnades \ud83d\udd25 this show gets better and better ! . #marinevernhes #myart #sypha #castlevani\u2026",
+      "confidence": 1.0,
+      "anomaly_score": 0.7705618872423571,
+      "topic": 0,
+      "timestamp": "2020-06-07 00:00:00"
+    },
+    {
+      "text": "japan may pay half your next trip",
+      "confidence": 0.9565562099257283,
+      "anomaly_score": 0.5690860837147117,
+      "topic": 0,
+      "timestamp": "2020-05-24 00:00:00"
+    },
+    {
+      "text": "..my take on upcoming budget",
+      "confidence": 0.8980023917116028,
+      "anomaly_score": 0.5520550559706712,
+      "topic": 0,
+      "timestamp": "2020-05-25 00:00:00"
+    },
+    {
+      "text": "famine in the bull bank due to covid19-19 battle, of the dera #truebloodpump went ahead and handled.",
+      "confidence": 0.896760003510875,
+      "anomaly_score": 0.5516936935768801,
+      "topic": 0,
+      "timestamp": "2020-05-09 00:00:00"
+    },
+    {
+      "text": "i demand respect and right to live. to exist. not because who i am or what i do, but because i exist. and because i exi\u2026",
+      "confidence": 0.8576444881455837,
+      "anomaly_score": 0.5403165119049254,
+      "topic": 0,
+      "timestamp": "2020-05-09 00:00:00"
+    },
+    {
+      "text": "mad mad world \ud83d\ude33\ud83e\udda0",
+      "confidence": 0.8570624486269861,
+      "anomaly_score": 0.540147219252598,
+      "topic": 0,
+      "timestamp": "2020-05-24 00:00:00"
+    },
+    {
+      "text": "worth reading \ud83d\udc4c",
+      "confidence": 0.8506460640132024,
+      "anomaly_score": 0.5382809425911143,
+      "topic": 0,
+      "timestamp": "2020-05-24 00:00:00"
+    },
+    {
+      "text": "petition \u00b7 protect people in long-term care / des fonds d'urgence pour les chslds \u00b7 \u2026",
+      "confidence": 0.8439327369185772,
+      "anomaly_score": 0.5363282969141873,
+      "topic": 0,
+      "timestamp": "2020-04-27 00:00:00"
+    },
+    {
+      "text": "@martina also:",
+      "confidence": 0.8279304901177301,
+      "anomaly_score": 0.5316738658703298,
+      "topic": 0,
+      "timestamp": "2020-05-04 00:00:00"
+    }
+  ]
+}
