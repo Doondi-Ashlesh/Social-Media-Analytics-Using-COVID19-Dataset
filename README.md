@@ -2,19 +2,39 @@
 
 ## Overview
 
-This project presents a big data-driven framework for the large-scale analysis of over one million COVID-19-related tweets (pp. 1, 13). It utilizes advanced natural language processing (NLP) to transform semi-structured social media data into actionable insights for public health monitoring and policy formulation (pp. 1, 3).
-🛠️ Core Analytical Pipeline
-The framework integrates four major unsupervised and zero-shot analytical axes (p. 11):
-Granular Topic Modeling: Uses HDBSCAN clustering on high-dimensional transformer embeddings (via all-MiniLM-L6-v2) and the BERTopic framework to identify nuanced subtopics (pp. 11, 16).
-Dual-Layer Affective Estimation: Employs pre-trained transformer models to automate sentiment polarity (Positive, Negative, Neutral) and granular emotion classification (e.g., joy, anger, fear) without manual labeling (pp. 12, 16).
-Unsupervised Anomaly Detection: Implements the Isolation Forest algorithm to detect statistically deviant content, flagging potential misinformation, spam, or rare high-impact events (pp. 12, 18).
-Bot Identification: Leverages the Botometer model to assign "Bot Scores" to accounts, enabling the filtration of synthetic amplification to ensure findings reflect genuine human discourse (pp. 12, 20).
-📊 Dataset Overview
-The analysis is conducted on a global corpus of English-language tweets collected across three critical pandemic phases between April 2020 and June 2021 (pp. 12-13):
-Phase 1 (Early Response): ~235k tweets (April–June 2020) (p. 13).
-Phase 2 (Peak Fatality): ~320k tweets (August–October 2020) (p. 13).
-Phase 3 (Vaccine Deployment): ~489k tweets (April–June 2021) (p. 13).
+This project presents a **big data–driven analytical framework** for large-scale analysis of over **one million COVID-19–related tweets**. It applies advanced **natural language processing (NLP)** techniques to transform semi-structured social media data into actionable insights that can support **public health monitoring, situational awareness, and policy decision-making**.
 
+The framework is designed to operate at scale and emphasizes automation, reproducibility, and minimal reliance on manual labeling. By combining transformer-based language models with unsupervised and zero-shot learning techniques, the system enables nuanced analysis of public discourse during different phases of the COVID-19 pandemic.
+
+---
+
+## Core Analytical Pipeline
+
+The analytics framework is structured around four complementary analytical axes:
+
+### Granular Topic Modeling
+High-dimensional transformer embeddings generated using **all-MiniLM-L6-v2** are clustered with **HDBSCAN** and analyzed through the **BERTopic** framework. This approach enables the discovery of fine-grained and evolving discussion themes without requiring predefined topic labels.
+
+### Dual-Layer Affective Estimation
+Pre-trained transformer models are used to perform both **sentiment polarity classification** (positive, negative, neutral) and **emotion-level inference** (e.g., joy, anger, fear). This dual-layer approach captures both general sentiment trends and more nuanced emotional dynamics within social media discourse.
+
+### Unsupervised Anomaly Detection
+The framework applies the **Isolation Forest** algorithm to identify statistically anomalous tweets. This helps surface rare, high-impact events, potential misinformation, or abnormal communication patterns that deviate from typical discourse.
+
+### Bot Identification
+To reduce the influence of synthetic amplification, the pipeline integrates **Botometer-based bot scoring**. Accounts exhibiting automated behavior can be identified and filtered, ensuring that analytical insights primarily reflect authentic human engagement.
+
+---
+
+## Dataset Overview
+
+The analysis is conducted on a global corpus of **English-language tweets** collected across three key phases of the COVID-19 pandemic:
+
+- **Early Response Phase (April–June 2020):** Approximately 235,000 tweets capturing initial public reactions and uncertainty  
+- **Peak Fatality Phase (August–October 2020):** Approximately 320,000 tweets reflecting heightened concern and discourse around case surges  
+- **Vaccine Deployment Phase (April–June 2021):** Approximately 489,000 tweets focused on vaccination rollout, hesitancy, and public response  
+
+Together, these phases enable longitudinal analysis of how public sentiment, topics, and behaviors evolved throughout the pandemic.
 
 ---
 
