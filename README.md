@@ -1,11 +1,28 @@
 # Social Media Analytics Using COVID-19 Dataset
----
+
 ## Overview
 
 This project presents a **big data–driven analytical framework** for large-scale analysis of over **one million COVID-19–related tweets**. It applies advanced **natural language processing (NLP)** techniques to transform semi-structured social media data into actionable insights that can support **public health monitoring, situational awareness, and policy decision-making**.
 
 The framework is designed to operate at scale and emphasizes automation, reproducibility, and minimal reliance on manual labeling. By combining transformer-based language models with unsupervised and zero-shot learning techniques, the system enables nuanced analysis of public discourse during different phases of the COVID-19 pandemic.
 
+---
+
+## Repository Structure
+
+```bash
+├── outputs/ # Generated analysis outputs
+├── .gitignore
+├── Cloud_and_big_data_report.pdf # Project report detailing methodology and results
+├── covid.yml # Conda environment configuration
+├── dataset.sh # Script to download and prepare the dataset
+├── main.py # Primary analytics pipeline
+├── new_main.py # Updated or alternative pipeline implementation
+├── pipeline.log # Sample pipeline execution log
+├── pipeline_corrected.log # Corrected execution log
+└── README.md
+
+```
 ---
 
 ## Core Analytical Pipeline
@@ -36,23 +53,6 @@ The analysis is conducted on a global corpus of **English-language tweets** coll
 
 Together, these phases enable longitudinal analysis of how public sentiment, topics, and behaviors evolved throughout the pandemic.
 
----
-
-## Repository Structure
-
-```bash
-├── outputs/ # Generated analysis outputs
-├── .gitignore
-├── Cloud_and_big_data_report.pdf # Project report detailing methodology and results
-├── covid.yml # Conda environment configuration
-├── dataset.sh # Script to download and prepare the dataset
-├── main.py # Primary analytics pipeline
-├── new_main.py # Updated or alternative pipeline implementation
-├── pipeline.log # Sample pipeline execution log
-├── pipeline_corrected.log # Corrected execution log
-└── README.md
-
-```
 ---
 
 ## Dataset
