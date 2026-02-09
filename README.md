@@ -1,5 +1,5 @@
 # Social Media Analytics Using COVID-19 Dataset
-
+---
 ## Overview
 
 This project presents a **big data–driven analytical framework** for large-scale analysis of over **one million COVID-19–related tweets**. It applies advanced **natural language processing (NLP)** techniques to transform semi-structured social media data into actionable insights that can support **public health monitoring, situational awareness, and policy decision-making**.
