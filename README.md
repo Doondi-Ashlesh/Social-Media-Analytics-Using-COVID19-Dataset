@@ -1,4 +1,4 @@
-# Social Media Analytics Using COVID-19 Dataset
+# Social Media Sentiment Analytics Using COVID-19 Dataset
 
 ## Overview
 
